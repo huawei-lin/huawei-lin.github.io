@@ -50,14 +50,14 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Publications & Patents
 
-- **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). In Proceedings of the 2023 IEEE Conference on Automatic Face and Gesture Recognition (FG'2023), 2023.
-- Yong Qi\*, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
-- Yong Qi\*, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
+- **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [<font color="blue">Activation Template Matching Loss for Explainable Face Recognition</font>](https://arxiv.org/abs/2207.02179). In Proceedings of the 2023 IEEE Conference on Automatic Face and Gesture Recognition (FG'2023), 2023.
+- Yong Qi\*, **Huawei Lin**, Yanping Li, Jiashu Chen, [<font color="blue">Parameter-free Attention in fMRI Decoding</font>](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
+- Yong Qi\*, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [<font color="blue">Research on Gender-related Fingerprint Features</font>](https://arxiv.org/abs/2108.08233). 2021.
 <br />
 <br />
--  Yong Qi, **Huawei Lin**, Yanping Li, [Task fMRI brain decoding and visualization method based on convolutional neural network](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A). CN111681292A, 2020.
-- Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [Ceramic ornamentation extraction method based on convolutional neural network and image processing](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
-- Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [Method for measuring pore radius in porous material scanning electron microscope image](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
+-  Yong Qi, **Huawei Lin**, Yanping Li, [<font color="blue">Task fMRI brain decoding and visualization method based on convolutional neural network</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A). CN111681292A, 2020.
+- Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [<font color="blue">Ceramic ornamentation extraction method based on convolutional neural network and image processing</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
+- Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [<font color="blue">Method for measuring pore radius in porous material scanning electron microscope image</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
 
 
 # Research Experience 
