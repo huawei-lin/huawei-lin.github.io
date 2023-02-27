@@ -27,7 +27,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <br />
 <br />
 
-<font color="red"><b>[News]</b></font><font>Sep. 12, 2022: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!</font>
+<p><font color="red"><b>[News]</b></font>Sep. 12, 2022: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!</p>
 
 <!--comment
 # Education
