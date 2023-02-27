@@ -79,7 +79,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 -->
 
 # Research Experience 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023 (Oral)</div><img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Combating Mode Collapse in GANs via Manifold Entropy Estimation](https://arxiv.org/pdf/2208.12055.pdf)
