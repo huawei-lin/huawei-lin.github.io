@@ -80,17 +80,88 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# Internship Experience
 
-# Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+**Institute of Computer Vision, Shenzhen University**, Shenzhen, China  
+July 2021 - July 2022  
+Research Assistant | Supervisor: Prof. [<font color="blue">Linlin Shen</font>](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao)  
+- Responsible for **interpretability and explainability** on deep learning, especially on Biometrics.  
+- In charge of a project about explainability on Face Recognition, which aim at propose a novel method to **directly explain** that what face recognition networks have learned.  
+<br />
+
+
+**AI Lab, ByteDance Inc.**, Beijing, China  
+Oct. 2020 - July 2021  
+Software Engineer
+- Responsible for **Audio Recognition and Understanding** research and development, and technical supports for twelve ByteDance’s applications, including **TikTok**.  
+- Proposed Stream Audio Understanding Chain method which enabled **real-time audio processing** and achieved precise extraction of information from audios, including speakers’ genders, tones, emotions, etc.  
+- Designed a pipeline processing flow that significantly increased the throughput of CPUs and reduced processing time by **65%**.  
+- Optimized the usage of CPU and GPU using multiprocessing and multithreading, and improved the performance of the designed algorithm.  
+
+# Fellowships & Awards
+## Fellowships
+- Zhou Liang Academic Scholarship **(Only 1 of ~20,000 Students)**&emsp;*Oct. 2020*
+- Academic Innovation and Technology Scholarship **(Only 10 of ~20,000 Students)**&emsp;*May 2020*
+- Outstanding Performance Scholarship&emsp;*May 2020*
+- **IAPR/IEEE Winter School on Biometrics 2020, Student Travel Grants**&emsp;*Jan. 2020*
+- Academic Innovation and Technology Scholarship **(Only 10 of ~20,000 Students)**&emsp;*May 2019*
+- Outstanding Performance Scholarship&emsp;*May 2019*
+
+## Awards
+- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Meda**l&emsp;*Jun. 2021*
+- LAN QIAO Collegiate Programming Contest (Shaanxi Province Division), First Prize&emsp;*Apr. 2021*
+- **ACM-ICPC China Shaanxi Province Contest, Silver Medal**&emsp;*Sept. 2020*
+- LAN QIAO Collegiate Programming Contest (National Finals), Second Prize&emsp;*Sept. 2020*
+- China Collegiate Computer Design Competition (National Finals), Third Prize&emsp;*Aug. 2020*
+- China Collegiate Computer Design Competition (Northwest Division), First Prize&emsp;*Jun. 2020*
+- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal**&emsp;*Jun. 2020*
+- **ACM-ICPC National Programming Contest (Yinchuan), Bronze Medal**&emsp;*May 2019*
+- China Collegiate Computer Design Competition (Northwest), Third Prize&emsp;*May 2019*
+- **ACM-ICPC Asia Regional Contest, Bronze Medal**&emsp;*Nov. 2018*
+- **ACM-ICPC Chinese Collegiate Programming Contest, Bronze Medal**&emsp;*Jan. 2018*
+- Shaanxi Province Gaoxin Collegiate Entrepreneurship Contest, Gold Medal&emsp;*May 2018*
+
+
+# Professional Services
+## Student Member
+- IEEE, Student Member
+- China Society of Image and Graphics (CSIG), Student Member
+- China Computer Federation (CCF), Student Member
+
+## Reviewer
+- IEEE Access
+
+# Teaching Experience
+- Student Lecturer *at* **National Olympiad in Informatics**: **Algorithm Design (C/C++) ** (192 hours, 2 years)
+- Lecturer *at* Algorithm Summer Camp 2019: **Introduction to Deep Learning** (48 hours)
+- Lecturer *at* Algorithm Summer Camp 2018: **Application of Algorithms (C/C++)** (48 hours)
+
+# TECHNICAL SKILLS
+- Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
+- Machine Learning Tools: **TensorFlow, PyTorch, Keras, CUDA**
+- Mathematical Tools: **MATLAB, Octive**
+- Document Processing: **LaTex**
+- Operation System: **Linux**, Mac OS, Windows
+- Database: **Hadoop**, SQL, MySQL, Redis
+- Others: **Docker**, Kubernetes, Kafka
+
+# Activities
+- **Captain of SUST Programming Competition Team, 2017-2020**
+- ByteDance Program Camp, 2022, Online
+- VALSE (Vision And Learning SEminar), 2021, Hangzhou, Zhejiang Province, China
+- The 15-th Chinese Conference on Biometric Recognition (CCBR), 2021, Online
+- ByteDance Program Camp Spring Special Part, 2021, Beijing, China
+- The 3-rd Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2020, Xi’an, Shaanxi Province, China
+- The IAPR/IEEE Winter School on Biometrics, 2020, Shenzhen, Guangdong Province, China
+- The China Society of Image and Graphics Conference (CSIG), 2019, Xi’an, Shaanxi Province, China
+- The Wanna-fly Programming Camp, 2019, Qinhuangdao, Hebei Province, China
+- Member of College Football Team, 2017 - 2019
+- Member of Robot-Master Society, 2017 - 2018
+
+# Technical skills & Hobbies
+- Contributed to the Chinese Software Developer Community by sharing technical experience and knowledge on site via blogs which own <b>530,000 views</b> on average. [<font color="blue">(website)</font>](https://winsoul.blog.csdn.net/)
+- Praised by the school three times for good prize in programming contest and were recorded on the official website.[<font color="blue">[1]</font>]( https://www.sust.edu.cn/info/1071/6309.htm) [<font color="blue">[2]</font>]( https://www.sust.edu.cn/info/1071/7227.htm) [<font color="blue">[3]</font>](https://www.sust.edu.cn/info/1073/8667.htm)
+- <b>Pursue a PhD degree in Computer Science and make impactful contributions to my chosen academic fields.</b>
+
