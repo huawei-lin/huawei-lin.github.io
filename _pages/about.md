@@ -17,12 +17,29 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+				</div>
+            </td>
+            <td>
+			<div style="height:150px;width:500px; float:left;">
+			<font size="3px" color="black">&emsp;&emsp;<b>Huawei Lin / 林华伟</b>&emsp;&emsp;<a target="_blank" href="https://scholar.google.com/citations?user=I7IRPbcAAAAJ&hl=en&oi=ao" rel="noopener" style="color:#2E86C1;"><img style="margin-top:5px;margin-bottom:-8px" width="30%" src="http://huaweilin.net/wp-content/uploads/2022/02/640px-Google_Scholar_logo.png" alt="" border="0" margin="0" class="alignnone size-full wp-image-46" ></a></font><br/>
+			<font size="3px">&emsp;&emsp;Ph.D. Student in Computing Information & Science</font><br/>
+			<font size="3px"  color="blue">&emsp;&emsp;huaweilin.cs AT gmail.com</font><br/>
+			<font size="3px">&emsp;&emsp;<a target="_blank" href="https://github.com/huawei-lin" rel="noopener" style="color:#2E86C1;">GitHub</a>&emsp;◊&emsp;<a target="_blank" href="https://winsoul.blog.csdn.net/?type=blog" rel="noopener" style="color:#2E86C1;">CSDN Blog</a>&emsp;◊&emsp;<a target="_blank" href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing" rel="noopener" style="color:#2E86C1;">CV</a>&emsp;◊&emsp;<a target="_blank" href="https://scholar.google.com/citations?user=I7IRPbcAAAAJ&hl=en&oi=ao" rel="noopener" style="color:#2E86C1;">Google Scholar</a> </font>
+			</div>
+            </td>
+        </tr>
+    </table>
+</html>
+
+
+
 I am a first-year Ph.D. Student in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. [Weijie Zhao](https://www.cs.rit.edu/~wjz/). My research interests span <b> Security, Scalable Machine Learning, and Trustworthy Machine Learning</b>.
 
 Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof.  [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao) (**Honorary Professor** at the University of Nottingham, UK). Besides, I used to work as a software engineer (intern) at AI Lab of ByteDance inc. (TikTok's Parent Company).
 
 I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the <b>National Ministry of Education of China</b> for undergraduates in 2019. During my period of undergraduate, I received an <b>ACM-ICPC Asia Bronze Medal</b> in the ACM-ICPC International Collegiate Programming Contest, and a <b>Silver Medal</b> in the ACM-ICPC Shaanxi Province Contest of China.
 
+My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing).
 
 <font color="red"><b>[News]</b></font>Sep. 12, 2022: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!
 
