@@ -46,10 +46,11 @@ Prior to RIT, I worked as a research assistant at the Institute of Computer Visi
 I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the <b>National Ministry of Education of China</b> for undergraduates in 2019. During my period of undergraduate, I received an <b>ACM-ICPC Asia Bronze Medal</b> in the ACM-ICPC International Collegiate Programming Contest, and a <b>Silver Medal</b> in the ACM-ICPC Shaanxi Province Contest of China.
 
 <!-- My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing).-->
+<br />
+<font color="blue"><a target="_blank" href="https://github.com/huawei-lin" rel="noopener" style="color:#0000FF;">GitHub</a>&emsp;◊&emsp;<a target="_blank" href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing" rel="noopener" style="color:#0000FF;">CV</a>&emsp;◊&emsp;<a target="_blank" href="https://scholar.google.com/citations?user=I7IRPbcAAAAJ&hl=en&oi=ao" rel="noopener" style="color:#0000FF;">Google Scholar</a> </font>
+<br />
 
-<font color="blue"><a target="_blank" href="https://github.com/huawei-lin" rel="noopener" style="color:#0000FF;">GitHub</a>&emsp;◊&emsp;<a target="_blank" href="https://winsoul.blog.csdn.net/?type=blog" rel="noopener" style="color:#0000FF;">CSDN Blog</a>&emsp;◊&emsp;<a target="_blank" href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing" rel="noopener" style="color:#0000FF;">CV</a>&emsp;◊&emsp;<a target="_blank" href="https://scholar.google.com/citations?user=I7IRPbcAAAAJ&hl=en&oi=ao" rel="noopener" style="color:#0000FF;">Google Scholar</a> </font>
-
-<font color="red"><b>[News]</b></font>Sep. 12, 2022: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!
+<font color="red"><b>[News]</b></font><font>Sep. 12, 2022: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!</font>
 
 <!--comment
 # Education
