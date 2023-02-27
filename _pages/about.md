@@ -57,8 +57,8 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [Ceramic ornamentation extraction method based on convolutional neural network and image processing](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
 - Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [Method for measuring pore radius in porous material scanning electron microscope image](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
 
-
-# Publications 
+<!--comment
+# Research Experience 
 
 <div class='paper-box'>
   <div class='paper-box-image'><div>
@@ -79,7 +79,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
+-->
 
 
 # Internship Experience
