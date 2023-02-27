@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Huawei Lin | 林华伟"
+  name             : "Huawei Lin"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Ph.D. Student, Rochester Institute of Technology"
+  bio              : "huaweilin.cs AT gmail.com"
   location         : "Rochester, NY"
   employer         :
   pubmed           : 
