@@ -17,6 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<html>
+    <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+			<div style="height:150px;width:140px;">
+				<img src="http://huaweilin.net/wp-content/uploads/2021/08/20210803.jpg" alt="" width="100%" height="100%" class="alignleft size-full wp-image-105" />
 				</div>
             </td>
             <td>
@@ -30,7 +36,6 @@ redirect_from:
         </tr>
     </table>
 </html>
-
 
 
 I am a first-year Ph.D. Student in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. [Weijie Zhao](https://www.cs.rit.edu/~wjz/). My research interests span <b> Security, Scalable Machine Learning, and Trustworthy Machine Learning</b>.
