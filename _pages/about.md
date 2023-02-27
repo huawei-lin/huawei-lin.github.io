@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<!--
 <html>
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
@@ -36,7 +37,7 @@ redirect_from:
         </tr>
     </table>
 </html>
-
+-->
 
 I am a first-year Ph.D. Student in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. [Weijie Zhao](https://www.cs.rit.edu/~wjz/). My research interests span <b> Security, Scalable Machine Learning, and Trustworthy Machine Learning</b>.
 
