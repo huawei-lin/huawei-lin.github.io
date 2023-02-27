@@ -147,6 +147,7 @@ Software Engineer
 - Database: **Hadoop**, SQL, MySQL, Redis
 - Others: **Docker**, Kubernetes, Kafka
 
+<!--
 # Activities
 - **Captain of SUST Programming Competition Team, 2017-2020**
 - ByteDance Program Camp, 2022, Online
@@ -164,4 +165,4 @@ Software Engineer
 - Contributed to the Chinese Software Developer Community by sharing technical experience and knowledge on site via blogs which own <b>530,000 views</b> on average. [<font color="blue">(website)</font>](https://winsoul.blog.csdn.net/)
 - Praised by the school three times for good prize in programming contest and were recorded on the official website.[<font color="blue">[1]</font>]( https://www.sust.edu.cn/info/1071/6309.htm) [<font color="blue">[2]</font>]( https://www.sust.edu.cn/info/1071/7227.htm) [<font color="blue">[3]</font>](https://www.sust.edu.cn/info/1073/8667.htm)
 - <b>Pursue a PhD degree in Computer Science and make impactful contributions to my chosen academic fields.</b>
-
+-->
