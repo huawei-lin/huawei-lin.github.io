@@ -81,7 +81,21 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 -->
 
+# Research Experience 
 
+<div class='paper-box'>
+  <div class='paper-box-image'><div>
+    <div class="badge">CVPR 2016</div>
+      <img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+Activation Template Matching Loss for Explainable Face Recognition [[Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing), [Paper](https://arxiv.org/abs/2207.02179), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
+- Propose a novel method named Explainable Channel Loss (ECLoss) to construct an **explainable face recognition network**, which can **directly explain** that what face recognition networks have learned.
+- To the best of our knowledge, this is the **first method** to construct a feature level explainable face recognition network that does not require any additional dataset or manual annotation.
+  </div>
+</div>
 # Internship Experience
 
 **Institute of Computer Vision, Shenzhen University**, Shenzhen, China  
