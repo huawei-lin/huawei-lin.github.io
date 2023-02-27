@@ -85,7 +85,6 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 <div class='paper-box'>
   <div class='paper-box-image'><div>
-    <div class="badge">CVPR 2016</div>
       <img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%">
     </div>
   </div>
