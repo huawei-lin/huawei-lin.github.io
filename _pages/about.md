@@ -17,22 +17,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. Student in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. [<font color="blue">Weijie Zhao</font>](https://www.cs.rit.edu/~wjz/). My research interests span <b> Security, Scalable Machine Learning, and Trustworthy Machine Learning</b>.
+I am a first-year Ph.D. Student in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. [Weijie Zhao](https://www.cs.rit.edu/~wjz/). My research interests span <b> Security, Scalable Machine Learning, and Trustworthy Machine Learning</b>.
 
-Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof.  [<font color="blue">Linlin Shen</font>](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao) (**Honorary Professor** at the University of Nottingham, UK). Besides, I used to work as a software engineer (intern) at AI Lab of ByteDance inc. (TikTok's Parent Company).
+Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof.  [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao) (**Honorary Professor** at the University of Nottingham, UK). Besides, I used to work as a software engineer (intern) at AI Lab of ByteDance inc. (TikTok's Parent Company).
 
 I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the <b>National Ministry of Education of China</b> for undergraduates in 2019. During my period of undergraduate, I received an <b>ACM-ICPC Asia Bronze Medal</b> in the ACM-ICPC International Collegiate Programming Contest, and a <b>Silver Medal</b> in the ACM-ICPC Shaanxi Province Contest of China.
 
 
 
 # News
-- **Sep. 12, 2022:** Our paper ([<font color="blue">Activation Template Matching Loss for Explainable Face Recognition</font>](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([<font color="blue">FG2023</font>](https://fg2023.ieee-biometrics.org/))!
+- **Sep. 12, 2022:** Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!
 
 <!--comment
 # Education
 **Rochester Institute of Technology (RIT)**, Rochester, NY  
 Aug. 2022 - Present  
-Ph.D. Student in Computing Information & Science | Advisor: Prof. [<font color="blue">Weijie Zhao</font>](https://www.cs.rit.edu/~wjz/)  
+Ph.D. Student in Computing Information & Science | Advisor: Prof. [Weijie Zhao](https://www.cs.rit.edu/~wjz/)  
 
 
 **Shaanxi University of Science and Technology (SUST)**, Xi’an, China  
@@ -42,22 +42,22 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Tech Talks
-- **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022, [<font color="blue">Slides</font>](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [<font color="blue">Video</font>](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)
-- **"Toward Explainable Face Recognition"** at Shenzhen University, Oct. 28, 2021, [<font color="blue">Slides</font>](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing)
-- **"Trust in Black-Box Models: Interpretability & Explainability for Deep Learning"** at Shenzhen University, Aug. 13, 2021, [<font color="blue">Slides</font>](https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing)
+- **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022, [Slides](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)
+- **"Toward Explainable Face Recognition"** at Shenzhen University, Oct. 28, 2021, [Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing)
+- **"Trust in Black-Box Models: Interpretability & Explainability for Deep Learning"** at Shenzhen University, Aug. 13, 2021, [Slides](https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing)
 
 
 
 # Publications & Patents
 
-- **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [<font color="blue">Activation Template Matching Loss for Explainable Face Recognition</font>](https://arxiv.org/abs/2207.02179). In Proceedings of the 2023 IEEE Conference on Automatic Face and Gesture Recognition (FG'2023), 2023.
-- Yong Qi\*, **Huawei Lin**, Yanping Li, Jiashu Chen, [<font color="blue">Parameter-free Attention in fMRI Decoding</font>](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
-- Yong Qi\*, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [<font color="blue">Research on Gender-related Fingerprint Features</font>](https://arxiv.org/abs/2108.08233). 2021.
+- **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). In Proceedings of the 2023 IEEE Conference on Automatic Face and Gesture Recognition (FG'2023), 2023.
+- Yong Qi\*, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
+- Yong Qi\*, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
 <br />
 <br />
--  Yong Qi, **Huawei Lin**, Yanping Li, [<font color="blue">Task fMRI brain decoding and visualization method based on convolutional neural network</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A). CN111681292A, 2020.
-- Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [<font color="blue">Ceramic ornamentation extraction method based on convolutional neural network and image processing</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
-- Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [<font color="blue">Method for measuring pore radius in porous material scanning electron microscope image</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
+-  Yong Qi, **Huawei Lin**, Yanping Li, [Task fMRI brain decoding and visualization method based on convolutional neural network](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A). CN111681292A, 2020.
+- Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [Ceramic ornamentation extraction method based on convolutional neural network and image processing](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
+- Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [Method for measuring pore radius in porous material scanning electron microscope image](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
 
 
 # Research Experience 
@@ -69,7 +69,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Propose a novel method named Explainable Channel Loss (ECLoss) to construct an **explainable face recognition network**, which can **directly explain** that what face recognition networks have learned.  
 - To the best of our knowledge, this is the **first method** to construct a feature level explainable face recognition network that does not require any additional dataset or manual annotation.  
 
-[[<font color="blue">Slides</font>](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing), [<font color="blue">Paper</font>](https://arxiv.org/abs/2207.02179), [<font color="blue">Video</font>](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
+[[Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing), [Paper](https://arxiv.org/abs/2207.02179), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
 
 </div>
 </div>
@@ -84,7 +84,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Proposed a parameter-free attention module named **Parameter-free Attention Module (SAM)** to reduce the average error rate by **1.2%-3.1%** while without involving any parameter.
 - Compiled and published the research paper as the **first student author**.
   
-[[<font color="blue">Paper</font>](https://ieeexplore.ieee.org/document/9386094), [<font color="blue">Poster</font>](https://drive.google.com/file/d/1BvnTwlea7ZaXAQAIPwMVrukGKHA2nYDj/view?usp=sharing), [<font color="blue">Patent</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A)]
+[[Paper](https://ieeexplore.ieee.org/document/9386094), [Poster](https://drive.google.com/file/d/1BvnTwlea7ZaXAQAIPwMVrukGKHA2nYDj/view?usp=sharing), [Patent](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A)]
   
 </div>
 </div>
@@ -99,7 +99,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Achieved an average extraction accuracy of **95%**, which significantly exceeds traditional feature extraction methods.
 - **Improved the interpretability** of the algorithms by using Gradient-weighted Class Activation Mapping (Grad-CAM) to visualize the high-score regions of gender information in fingerprint images.
   
-[[<font color="blue">Paper</font>](https://arxiv.org/abs/2108.08233)]
+[[Paper](https://arxiv.org/abs/2108.08233)]
   
 </div>
 </div>
@@ -111,7 +111,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 **Institute of Computer Vision, Shenzhen University**, Shenzhen, China  
 July 2021 - July 2022  
-Research Assistant | Supervisor: Prof. [<font color="blue">Linlin Shen</font>](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao)  
+Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao)  
 - Responsible for **interpretability and explainability** on deep learning, especially on Biometrics.  
 - In charge of a project about explainability on Face Recognition, which aim at propose a novel method to **directly explain** that what face recognition networks have learned.  
 <br />
@@ -187,7 +187,7 @@ Software Engineer
 - Member of Robot-Master Society, 2017 - 2018
 
 # Technical skills & Hobbies
-- Contributed to the Chinese Software Developer Community by sharing technical experience and knowledge on site via blogs which own <b>530,000 views</b> on average. [<font color="blue">(website)</font>](https://winsoul.blog.csdn.net/)
-- Praised by the school three times for good prize in programming contest and were recorded on the official website.[<font color="blue">[1]</font>]( https://www.sust.edu.cn/info/1071/6309.htm) [<font color="blue">[2]</font>]( https://www.sust.edu.cn/info/1071/7227.htm) [<font color="blue">[3]</font>](https://www.sust.edu.cn/info/1073/8667.htm)
+- Contributed to the Chinese Software Developer Community by sharing technical experience and knowledge on site via blogs which own <b>530,000 views</b> on average. [(website)](https://winsoul.blog.csdn.net/)
+- Praised by the school three times for good prize in programming contest and were recorded on the official website.[[1]]( https://www.sust.edu.cn/info/1071/6309.htm) [[2]]( https://www.sust.edu.cn/info/1071/7227.htm) [[3]](https://www.sust.edu.cn/info/1073/8667.htm)
 - <b>Pursue a PhD degree in Computer Science and make impactful contributions to my chosen academic fields.</b>
 -->
