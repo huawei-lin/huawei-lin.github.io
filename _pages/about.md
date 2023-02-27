@@ -28,6 +28,7 @@ I got the bachelor's degree in Computer Science and Technology in July 2021. I w
 # News
 - **Sep. 12, 2022:** Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!
 
+<!--comment
 # Education
 **Rochester Institute of Technology (RIT)**, Rochester, NY  
 Aug. 2022 - Present  
@@ -37,7 +38,7 @@ Ph.D. Student in Computing Information & Science | Advisor: Prof. [<font color="
 **Shaanxi University of Science and Technology (SUST)**, Xi’an, China  
 Sept.2017 - July 2021  
 B.S. in Computer Science & Technology  
-Thesis: Design and Implementation of Topological Function Classification Software for Medical Image **(Outstanding undergraduate thesis, Score: 90/100)**  
+Thesis: Design and Implementation of Topological Function Classification Software for Medical Image **(Outstanding undergraduate thesis, Score: 90/100)** -->
 
 
 # Tech Talks
