@@ -72,6 +72,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GA-1-scaled.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -85,6 +86,24 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
   
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/fingerprint_GA-scaled.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Gender-Related Feature Extraction from Fingerprints** 
+
+- Designed an architecture called **Dense Dilated Convolution ResNet (DDCResNet)** to improve the decoding performance of the feature extraction algorithms.
+- Achieved an average extraction accuracy of **95%**, which significantly exceeds traditional feature extraction methods.
+- **Improved the interpretability** of the algorithms by using Gradient-weighted Class Activation Mapping (Grad-CAM) to visualize the high-score regions of gender information in fingerprint images.
+  
+[[<font color="blue">Paper</font>](https://arxiv.org/abs/2108.08233)]
+  
+[[<font color="blue">Paper</font>](https://ieeexplore.ieee.org/document/9386094), [<font color="blue">Poster</font>](https://drive.google.com/file/d/1BvnTwlea7ZaXAQAIPwMVrukGKHA2nYDj/view?usp=sharing), [<font color="blue">Patent</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A)]
+  
+</div>
+</div>
+
 
 
 
