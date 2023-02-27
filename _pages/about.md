@@ -46,6 +46,8 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **"Toward Explainable Face Recognition"** at Shenzhen University, Oct. 28, 2021, [Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing)
 - **"Trust in Black-Box Models: Interpretability & Explainability for Deep Learning"** at Shenzhen University, Aug. 13, 2021, [Slides](https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing)
 
+
+
 # Publications & Patents
 
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). In Proceedings of the 2023 IEEE Conference on Automatic Face and Gesture Recognition (FG'2023), 2023.
@@ -98,8 +100,6 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **Improved the interpretability** of the algorithms by using Gradient-weighted Class Activation Mapping (Grad-CAM) to visualize the high-score regions of gender information in fingerprint images.
   
 [[<font color="blue">Paper</font>](https://arxiv.org/abs/2108.08233)]
-  
-[[<font color="blue">Paper</font>](https://ieeexplore.ieee.org/document/9386094), [<font color="blue">Poster</font>](https://drive.google.com/file/d/1BvnTwlea7ZaXAQAIPwMVrukGKHA2nYDj/view?usp=sharing), [<font color="blue">Patent</font>](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A)]
   
 </div>
 </div>
