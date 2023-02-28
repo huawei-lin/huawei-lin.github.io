@@ -158,10 +158,6 @@ Software Engineer
 ## Reviewer
 - IEEE Access
 
-# Teaching Experience
-- Student Lecturer *at* **National Olympiad in Informatics**: **Algorithm Design (C/C++) ** (192 hours, 2 years)
-- Lecturer *at* Algorithm Summer Camp 2019: **Introduction to Deep Learning** (48 hours)
-- Lecturer *at* Algorithm Summer Camp 2018: **Application of Algorithms (C/C++)** (48 hours)
 
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
@@ -173,6 +169,12 @@ Software Engineer
 - Others: **Docker**, Kubernetes, Kafka
 
 <!--
+
+# Teaching Experience
+- Student Lecturer *at* **National Olympiad in Informatics**: **Algorithm Design (C/C++)** (192 hours, 2 years)
+- Lecturer *at* Algorithm Summer Camp 2019: **Introduction to Deep Learning** (48 hours)
+- Lecturer *at* Algorithm Summer Camp 2018: **Application of Algorithms (C/C++)** (48 hours)
+
 # Activities
 - **Captain of SUST Programming Competition Team, 2017-2020**
 - ByteDance Program Camp, 2022, Online
