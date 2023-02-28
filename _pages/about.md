@@ -52,8 +52,8 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 # Publications & Patents
 
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). In Proceedings of the 2023 IEEE Conference on Automatic Face and Gesture Recognition (FG'2023), 2023.
-- Yong Qi\*, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
-- Yong Qi\*, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
+- Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
+- Yong Qi, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
 <br />
 <br />
 -  Yong Qi, **Huawei Lin**, Yanping Li, [Task fMRI brain decoding and visualization method based on convolutional neural network](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A). CN111681292A, 2020.
@@ -83,7 +83,6 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 - Led a team working on a research project that was selected as a National Training Program of Innovation and Entrepreneurship for Undergraduates and funded by **the Chinese National Ministry of Education**.
 - Proposed a parameter-free attention module named **Parameter-free Attention Module (SAM)** to reduce the average error rate by **1.2%-3.1%** while without involving any parameter.
-- Compiled and published the research paper as the **first student author**.
   
 [[Paper](https://ieeexplore.ieee.org/document/9386094), [Poster](https://drive.google.com/file/d/1BvnTwlea7ZaXAQAIPwMVrukGKHA2nYDj/view?usp=sharing), [Patent](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A)]
   
