@@ -41,14 +41,13 @@ Sept.2017 - July 2021
 B.S. in Computer Science & Technology  
 Thesis: Design and Implementation of Topological Function Classification Software for Medical Image **(Outstanding undergraduate thesis, Score: 90/100)** -->
 
-<br />
+
 # Tech Talks
 - **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022. [[Slides](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
 - **"Toward Explainable Face Recognition"** at Shenzhen University, Oct. 28, 2021. [[Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing)]
 - **"Trust in Black-Box Models: Interpretability & Explainability for Deep Learning"** at Shenzhen University, Aug. 13, 2021. [[Slides](https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing)]
 
 
-<br />
 # Publications & Patents
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). *2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG). IEEE*, 2023
 - Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
@@ -59,7 +58,6 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [Ceramic ornamentation extraction method based on convolutional neural network and image processing](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
 - Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [Method for measuring pore radius in porous material scanning electron microscope image](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
 
-<br />
 # Research Experience 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -104,7 +102,6 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 </div>
 
 
-<br />
 # Internship Experience
 
 **Institute of Computer Vision, Shenzhen University**, Shenzhen, China  
@@ -114,7 +111,6 @@ Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/
 - In charge of a project about explainability on Face Recognition, which aim at propose a novel method to **directly explain** that what face recognition networks have learned.  
 <br />
 
----
 
 **AI Lab, ByteDance Inc.**, Beijing, China  
 Oct. 2020 - July 2021  
@@ -124,7 +120,7 @@ Software Engineer
 - Designed a pipeline processing flow that significantly increased the throughput of CPUs and reduced processing time by **65%**.  
 - Optimized the usage of CPU and GPU using multiprocessing and multithreading, and improved the performance of the designed algorithm.  
 
-<br />
+
 # Fellowships & Awards
 ## Fellowships
 - Zhou Liang Academic Scholarship **(Only 1 of ~20,000 Students)**&emsp;*Oct. 2020*
@@ -149,7 +145,6 @@ Software Engineer
 - Shaanxi Province Gaoxin Collegiate Entrepreneurship Contest, Gold Medal&emsp;*May 2018*
 
 
-<br />
 # Professional Services
 ## Student Member
 - IEEE, Student Member
@@ -160,7 +155,6 @@ Software Engineer
 - IEEE Access
 
 
-<br />
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
 - Machine Learning Tools: **TensorFlow, PyTorch, Keras, CUDA**
