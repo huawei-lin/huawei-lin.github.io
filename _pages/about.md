@@ -28,8 +28,8 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <br />
 
 <font color="red"><b>[News]</b></font>
-**May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://openreview.net/forum?id=1ciFPLlyR6d)) is accepted by [SIGKDD2023](https://kdd.org/kdd2023/)!<br />
-**Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG2023](https://fg2023.ieee-biometrics.org/))!
+**May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://openreview.net/forum?id=1ciFPLlyR6d)) is accepted by [SIGKDD 2023](https://kdd.org/kdd2023/)!<br />
+**Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG 2023](https://fg2023.ieee-biometrics.org/))!
 
 <!--comment
 # Education
@@ -51,8 +51,9 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Publications & Patents
-- **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). *2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG). IEEE*, 2023
-- Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). *IEEE Access*, DOI: 10.1109/ACCESS.2021.3068921, 2021.
+- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees]([https://arxiv.org/abs/2207.02179](https://openreview.net/forum?id=1ciFPLlyR6d)). SIGKDD 2023
+- **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG). IEEE, 2023
+- Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). IEEE Access, DOI: 10.1109/ACCESS.2021.3068921, 2021.
 - Yong Qi, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
 <br />
 <br />
