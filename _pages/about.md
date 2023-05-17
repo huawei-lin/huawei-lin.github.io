@@ -51,7 +51,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Publications & Patents
-- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees]([https://arxiv.org/abs/2207.02179](https://openreview.net/forum?id=1ciFPLlyR6d)). SIGKDD 2023
+- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://openreview.net/forum?id=1ciFPLlyR6d). SIGKDD 2023
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG). IEEE, 2023
 - Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). IEEE Access, DOI: 10.1109/ACCESS.2021.3068921, 2021.
 - Yong Qi, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
