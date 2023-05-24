@@ -64,7 +64,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 # Research Experience 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GBDTunlearning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-**Machine Unlearning in Gradient Boosting Decision Trees** 
+**Machine Unlearning in Gradient Boosting Decision Trees (GBDT)** 
 - Propose an unlearning framework that efficiently and effectively unlearns a given collection of data **without retraining** the model from scratch.
 - Introduce a collection of techniques, including random split point selection and random partitioning layers training, to the training process of the original tree models to ensure that the trained model requires few subtree retrainings during the unlearning.
 - To the best of our knowledge, this is the **first work** that considers machine unlearning on GBDT.
