@@ -62,6 +62,18 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [Method for measuring pore radius in porous material scanning electron microscope image](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
 
 # Research Experience 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GBDTunlearning.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**Machine Unlearning in Gradient Boosting Decision Trees** 
+- Propose an unlearning framework that efficiently and effectively unlearns a given collection of data **without retraining** the model from scratch.
+- Introduce a collection of techniques, including random split point selection and random partitioning layers training, to the training process of the original tree models to ensure that the trained model requires few subtree retrainings during the unlearning.
+- To the best of our knowledge, this is the **first work** that considers machine unlearning on GBDT.
+
+[[Paper](https://openreview.net/forum?id=1ciFPLlyR6d), [Code](https://github.com/huawei-lin/abcboost_unlearning/tree/abcboost_tuning)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Activation Template Matching Loss for Explainable Face Recognition** 
