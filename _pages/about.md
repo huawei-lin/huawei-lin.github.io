@@ -69,7 +69,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Introduce a collection of techniques, including random split point selection and random partitioning layers training, to the training process of the original tree models to ensure that the trained model requires few subtree retrainings during the unlearning.
 - To the best of our knowledge, this is the **first work** that considers machine unlearning on GBDT.
 
-[[Paper](https://openreview.net/forum?id=1ciFPLlyR6d), [Code](https://github.com/huawei-lin/abcboost_unlearning/tree/abcboost_tuning)
+[[Paper](https://openreview.net/forum?id=1ciFPLlyR6d), [Code](https://github.com/huawei-lin/abcboost_unlearning/tree/abcboost_tuning)]
 
 </div>
 </div>
