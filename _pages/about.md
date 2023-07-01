@@ -39,7 +39,7 @@ Ph.D. Student in Computing Information & Science | Advisor: Prof. [Weijie Zhao](
 
 
 **Shaanxi University of Science and Technology (SUST)**, Xi’an, China  
-Sept.2017 - July 2021  
+Sept. 2017 - July 2021  
 B.S. in Computer Science & Technology  
 Thesis: Design and Implementation of Topological Function Classification Software for Medical Image **(Outstanding undergraduate thesis, Score: 90/100)** -->
 
@@ -138,13 +138,13 @@ Software Engineer
 - Outstanding Performance Scholarship&emsp;*May 2019*
 
 ## Awards
-- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Meda**l&emsp;*Jun. 2021*
+- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Meda**l&emsp;*June 2021*
 - LAN QIAO Collegiate Programming Contest (Shaanxi Province Division), First Prize&emsp;*Apr. 2021*
 - **ACM-ICPC China Shaanxi Province Contest, Silver Medal**&emsp;*Sept. 2020*
 - LAN QIAO Collegiate Programming Contest (National Finals), Second Prize&emsp;*Sept. 2020*
 - China Collegiate Computer Design Competition (National Finals), Third Prize&emsp;*Aug. 2020*
-- China Collegiate Computer Design Competition (Northwest Division), First Prize&emsp;*Jun. 2020*
-- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal**&emsp;*Jun. 2020*
+- China Collegiate Computer Design Competition (Northwest Division), First Prize&emsp;*June 2020*
+- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal**&emsp;*June 2020*
 - **ACM-ICPC National Programming Contest (Yinchuan), Bronze Medal**&emsp;*May 2019*
 - China Collegiate Computer Design Competition (Northwest), Third Prize&emsp;*May 2019*
 - **ACM-ICPC Asia Regional Contest, Bronze Medal**&emsp;*Nov. 2018*
