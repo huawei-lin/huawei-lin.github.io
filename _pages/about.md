@@ -165,7 +165,7 @@ Software Engineer
 
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
-- Machine Learning Tools: **TensorFlow, PyTorch, Keras, CUDA**
+- Machine Learning Tools: **PyTorch, CUDA, TensorFlow, Keras**
 - Mathematical Tools: **MATLAB, Octive**
 - Document Processing: **LaTex**
 - Operation System: **Linux**, Mac OS, Windows
