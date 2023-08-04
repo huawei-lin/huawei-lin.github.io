@@ -28,7 +28,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <br />
 
 <font color="red"><b>[News]</b></font>
-**May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://openreview.net/forum?id=1ciFPLlyR6d)) is accepted by SIGKDD 2023! [[Promotion Video](https://www.youtube.com/watch?v=4dQlNfnULVw), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]<br />
+**May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420)) is accepted by SIGKDD 2023! [[Promotion Video](https://www.youtube.com/watch?v=4dQlNfnULVw), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]<br />
 **Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG 2023](https://fg2023.ieee-biometrics.org/))!
 
 <!--comment
@@ -52,7 +52,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Publications & Patents
-- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://openreview.net/forum?id=1ciFPLlyR6d). SIGKDD 2023
+- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420). SIGKDD 2023
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 - Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). IEEE Access, 2021.
 - Yong Qi, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
@@ -70,7 +70,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - Introduce a collection of techniques, including random split point selection and random partitioning layers training, to the training process of the original tree models to ensure that the trained model requires few subtree retrainings during the unlearning.
 - To the best of our knowledge, this is the **first work** that considers machine unlearning on GBDT.
 
-[[Paper](https://openreview.net/forum?id=1ciFPLlyR6d), [Code](https://github.com/huawei-lin/abcboost_unlearning/tree/abcboost_tuning), [Slides](https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing), [Video](https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]
+[[Paper](https://dl.acm.org/doi/10.1145/3580305.3599420), [Code](https://github.com/huawei-lin/OnlineBoosting), [Slides](https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing), [Video](https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]
 
 </div>
 </div>
