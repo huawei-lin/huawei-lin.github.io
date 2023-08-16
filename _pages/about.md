@@ -200,4 +200,3 @@ Software Engineer
 - <b>Pursue a PhD degree in Computer Science and make impactful contributions to my chosen academic fields.</b>
 -->
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=bwNfa6whNVk72dhUDuSXp-khWF8RfXT6R9iParduWmM&cl=ffffff&w=a"></script>
