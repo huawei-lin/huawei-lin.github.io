@@ -202,7 +202,7 @@ Software Engineer
 -->
 
 ---
-<div>
+<div align='left'>
   <br />
   <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=bwNfa6whNVk72dhUDuSXp-khWF8RfXT6R9iParduWmM'></script>
 </div> 
