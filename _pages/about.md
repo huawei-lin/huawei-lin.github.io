@@ -28,6 +28,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <br />
 
 <font color="red"><b>[News]</b></font>
+**Oct. 02, 2023**: Invited as a reviewer for NeurIPS 2023 Workshop.<br />
 **Aug. 05, 2023**: Received the KDD’23 Student Travel Award. Thanks to KDD!<br />
 **May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420)) is accepted by KDD 2023! [[Promotion Video](https://www.youtube.com/watch?v=4dQlNfnULVw), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]<br />
 **Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG 2023](https://fg2023.ieee-biometrics.org/))!
