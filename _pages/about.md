@@ -157,8 +157,6 @@ Software Engineer
 
 
 # Professional Services
-## Open Source Project Contribution
-- [llama.cpp](https://github.com/ggerganov/llama.cpp/)
 
 ## Student Member
 - IEEE, Student Member
@@ -169,6 +167,8 @@ Software Engineer
 - NeurIPS 2023 Workshop
 - IEEE Access
 
+## Open Source Project Contribution
+- [llama.cpp](https://github.com/ggerganov/llama.cpp/)
 
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
