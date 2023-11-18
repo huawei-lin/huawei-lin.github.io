@@ -157,6 +157,9 @@ Software Engineer
 
 
 # Professional Services
+## Open Source Project Contribution
+- [llama.cpp](https://github.com/ggerganov/llama.cpp/)
+
 ## Student Member
 - IEEE, Student Member
 - China Society of Image and Graphics (CSIG), Student Member
