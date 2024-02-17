@@ -27,8 +27,6 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <br />
 
 <font color="blue">I am actively looking for research internship opportunities in Large Language Models (LLM), Machine Learning, and ML Systems for the summer of 2024.</font>
-<br />
-<br />
 
 <font color="red"><b>[News]</b></font>
 **Feb. 12, 2024**: Invited as a reviewer for KDD 2024.<br />
