@@ -146,7 +146,7 @@ Software Engineer
 
 ## Awards
 - ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal&emsp;*June 2021*
-- ACM-ICPC China Shaanxi Province Contest, Silver Medal&emsp;*Sept. 2020*
+- ACM-ICPC Programming Contest (Shaanxi Province), Silver Medal&emsp;*Sept. 2020*
 - ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal&emsp;*June 2020*
 - ACM-ICPC National Programming Contest (Yinchuan), Bronze Medal&emsp;*May 2019*
 - ACM-ICPC Asia Regional Contest, Bronze Medal&emsp;*Nov. 2018*
