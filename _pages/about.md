@@ -137,17 +137,17 @@ Software Engineer
 ## Fellowships
 - **KDD23, Student Travel Awards**&emsp;*Aug. 2023*
 - Zhou Liang Academic Scholarship **(Only 1 of ~20,000 Students)**&emsp;*Oct. 2020*
-- Academic Innovation and Technology Scholarship **(Only 10 of ~20,000 Students)**&emsp;*May 2020*
+- Academic Innovation and Technology Scholarship (Only 10 of ~20,000 Students)&emsp;*May 2020*
 - **IAPR/IEEE Winter School on Biometrics 2020, Student Travel Grants**&emsp;*Jan. 2020*
-- Academic Innovation and Technology Scholarship **(Only 10 of ~20,000 Students)**&emsp;*May 2019*
+- Academic Innovation and Technology Scholarship (Only 10 of ~20,000 Students)&emsp;*May 2019*
 
 ## Awards
-- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Meda**l&emsp;*June 2021*
-- **ACM-ICPC China Shaanxi Province Contest, Silver Medal**&emsp;*Sept. 2020*
-- **ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal**&emsp;*June 2020*
-- **ACM-ICPC National Programming Contest (Yinchuan), Bronze Medal**&emsp;*May 2019*
-- **ACM-ICPC Asia Regional Contest, Bronze Medal**&emsp;*Nov. 2018*
-- **ACM-ICPC Chinese Collegiate Programming Contest, Bronze Medal**&emsp;*Jan. 2018*
+- ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal&emsp;*June 2021*
+- ACM-ICPC China Shaanxi Province Contest, Silver Medal&emsp;*Sept. 2020*
+- ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal&emsp;*June 2020*
+- ACM-ICPC National Programming Contest (Yinchuan), Bronze Medal&emsp;*May 2019*
+- ACM-ICPC Asia Regional Contest, Bronze Medal&emsp;*Nov. 2018*
+- ACM-ICPC Chinese Collegiate Programming Contest, Bronze Medal&emsp;*Jan. 2018*
 
 
 # Professional Services
