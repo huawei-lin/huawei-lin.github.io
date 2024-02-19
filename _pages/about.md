@@ -130,10 +130,9 @@ Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/
 **AI Lab, ByteDance Inc.**, Beijing, China  
 Oct. 2020 - July 2021  
 Software Engineer
-- Responsible for **Audio Recognition and Understanding** research and development, and technical supports for twelve ByteDance’s applications, including **TikTok**.  
+- Responsible for **Audio Recognition and Understanding** research and development, and technical supports for ByteDance’s applications, including **TikTok**.  
 - Proposed Stream Audio Understanding Chain method which enabled **real-time audio processing** and achieved precise extraction of information from audios, including speakers’ genders, tones, emotions, etc.  
-- Designed a pipeline processing flow that significantly increased the throughput of CPUs and reduced processing time by **65%**.  
-- Optimized the usage of CPU and GPU using multiprocessing and multithreading, and improved the performance of the designed algorithm.  
+- Designed a pipeline processing flow that significantly increased the throughput of CPUs and reduced processing time by **65%**, by optimizing the usage of CPUs/GPUs using multiprocessing and multithreading.  
 
 
 # Fellowships & Awards
