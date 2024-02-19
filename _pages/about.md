@@ -138,37 +138,23 @@ Software Engineer
 - **KDD23, Student Travel Awards**&emsp;*Aug. 2023*
 - Zhou Liang Academic Scholarship **(Only 1 of ~20,000 Students)**&emsp;*Oct. 2020*
 - Academic Innovation and Technology Scholarship **(Only 10 of ~20,000 Students)**&emsp;*May 2020*
-- Outstanding Performance Scholarship&emsp;*May 2020*
 - **IAPR/IEEE Winter School on Biometrics 2020, Student Travel Grants**&emsp;*Jan. 2020*
 - Academic Innovation and Technology Scholarship **(Only 10 of ~20,000 Students)**&emsp;*May 2019*
-- Outstanding Performance Scholarship&emsp;*May 2019*
 
 ## Awards
 - **ACM-ICPC National Programming Contest (Shaanxi), Bronze Meda**l&emsp;*June 2021*
-- LAN QIAO Collegiate Programming Contest (Shaanxi Province Division), First Prize&emsp;*Apr. 2021*
 - **ACM-ICPC China Shaanxi Province Contest, Silver Medal**&emsp;*Sept. 2020*
-- LAN QIAO Collegiate Programming Contest (National Finals), Second Prize&emsp;*Sept. 2020*
-- China Collegiate Computer Design Competition (National Finals), Third Prize&emsp;*Aug. 2020*
-- China Collegiate Computer Design Competition (Northwest Division), First Prize&emsp;*June 2020*
 - **ACM-ICPC National Programming Contest (Shaanxi), Bronze Medal**&emsp;*June 2020*
 - **ACM-ICPC National Programming Contest (Yinchuan), Bronze Medal**&emsp;*May 2019*
-- China Collegiate Computer Design Competition (Northwest), Third Prize&emsp;*May 2019*
 - **ACM-ICPC Asia Regional Contest, Bronze Medal**&emsp;*Nov. 2018*
 - **ACM-ICPC Chinese Collegiate Programming Contest, Bronze Medal**&emsp;*Jan. 2018*
-- Shaanxi Province Gaoxin Collegiate Entrepreneurship Contest, Gold Medal&emsp;*May 2018*
 
 
 # Professional Services
 
-## Student Member
-- IEEE, Student Member
-- China Society of Image and Graphics (CSIG), Student Member
-- China Computer Federation (CCF), Student Member
-
 ## Reviewer
 - KDD 2024
 - NeurIPS 2023 Workshop
-- IEEE Access
 
 ## Open Source Project Contribution
 - [llama.cpp](https://github.com/ggerganov/llama.cpp/)
