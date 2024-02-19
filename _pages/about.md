@@ -60,11 +60,14 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 - Yong Qi, **Huawei Lin**, Yanping Li, Jiashu Chen, [Parameter-free Attention in fMRI Decoding](https://ieeexplore.ieee.org/document/9386094). IEEE Access, 2021.
 - Yong Qi, Yanping Li,  **Huawei Lin**, Jiashu Chen, Yanping Li, Hongguang Lei, [Research on Gender-related Fingerprint Features](https://arxiv.org/abs/2108.08233). 2021.
+
+<!--comment
 <br />
 <br />
 -  Yong Qi, **Huawei Lin**, Yanping Li, [Task fMRI brain decoding and visualization method based on convolutional neural network](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A). CN111681292A, 2020.
 - Yong Qi, Yang Yang, **Huawei Lin**, Yunfan Zuo, Chenglong Yu, [Ceramic ornamentation extraction method based on convolutional neural network and image processing](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111814550A). CN111814550A, 2020.
 - Yong Qi, **Huawei Lin**,  Chenglong Yu, Jiaoxing Hou, [Method for measuring pore radius in porous material scanning electron microscope image](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111024581A). CN111024581A, 2019.
+-->
 
 # Research Experience 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GBDTunlearning.png' alt="sym" width="100%"></div></div>
