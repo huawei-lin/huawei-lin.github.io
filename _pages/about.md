@@ -138,7 +138,7 @@ Software Engineer
 # Fellowships & Awards
 ## Fellowships
 - **KDD23, Student Travel Awards**&emsp;*Aug. 2023*
-- Zhou Liang Academic Scholarship **(Only 1 of ~20,000 Students)**&emsp;*Oct. 2020*
+- Zhou Lian Academic Scholarship **(Only 1 of ~20,000 Students)**&emsp;*Oct. 2020*
 - Academic Innovation and Technology Scholarship (Only 10 of ~20,000 Students)&emsp;*May 2020*
 - **IAPR/IEEE Winter School on Biometrics 2020, Student Travel Grants**&emsp;*Jan. 2020*
 - Academic Innovation and Technology Scholarship (Only 10 of ~20,000 Students)&emsp;*May 2019*
