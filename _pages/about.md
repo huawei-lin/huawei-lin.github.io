@@ -157,7 +157,7 @@ Software Engineer
 
 ## Reviewer
 - KDD 2024
-- NeurIPS 2023 Workshop
+- NeurIPS 2023 GLFrontiers Workshop
 
 ## Open Source Project Contribution
 - [llama.cpp](https://github.com/ggerganov/llama.cpp/)
