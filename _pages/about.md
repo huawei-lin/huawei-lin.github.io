@@ -124,8 +124,8 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 July 2021 - July 2022  
 Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao)  
 - Responsible for **interpretability and explainability** on deep learning, especially on Biometrics.  
-- Propose a novel method named Explainable Channel Loss (ECLoss) to construct an explainable face recognition network, which can directly explain that what face recognition networks have learned.
-- To the best of our knowledge, this is the first method to construct a feature level explainable face recognition network that does not require any additional dataset or manual annotation.
+- Propose a novel method named Explainable Channel Loss (ECLoss) to construct an **explainable face recognition** network, which can **directly explain** that what face recognition networks have learned.
+- To the best of our knowledge, this is the **first method** to construct a feature level explainable face recognition network that does not require any additional dataset or manual annotation.
 <br />
 
 
