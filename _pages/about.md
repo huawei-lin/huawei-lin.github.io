@@ -163,6 +163,7 @@ Software Engineer
 
 ## Open Source Project Contribution
 - [llama.cpp](https://github.com/ggerganov/llama.cpp/)
+- [LLMsEasyFinetune](https://github.com/huawei-lin/LLMsEasyFinetune)
 
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
