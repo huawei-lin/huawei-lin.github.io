@@ -29,6 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <font color="red"><b>🔥 I am actively looking for research/engineer internship opportunities in Large Language Models (LLMs), Computer Vision and Machine Learning for the summer of 2024.</b></font><br>
 
 <font color="red"><b>[News]</b></font>
+**Feb. 26, 2024**: We released an easy-to-run implementation for finetuning large language models (LLMs) like llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. [[Github Repo](https://github.com/huawei-lin/LLMsEasyFinetune)]
 **Feb. 12, 2024**: Invited as a reviewer for KDD 2024.<br />
 **Oct. 02, 2023**: Invited as a reviewer for NeurIPS 2023 GLFrontiers Workshop.<br />
 **Aug. 05, 2023**: Received the KDD’23 Student Travel Award. Thanks to KDD!<br />
