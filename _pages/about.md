@@ -167,13 +167,9 @@ Software Engineer
 
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
-- Deep Learning Tools: **Transformers, OpenAI, DeepSpeed, FSDP, PEFT**
-- Machine Learning Tools: **PyTorch, CUDA, TensorFlow, Keras**
-- Mathematical Tools: **MATLAB, Octive**
-- Document Processing: **LaTex**
-- Operation System: **Linux**, Mac OS, Windows
-- Database: **Hadoop**, SQL, MySQL, Redis
-- Others: **Slurm, Docker**, Kubernetes, Kafka
+- Deep Learning Tools: **PyTorch, CUDA, Keras, TensorFlow**
+- Deep Learning Packages: **Transformers, DeepSpeed, FSDP, PEFT, OpenAI**
+- Others: **Slurm, MATLAB, Docker, Hadoop**, Kubernetes, Kafka
 
 <!--
 
