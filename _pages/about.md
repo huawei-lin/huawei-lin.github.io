@@ -31,7 +31,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 -->
 
 <font color="red"><b>[News]</b></font>
-**Apr. 16, 2024: I will join Amazon as an applied scientist intern in this summer!**<br />
+**Apr. 16, 2024: I will be joining Amazon as an Applied Scientist Intern in Boston this summer! 🎉**<br />
 **Feb. 26, 2024**: We released an easy-to-run implementation for finetuning large language models (LLMs) such as llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. Please feel free to star, fork, and make your own contributions. [[Github Repo](https://github.com/huawei-lin/LLMsEasyFinetune)]<br />
 **Feb. 12, 2024**: Invited as a reviewer for KDD 2024.<br />
 **Oct. 02, 2023**: Invited as a reviewer for NeurIPS 2023 GLFrontiers Workshop.<br />
