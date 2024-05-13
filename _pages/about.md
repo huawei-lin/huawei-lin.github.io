@@ -165,8 +165,10 @@ Software Engineer
 - NeurIPS 2023 GLFrontiers Workshop
 
 ## Open Source Project Contribution
+We have a team dedicated to building open-source AI systems about Artificial General Intelligence (AGI), Generative AI (GAI) and Large Language Models (LLMs). [[Website](https://www.dynamonai.com/), [GitHub](https://github.com/DynamonAI)]
 - [llama.cpp](https://github.com/ggerganov/llama.cpp/)
 - [LLMsEasyFinetune](https://github.com/huawei-lin/LLMsEasyFinetune)
+- [paper-assistant](https://github.com/DynamonAI/paper-assistant)
 
 # TECHNICAL SKILLS
 - Programming Languages: **C/C++, Python, Go, Java, Shell**, HTML
