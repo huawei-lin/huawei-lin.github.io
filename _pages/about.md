@@ -81,9 +81,9 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/RapidIn_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Token-wise Influential Training Data Retrieval for Large Language Models** 
-- Present \texttt{RapidIn} that estimates the influence of each training data for a given LLM generation.
-- We apply a collection of techniques to cache the gradients of LLMs by compressing gradient vectors by over $200,000$x in the caching stage, and achieve a $6,326$x speedup in the retrieval stage, enabling estimating the influence of the entire dataset for any test generation within minutes.
-- We utilize multi-GPU parallelization to substantially accelerate the caching and retrieval.
+- Present RapidIn that **estimates the influence** of each training data for a given LLM generation.
+- We apply a collection of techniques to cache the gradients of LLMs by compressing gradient vectors by over **200,000x** in the caching stage, and achieve a **6,326x** speedup in the retrieval stage, enabling estimating the influence of the entire dataset for any test generation within minutes.
+- We utilize **multi-GPU parallelization** to substantially accelerate the caching and retrieval.
 
 [[Paper](https://openreview.net/forum?id=VyL5QZ11b3), [Code](https://github.com/huawei-lin/RapidIn), [Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing)]
 
