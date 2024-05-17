@@ -61,6 +61,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Selected Publications
+- **Huawei Lin**, Jikai Long, Zhaozhuo Xu, Weijie Zhao, [Token-wise Influential Training Data Retrieval for Large Language Models](https://openreview.net/forum?id=VyL5QZ11b3). ACL 2024.
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420). KDD 2023.
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 
@@ -76,6 +77,19 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 -->
 
 # Research Experience 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/RapidIn_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**Token-wise Influential Training Data Retrieval for Large Language Models** 
+- Present \texttt{RapidIn} that estimates the influence of each training data for a given LLM generation.
+- We apply a collection of techniques to cache the gradients of LLMs by compressing gradient vectors by over $200,000$x in the caching stage, and achieve a $6,326$x speedup in the retrieval stage, enabling estimating the influence of the entire dataset for any test generation within minutes.
+- We utilize multi-GPU parallelization to substantially accelerate the caching and retrieval.
+
+[[Paper](https://openreview.net/forum?id=VyL5QZ11b3), [Code](https://github.com/huawei-lin/RapidIn), [Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing)]
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GBDTunlearning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Machine Unlearning in Gradient Boosting Decision Trees (GBDT)** 
