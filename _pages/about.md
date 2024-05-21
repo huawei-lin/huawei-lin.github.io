@@ -31,7 +31,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 -->
 
 <font color="red"><b>[News]</b></font>
-**May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://openreview.net/forum?id=VyL5QZ11b3)) is accepted by ACL 2024 (Main)!<br />
+**May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://arxiv.org/abs/2405.11724)) is accepted by ACL 2024 (Main)!<br />
 **Apr. 16, 2024: I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on large language models and multimodal systems. 🎉🎉🎉**<br />
 **Feb. 26, 2024**: We released an easy-to-run implementation for finetuning large language models (LLMs) such as llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. Please feel free to star, fork, and make your own contributions. [[Github Repo](https://github.com/huawei-lin/LLMsEasyFinetune)]<br />
 **Feb. 12, 2024**: Invited as a reviewer for KDD 2024.<br />
@@ -61,7 +61,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Selected Publications
-- **Huawei Lin**, Jikai Long, Zhaozhuo Xu, Weijie Zhao, [Token-wise Influential Training Data Retrieval for Large Language Models](https://openreview.net/forum?id=VyL5QZ11b3). ACL 2024.
+- **Huawei Lin**, Jikai Long, Zhaozhuo Xu, Weijie Zhao, [Token-wise Influential Training Data Retrieval for Large Language Models](https://arxiv.org/abs/2405.11724). ACL 2024.
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420). KDD 2023.
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 
@@ -85,7 +85,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - We apply a collection of techniques to cache the gradients of LLMs by compressing gradient vectors by over **200,000x** in the caching stage, and achieve a **6,326x** speedup in the retrieval stage, enabling estimating the influence of the entire dataset for any test generation within minutes.
 - We utilize **multi-GPU parallelization** to substantially accelerate the caching and retrieval.
 
-[[Paper](https://openreview.net/forum?id=VyL5QZ11b3), [Code](https://github.com/huawei-lin/RapidIn), [Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing)]
+[[Paper](https://arxiv.org/abs/2405.11724), [Code](https://github.com/huawei-lin/RapidIn), [Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing)]
 
 </div>
 </div>
