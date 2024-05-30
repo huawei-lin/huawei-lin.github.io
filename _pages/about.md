@@ -141,7 +141,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 # Internship Experience
 
 **Amazon, AGI**, Boston, MA  
-May 2024 - Present
+May 2024 - Present  
 Applied Scientist Intern
 - Working on Large Language Models and Multimodal LLMs.
 <br />
