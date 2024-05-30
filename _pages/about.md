@@ -140,6 +140,13 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Internship Experience
 
+**Amazon, AGI**, Boston, MA  
+May 2024 - Present
+Applied Scientist Intern
+- Working on Large Language Models and Multimodal LLMs.
+<br />
+
+
 **Institute of Computer Vision, Shenzhen University**, Shenzhen, China  
 July 2021 - July 2022  
 Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao)  
