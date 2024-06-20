@@ -31,7 +31,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 -->
 
 <font color="red"><b>[News]</b></font>
-**Jun. 19, 2024**: Invited to deliver a presentation on our recent work, "Token-wise Influential Training Data Retrieval for Large Language Models", to the paper reading group at [Unify](unify.ai). See you there! [[RSVP](https://lu.ma/7hrmt1zy), [Linkedin Post](https://www.linkedin.com/posts/huaweilin_we-are-really-excited-to-welcome-huawei-lin-activity-7209354465005432832-PELt?utm_source=share&utm_medium=member_desktop)]<br />
+**Jun. 19, 2024**: Invited to deliver a presentation on our recent work, "Token-wise Influential Training Data Retrieval for Large Language Models", to the paper reading group at [Unify](unify.ai) on Friday, June 21st. See you there! [[RSVP](https://lu.ma/7hrmt1zy), [Linkedin Post](https://www.linkedin.com/posts/huaweilin_we-are-really-excited-to-welcome-huawei-lin-activity-7209354465005432832-PELt?utm_source=share&utm_medium=member_desktop)]<br />
 **May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://arxiv.org/abs/2405.11724)) is accepted by ACL 2024!<br />
 **Apr. 16, 2024: I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on large language models and multimodal systems. 🎉🎉🎉**<br />
 **Feb. 26, 2024**: We released an easy-to-run implementation for finetuning large language models (LLMs) such as llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. Please feel free to star, fork, and make your own contributions. [[Github Repo](https://github.com/huawei-lin/LLMsEasyFinetune)]<br />
