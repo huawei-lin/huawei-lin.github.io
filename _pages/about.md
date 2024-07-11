@@ -55,6 +55,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Tech Talks
+- **"Token-wise Influential Training Data Retrieval for Large Language Models"** at [Unify.AI](unify.ai), Jun. 21, 2024. [[Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
 - **"Toward Explainable Large Language Models via Influence Estimation"** at Boston, MA, May. 23, 2024. [[Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view)]
 - **"Machine Unlearning in Gradient Boosting Decision Trees"** at Long Beach, CA, Aug. 9, 2023. [[Slides](https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing), [Video](https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing)]
 - **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022. [[Slides](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
