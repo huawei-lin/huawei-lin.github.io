@@ -31,6 +31,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 -->
 
 <font color="red"><b>[News]</b></font>
+**Jul. 21, 2024**: Invited as a reviewer for ACL ARR 2024.<br />
 **Jul. 12, 2024**: Invited as a reviewer for KDD 2025.<br />
 **May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://arxiv.org/abs/2405.11724)) is accepted by ACL 2024!<br />
 **Apr. 16, 2024: I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on large language models and multimodal systems. 🎉🎉🎉**<br />
