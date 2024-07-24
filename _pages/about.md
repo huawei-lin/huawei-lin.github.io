@@ -187,6 +187,8 @@ Software Engineer
 # Professional Services
 
 ## Reviewer
+- KDD 2025
+- ACL ARR 2024
 - KDD 2024
 - NeurIPS 2023 GLFrontiers Workshop
 
