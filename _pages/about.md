@@ -56,7 +56,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Tech Talks
-- **"Token-wise Influential Training Data Retrieval for Large Language Models"** at [Unify.AI](unify.ai), Jun. 21, 2024. [[Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
+- **"Token-wise Influential Training Data Retrieval for Large Language Models"** at ACL Virtual Poster Session, Aug. 12, 2024. [[Slides](https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing), [Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
 - **"Toward Explainable Large Language Models via Influence Estimation"** at Boston, MA, May. 23, 2024. [[Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view)]
 - **"Machine Unlearning in Gradient Boosting Decision Trees"** at Long Beach, CA, Aug. 9, 2023. [[Slides](https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing), [Video](https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing)]
 - **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022. [[Slides](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
@@ -89,7 +89,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - We apply a collection of techniques to cache the gradients of LLMs by compressing gradient vectors by over **200,000x** in the caching stage, and achieve a **6,326x** speedup in the retrieval stage, enabling estimating the influence of the entire dataset for any test generation within minutes.
 - We utilize **multi-GPU parallelization** to substantially accelerate the caching and retrieval.
 
-[[Paper](https://arxiv.org/abs/2405.11724), [Code](https://github.com/huawei-lin/RapidIn), [Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing)]
+[[Paper](https://arxiv.org/abs/2405.11724), [Code](https://github.com/huawei-lin/RapidIn), [Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing), [Slides](https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing), [Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
 
 </div>
 </div>
