@@ -189,9 +189,8 @@ Software Engineer
 
 ## Reviewer
 - ICLR 2025
-- KDD 2025
 - ACL ARR 2024
-- KDD 2024
+- KDD: 2024, 2025
 - NeurIPS 2023 GLFrontiers Workshop
 
 ## Open Source Project Contribution
