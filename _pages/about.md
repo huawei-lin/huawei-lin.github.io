@@ -31,6 +31,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 -->
 
 <font color="red"><b>[News]</b></font>
+**Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
 **Jul. 21, 2024**: Invited as a reviewer for ACL ARR 2024.<br />
 **Jul. 12, 2024**: Invited as a reviewer for KDD 2025.<br />
 **May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://aclanthology.org/2024.acl-long.48/)) is accepted by ACL 2024!<br />
@@ -187,6 +188,7 @@ Software Engineer
 # Professional Services
 
 ## Reviewer
+- ICLR 2025
 - KDD 2025
 - ACL ARR 2024
 - KDD 2024
