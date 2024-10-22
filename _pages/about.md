@@ -34,7 +34,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 **Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
 **Jul. 21, 2024**: Invited as a reviewer for ACL ARR 2024.<br />
 **Jul. 12, 2024**: Invited as a reviewer for KDD 2025.<br />
-**May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://aclanthology.org/2024.acl-long.48/)) is accepted by ACL 2024!<br />
+**May. 16, 2024**: Our paper ([Token-wise Influential Training Data Retrieval for Large Language Models](https://aclanthology.org/2024.acl-long.48/)) is accepted by ACL 2024! In this paper, we propose RapidIn, a scalable framework for influence estimation on LLMs.<br />
 **Apr. 16, 2024: I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on large language models and multimodal systems. 🎉🎉🎉**<br />
 **Feb. 26, 2024**: We released an easy-to-run implementation for finetuning large language models (LLMs) such as llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. Please feel free to star, fork, and make your own contributions. [[Github Repo](https://github.com/huawei-lin/LLMsEasyFinetune)]<br />
 **Feb. 12, 2024**: Invited as a reviewer for KDD 2024.<br />
