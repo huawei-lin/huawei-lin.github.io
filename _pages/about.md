@@ -26,9 +26,8 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <br />
 <br />
 
-<!--comment
-<font color="red">🔥 I am actively looking for research/engineer internship opportunities in Large Language Models (LLMs), Computer Vision and Machine Learning for the summer of 2024. <b>More research experience and papers about LLMs can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
--->
+
+<font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models (LLMs), Computer Vision and Machine Learning for the summer of 2025. <b>More research experience and papers (Under Review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
 <font color="red"><b>[News]</b></font>
 **Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
