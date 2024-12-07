@@ -143,7 +143,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Internship Experience
 
-**Amazon, AGI**, Boston, MA  
+**Amazon - AGI (Foundation Models)**, Boston, MA  
 May 2024 - Present  
 Applied Scientist Intern | Advisor: [Rajath Kumar](https://scholar.google.com/citations?user=sI0wlX8AAAAJ), [Raphael Petegrosso](https://www.amazon.science/author/raphael-petegrosso)
 - Responsible for an Auto Prompting project on LLMs inference.
@@ -154,7 +154,7 @@ potential hallucinations by certainty score.
 <br />
 
 
-**Institute of Computer Vision, Shenzhen University**, Shenzhen, China  
+**Shenzhen University - Institute of Computer Vision**, Shenzhen, China  
 July 2021 - July 2022  
 Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao)  
 - Responsible for **interpretability and explainability** on deep learning, especially on Biometrics.  
@@ -163,7 +163,7 @@ Research Assistant | Supervisor: Prof. [Linlin Shen](https://scholar.google.com/
 <br />
 
 
-**AI Lab, ByteDance Inc.**, Beijing, China  
+**ByteDance Inc. - AI Lab**, Beijing, China  
 Oct. 2020 - July 2021  
 Software Engineer
 - Responsible for **Audio Recognition and Understanding** research and development, and technical supports for ByteDance’s applications, including **TikTok**.  
