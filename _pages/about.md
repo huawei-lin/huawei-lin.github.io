@@ -67,6 +67,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Selected Publications
 - Yanzhou Pan, **Huawei Lin**, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, [ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation](https://openreview.net/forum?id=8j4sCbNCRD). NAACL 2025.
+- **Huawei Lin**, Yingjie Lao, Weijie Zhao, [DMin: Scalable Training Data Influence Estimation for Diffusion Models](https://arxiv.org/abs/2412.08637). arXiv preprint, arXiv:2412.08637, 2024.
 - **Huawei Lin**, Jikai Long, Zhaozhuo Xu, Weijie Zhao, [Token-wise Influential Training Data Retrieval for Large Language Models](https://aclanthology.org/2024.acl-long.48/). ACL 2024.
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420). KDD 2023.
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
