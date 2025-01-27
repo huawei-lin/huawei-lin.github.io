@@ -30,6 +30,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
 <font color="red"><b>[News]</b></font>
+**Jan. 26, 2025**: Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.<br />
 **Jan. 22, 2025**: One paper is accepted by NAACL 2025! 🎉🎉🎉<br />
 **Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
 **Jul. 21, 2024**: Invited as a reviewer for ACL ARR 2024.<br />
@@ -193,11 +194,15 @@ Software Engineer
 
 # Professional Services
 
-## Reviewer
+## Conference Reviewer
 - ICLR 2025
 - ACL ARR 2024
 - KDD: 2024, 2025
 - NeurIPS 2023 GLFrontiers Workshop
+
+## Journal Reviewer
+- IEEE Transactions on Dependable and Secure Computing
+- IEEE Access
 
 ## Open Source Project Contribution
 - [llama.cpp](https://github.com/ggerganov/llama.cpp/)
