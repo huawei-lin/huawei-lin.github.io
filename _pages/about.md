@@ -18,7 +18,7 @@ redirect_from:
 
 I am a Ph.D. Candidate (2022.08-) in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. [Weijie Zhao](https://www.cs.rit.edu/~wjz/). I previously interned at Amazon (AGI, Foundation Models) and ByteDance (Audio & Speech Processing). My research interests span <b> LLMs, AI Privacy & Security, and Scalable & Trustworthy Machine Learning</b>.
 
-Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof.  [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao) (**Honorary Professor** at the University of Nottingham, UK). I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the Ministry of Education of China for undergraduates in 2019. I received an <b>ACM-ICPC Asia Bronze Medal</b> in the ACM-ICPC International Collegiate Programming Contest, and a <b>Silver Medal</b> in the ACM-ICPC Shaanxi Province Contest of China.
+Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof.  [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao) (**Honorary Professor** at the University of Nottingham, UK). I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the Ministry of Education of China for undergraduates in 2019. I received several <b>ACM-ICPC Medals</b> during my undergraduate.
 
 My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing).
 <br />
