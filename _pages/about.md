@@ -28,7 +28,25 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
 
-<div style="max-height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; border-radius: 10px;">
+<div style="max-height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; border-radius: 10px; scrollbar-width: thin; scrollbar-color: #888 #f1f1f1;">
+    <style>
+        /* 针对 Webkit 浏览器的滚动条样式 */
+        div::-webkit-scrollbar {
+            width: 10px;
+            border-radius: 10px; /* 让滚动条本身也有圆角 */
+        }
+        div::-webkit-scrollbar-track {
+            background: #f1f1f1; /* 滚动条轨道的颜色 */
+            border-radius: 10px;
+        }
+        div::-webkit-scrollbar-thumb {
+            background: #888; /* 滚动条的颜色 */
+            border-radius: 10px;
+        }
+        div::-webkit-scrollbar-thumb:hover {
+            background: #555; /* 当鼠标悬停时滚动条的颜色 */
+        }
+    </style>
     <font color="red"><b>[News]</b></font>
     <p><b>Feb. 3, 2025</b>: We released <b>two papers</b> on ArXiv:</p>
     <ul>
