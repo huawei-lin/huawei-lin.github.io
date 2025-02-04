@@ -65,7 +65,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Publications & Pre-prints
-- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data]([https://arxiv.org/abs/2412.08637](https://arxiv.org/abs/2502.01634)). arXiv preprint, arXiv:2502.01634, 2025.
+- **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data](https://arxiv.org/abs/2502.01634). arXiv preprint, arXiv:2502.01634, 2025.
 - Yanzhou Pan, **Huawei Lin**, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, [ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation](https://openreview.net/forum?id=8j4sCbNCRD). NAACL 2025.
 - **Huawei Lin**, Yingjie Lao, Weijie Zhao, [DMin: Scalable Training Data Influence Estimation for Diffusion Models](https://arxiv.org/abs/2412.08637). arXiv preprint, arXiv:2412.08637, 2024.
 - **Huawei Lin**, Jikai Long, Zhaozhuo Xu, Weijie Zhao, [Token-wise Influential Training Data Retrieval for Large Language Models](https://aclanthology.org/2024.acl-long.48/). ACL 2024.
