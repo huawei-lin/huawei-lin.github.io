@@ -27,6 +27,35 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
+
+<div style="max-height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;">
+    <font color="red"><b>[News]</b></font>
+    <p><b>Feb. 3, 2025</b>: We released <b>two papers</b> on ArXiv:</p>
+    <ul>
+        <li>
+            <b><a href="https://arxiv.org/abs/2412.08637">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a></b>: The first <b>highly scalable influence estimation method</b> for stable diffusion models with billions of parameters, capable of identifying the most influential training samples for a given test generation within seconds.
+        </li>
+        <li>
+            <b><a href="https://arxiv.org/abs/2502.01634">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a></b>: The first work to introduce an in-place unified incremental and decremental learning approach for GBDT, enabling <b>real-time addition and deletion</b> of data within the model.
+        </li>
+    </ul>
+    <p><b>Jan. 26, 2025</b>: Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.</p>
+    <p><b>Jan. 22, 2025</b>: One paper is accepted by NAACL 2025! 🎉🎉🎉</p>
+    <p><b>Aug. 23, 2024</b>: Invited as a reviewer for ICLR 2025.</p>
+    <p><b>Jul. 21, 2024</b>: Invited as a reviewer for ACL ARR 2024.</p>
+    <p><b>Jul. 12, 2024</b>: Invited as a reviewer for KDD 2025.</p>
+    <p><b>May. 16, 2024</b>: Our paper (<a href="https://aclanthology.org/2024.acl-long.48/">Token-wise Influential Training Data Retrieval for Large Language Models</a>) is accepted by ACL 2024! In this paper, we propose RapidIn, a scalable framework for estimating the influence of each training data sample on LLMs.</p>
+    <p><b>Apr. 16, 2024</b>: I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on large language models and multimodal systems. 🎉🎉🎉</p>
+    <p><b>Feb. 26, 2024</b>: We released an easy-to-run implementation for finetuning large language models (LLMs) such as llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. Please feel free to star, fork, and make your own contributions. <a href="https://github.com/huawei-lin/LLMsEasyFinetune">[Github Repo]</a></p>
+    <p><b>Feb. 12, 2024</b>: Invited as a reviewer for KDD 2024.</p>
+    <p><b>Oct. 02, 2023</b>: Invited as a reviewer for NeurIPS 2023 GLFrontiers Workshop.</p>
+    <p><b>Aug. 05, 2023</b>: Received the KDD’23 Student Travel Award. Thanks to KDD!</p>
+    <p><b>May. 16, 2023</b>: Our paper (<a href="https://dl.acm.org/doi/10.1145/3580305.3599420">Machine Unlearning in Gradient Boosting Decision Trees</a>) is accepted by KDD 2023! <a href="https://www.youtube.com/watch?v=4dQlNfnULVw">[Promotion Video]</a>, <a href="https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing">[Poster]</a></p>
+    <p><b>Sep. 12, 2022</b>: Our paper (<a href="https://arxiv.org/abs/2207.02179">Activation Template Matching Loss for Explainable Face Recognition</a>) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition (<a href="https://fg2023.ieee-biometrics.org/">FG 2023</a>)!</p>
+</div>
+
+
+<!--
 <font color="red"><b>[News]</b></font>
 **Feb. 3, 2025**: We released **two papers** on ArXiv:
 <ul>
@@ -51,6 +80,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 **Aug. 05, 2023**: Received the KDD’23 Student Travel Award. Thanks to KDD!<br />
 **May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420)) is accepted by KDD 2023! [[Promotion Video](https://www.youtube.com/watch?v=4dQlNfnULVw), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]<br />
 **Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG 2023](https://fg2023.ieee-biometrics.org/))!
+!-->
 
 <!--comment
 # Education
