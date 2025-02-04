@@ -28,31 +28,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
 
-<div style="max-height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; border-radius: 10px; overflow: hidden;">
-    <style>
-        /* 针对 Webkit 浏览器的滚动条样式 */
-        div::-webkit-scrollbar {
-            width: 8px; /* 滚动条宽度 */
-            height: 8px; /* 滚动条高度 (水平滚动条时) */
-            border-radius: 10px; /* 滚动条本身圆角 */
-        }
-        div::-webkit-scrollbar-track {
-            background: #f1f1f1; /* 滚动条轨道颜色 */
-            border-radius: 10px; /* 滚动条轨道圆角 */
-        }
-        div::-webkit-scrollbar-thumb {
-            background: #888; /* 滚动条滑块颜色 */
-            border-radius: 10px; /* 滚动条滑块圆角 */
-        }
-        div::-webkit-scrollbar-thumb:hover {
-            background: #555; /* 鼠标悬停时滑块的颜色 */
-        }
-        /* 防止滚动条超出边框 */
-        div {
-            box-sizing: border-box;
-        }
-    </style>
-  
+<div style="max-height: 400px; overflow-y: scroll; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px;">
     <font color="red"><b>[News]</b></font>
     <p><b>Feb. 3, 2025</b>: We released <b>two papers</b> on ArXiv:</p>
     <ul>
