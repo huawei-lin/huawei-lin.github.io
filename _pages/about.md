@@ -87,7 +87,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Research Experience 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/RapidIn_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/researchExpImg/RapidIn_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Token-wise Influential Training Data Retrieval for Large Language Models** 
 - Present RapidIn that **estimates the influence** of each training data for a given LLM generation.
@@ -99,7 +99,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GBDTunlearning.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2023</div><img src='images/researchExpImg/GBDTunlearning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Machine Unlearning in Gradient Boosting Decision Trees (GBDT)** 
 - Propose an unlearning framework that efficiently and effectively unlearns a given collection of data **without retraining** the model from scratch.
@@ -111,7 +111,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FG 2023</div><img src='images/researchExpImg/abstract_ECLoss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Activation Template Matching Loss for Explainable Face Recognition** 
 - Propose a novel method named Explainable Channel Loss (ECLoss) to construct an **explainable face recognition network**, which can **directly explain** that what face recognition networks have learned.  
@@ -122,28 +122,6 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/GA-1-scaled.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-**Parameter-free Attention in fMRI Decoding** 
-- Led a team working on a research project that was selected as a National Training Program of Innovation and Entrepreneurship for Undergraduates and funded by **the Chinese National Ministry of Education**.
-- Proposed a parameter-free attention module named **Parameter-free Attention Module (SAM)** to reduce the average error rate by **1.2%-3.1%** while without involving any parameter.
-  
-[[Paper](https://ieeexplore.ieee.org/document/9386094), [Poster](https://drive.google.com/file/d/1BvnTwlea7ZaXAQAIPwMVrukGKHA2nYDj/view?usp=sharing), [Patent](https://worldwide.espacenet.com/patent/search?q=pn%3DCN111681292A)]
-  
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/researchExpImg/fingerprint_GA-scaled.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-**Gender-Related Feature Extraction from Fingerprints** 
-- Designed an architecture called **Dense Dilated Convolution ResNet (DDCResNet)** to improve the decoding performance of the feature extraction algorithms.
-- Achieved an average extraction accuracy of **95%**, which significantly exceeds traditional feature extraction methods.
-- **Improved the interpretability** of the algorithms by using Gradient-weighted Class Activation Mapping (Grad-CAM) to visualize the high-score regions of gender information in fingerprint images.
-  
-[[Paper](https://arxiv.org/abs/2108.08233)]
-  
-</div>
-</div>
 
 
 # Internship Experience
