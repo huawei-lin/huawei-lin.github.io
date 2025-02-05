@@ -94,7 +94,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - We present optimizations to reduce the cost of incremental and decremental learning, making adding or deleting a small data fraction substantially faster than retraining.
 - This is the first work to introduce an in-place unified incremental and decremental learning approach for GBDT, enabling **real-time addition and deletion** of data within the model without training from scratch.
 
-[[Paper]([https://aclanthology.org/2024.acl-long.48/](https://arxiv.org/abs/2412.08637)), [Code](https://github.com/huawei-lin/DMin)]
+[[Paper](https://arxiv.org/abs/2502.01634), [Code](https://github.com/huawei-lin/InplaceOnlineGBDT)]
 
 </div>
 </div>
@@ -106,7 +106,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - DMin is the first **highly scalable framework** that enables stable influence estimation on diffusion models with billions of parameters.
 - To overcome storage and computational limitations, DMin employs a gradient compression technique, reducing storage from around **40 GB to 80 KB** per sample while maintaining accuracy, enabling feasible influence estimation on large models and datasets.
 
-[[Paper]([https://aclanthology.org/2024.acl-long.48/](https://arxiv.org/abs/2412.08637)), [Code](https://github.com/huawei-lin/DMin)]
+[[Paper](https://arxiv.org/abs/2412.08637), [Code](https://github.com/huawei-lin/DMin)]
 
 </div>
 </div>
