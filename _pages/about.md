@@ -87,6 +87,18 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Research Experience
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/researchExpImg/OnlineGBDT_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data** 
+- We introduce an **efficient in-place online learning framework** for gradient boosting models supporting incremental and decremental learning, extensible to finetuning and transfer learning.
+- We present optimizations to reduce the cost of incremental and decremental learning, making adding or deleting a small data fraction substantially faster than retraining.
+- This is the first work to introduce an in-place unified incremental and decremental learning approach for GBDT, enabling **real-time addition and deletion** of data within the model without training from scratch.
+
+[[Paper]([https://aclanthology.org/2024.acl-long.48/](https://arxiv.org/abs/2412.08637)), [Code](https://github.com/huawei-lin/DMin)]
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/researchExpImg/DMin_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **DMin: Scalable Training Data Influence Estimation for Diffusion Models** 
