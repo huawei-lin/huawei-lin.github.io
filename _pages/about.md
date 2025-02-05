@@ -85,12 +85,24 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 
 
-# Research Experience 
+# Research Experience
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/researchExpImg/DMin_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**DMin: Scalable Training Data Influence Estimation for Diffusion Models** 
+- We introduce DMin, a scalable influence estimation framework for diffusion models that efficiently identifies the most influential training samples for a given test generation **in seconds**.
+- DMin is the first **highly scalable framework** that enables stable influence estimation on diffusion models with billions of parameters.
+- To overcome storage and computational limitations, DMin employs a gradient compression technique, reducing storage from around **40 GB to 80 KB** per sample while maintaining accuracy, enabling feasible influence estimation on large models and datasets.
+
+[[Paper]([https://aclanthology.org/2024.acl-long.48/](https://arxiv.org/abs/2412.08637)), [Code](https://github.com/huawei-lin/DMin)]
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/researchExpImg/RapidIn_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Token-wise Influential Training Data Retrieval for Large Language Models** 
-- Present RapidIn that **estimates the influence** of each training data for a given LLM generation.
+- We present RapidIn that **estimates the influence** of each training data for a given LLM generation.
 - We apply a collection of techniques to cache the gradients of LLMs by compressing gradient vectors by over **200,000x** in the caching stage, and achieve a **6,326x** speedup in the retrieval stage, enabling estimating the influence of the entire dataset for any test generation within minutes.
 - We utilize **multi-GPU parallelization** to substantially accelerate the caching and retrieval.
 
