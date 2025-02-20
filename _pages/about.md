@@ -77,6 +77,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Publications & Pre-prints
+- **Huawei Lin**, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, [UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models](https://arxiv.org/abs/2502.13141). arXiv preprint, arXiv:2502.13141, 2025.
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data](https://arxiv.org/abs/2502.01634). arXiv preprint, arXiv:2502.01634, 2025.
 - Yanzhou Pan, **Huawei Lin**, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, [ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation](https://openreview.net/forum?id=8j4sCbNCRD). NAACL 2025.
 - **Huawei Lin**, Yingjie Lao, Weijie Zhao, [DMin: Scalable Training Data Influence Estimation for Diffusion Models](https://arxiv.org/abs/2412.08637). arXiv preprint, arXiv:2412.08637, 2024.
@@ -86,6 +87,18 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 
 # Research Experience
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/researchExpImg/UniGuardian_overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models** 
+- We define Prompt Trigger Attacks (PTA) as a unified category encompassing prompt injection, backdoor, and adversarial attacks.
+- We analyze their common mechanisms and demonstrate, both theoretically and empirically, the behavioral distinctions of LLMs when processing injected versus clean prompts.
+- We introduce UniGuardian, a novel training-free, inference-time detection mechanism that efficiently detects multiple attack types.
+
+[[Paper](https://arxiv.org/abs/2502.13141), [Code](https://github.com/huawei-lin/UniGuardian)]
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/researchExpImg/OnlineGBDT_overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
