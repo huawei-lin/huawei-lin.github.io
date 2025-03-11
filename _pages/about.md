@@ -165,7 +165,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 **Amazon - AGI (Foundation Models)**, Boston, MA  
 May 2024 - Present  
-Applied Scientist Intern | Advisor: [Rajath Kumar](https://scholar.google.com/citations?user=sI0wlX8AAAAJ), [Raphael Petegrosso](https://www.amazon.science/author/raphael-petegrosso)
+Applied Scientist Intern | Advisor: [Rajath Kumar](https://scholar.google.com/citations?user=sI0wlX8AAAAJ), [Raphael Petegrosso](https://scholar.google.com/citations?user=fqDBr9gAAAAJ)
 - Responsible for an Auto Prompting project on LLMs inference.
 - Proposed an unsupervised self-improving framework for LLMs inference that enhances generation quality
 across various downstream tasks. The proposed framework can generate multiple diverse outputs and detect
