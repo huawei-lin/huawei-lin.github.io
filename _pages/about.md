@@ -66,16 +66,6 @@ Sept. 2017 - July 2021
 B.S. in Computer Science & Technology  
 Thesis: Design and Implementation of Topological Function Classification Software for Medical Image **(Outstanding undergraduate thesis, Score: 90/100)** -->
 
-
-# Tech Talks
-- **"Token-wise Influential Training Data Retrieval for Large Language Models"** at ACL Virtual Poster Session, Aug. 12, 2024. [[Slides](https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing), [Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
-- **"Toward Explainable Large Language Models via Influence Estimation"** at Boston, MA, May. 23, 2024. [[Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view)]
-- **"Machine Unlearning in Gradient Boosting Decision Trees"** at Long Beach, CA, Aug. 9, 2023. [[Slides](https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing), [Video](https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing)]
-- **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022. [[Slides](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
-- **"Toward Explainable Face Recognition"** at Shenzhen University, Oct. 28, 2021. [[Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing)]
-- **"Trust in Black-Box Models: Interpretability & Explainability for Deep Learning"** at Shenzhen University, Aug. 13, 2021. [[Slides](https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing)]
-
-
 # Publications & Pre-prints
 2025
 - **Huawei Lin**, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, [UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models](https://arxiv.org/abs/2502.13141). arXiv preprint, arXiv:2502.13141, 2025.
@@ -89,6 +79,15 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 2023
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420). KDD 2023.
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
+
+# Tech Talks
+- **"Token-wise Influential Training Data Retrieval for Large Language Models"** at ACL Virtual Poster Session, Aug. 12, 2024. [[Slides](https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing), [Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
+- **"Toward Explainable Large Language Models via Influence Estimation"** at Boston, MA, May. 23, 2024. [[Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view)]
+- **"Machine Unlearning in Gradient Boosting Decision Trees"** at Long Beach, CA, Aug. 9, 2023. [[Slides](https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing), [Video](https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing)]
+- **"Activation Template Matching Loss for Explainable Face Recognition"** at Rochester Institute of Technology, Nov. 17, 2022. [[Slides](https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link), [Video](https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link)]
+- **"Toward Explainable Face Recognition"** at Shenzhen University, Oct. 28, 2021. [[Slides](https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing)]
+- **"Trust in Black-Box Models: Interpretability & Explainability for Deep Learning"** at Shenzhen University, Aug. 13, 2021. [[Slides](https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing)]
+
 
 
 # Research Experience
