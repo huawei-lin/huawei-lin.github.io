@@ -29,6 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 
 <font color="red"><b>[News]</b></font>
+**Mar. 17, 2025**: Invited as a reviewer for ICML 2025.<br />
 **Feb. 3, 2025**: We released **two papers** on ArXiv:
 <ul>
     <li>
@@ -39,7 +40,6 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
     </li>
 </ul>
 
-**Mar. 17, 2025**: Invited as a reviewer for ICML 2025.<br />
 **Jan. 26, 2025**: Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.<br />
 **Jan. 22, 2025**: One paper is accepted by NAACL 2025! 🎉🎉🎉<br />
 **Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
