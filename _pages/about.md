@@ -39,6 +39,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
     </li>
 </ul>
 
+**Mar. 17, 2025**: Invited as a reviewer for ICML 2025.<br />
 **Jan. 26, 2025**: Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.<br />
 **Jan. 22, 2025**: One paper is accepted by NAACL 2025! 🎉🎉🎉<br />
 **Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
@@ -215,6 +216,7 @@ Software Engineer
 # Professional Services
 
 ## Conference Reviewer
+- ICML 2025
 - ICLR 2025
 - ACL ARR 2024
 - KDD: 2024, 2025
