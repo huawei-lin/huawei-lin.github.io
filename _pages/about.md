@@ -29,6 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 
 <font color="red"><b>[News]</b></font>
+**Mar. 22, 2025**: Invited as a reviewer for ACL ARR 2025.<br />
 **Mar. 17, 2025**: Invited as a reviewer for ICML 2025.<br />
 **Feb. 3, 2025**: We released **two papers** on ArXiv:
 <ul>
@@ -218,7 +219,7 @@ Software Engineer
 ## Conference Reviewer
 - ICML 2025
 - ICLR 2025
-- ACL ARR 2024
+- ACL ARR 2024, 2025
 - KDD: 2024, 2025
 - NeurIPS 2023 GLFrontiers Workshop
 
