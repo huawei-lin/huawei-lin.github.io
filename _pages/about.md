@@ -222,6 +222,7 @@ Software Engineer
 # Professional Services
 
 ## Conference Reviewer
+- NeurIPS 2025
 - ICML 2025
 - ICLR 2025
 - ACL ARR 2024, 2025
