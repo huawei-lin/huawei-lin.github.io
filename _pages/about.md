@@ -29,6 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 
 <font color="red"><b>[News]</b></font>
+**Apr. 11, 2025**: Invited as a reviewer for NeurIPS 2025.<br />
 **Apr. 5, 2025**: **I will be joining NEC Labs America as a Research Intern this summer, focusing on Trustworthy LLMs.**<br />
 **Apr. 4, 2025**: One paper is accepted by SIGIR 2025! 🎉🎉🎉<br />
 **Mar. 22, 2025**: Invited as a reviewer for ACL ARR 2025.<br />
