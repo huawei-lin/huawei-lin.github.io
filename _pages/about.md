@@ -28,7 +28,30 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
 <div style="max-height: 400px; overflow-y: auto; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px; line-height: 1.8;">
-  
+  <span style="color:red;"><b>[News]</b></span><br />
+  <b>Apr. 11, 2025</b>: Invited as a reviewer for NeurIPS 2025.<br />
+  <b>Apr. 5, 2025</b>: <b>I will be joining NEC Labs America as a Research Intern this summer, focusing on Trustworthy LLMs.</b><br />
+  <b>Apr. 4, 2025</b>: One paper is accepted by SIGIR 2025! 🎉🎉🎉<br />
+  <b>Mar. 22, 2025</b>: Invited as a reviewer for ACL ARR 2025.<br />
+  <b>Mar. 17, 2025</b>: Invited as a reviewer for ICML 2025.<br />
+  <b>Jan. 26, 2025</b>: Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.<br />
+  <b>Jan. 22, 2025</b>: One paper is accepted by NAACL 2025! 🎉🎉🎉<br />
+  <b>Aug. 23, 2024</b>: Invited as a reviewer for ICLR 2025.<br />
+  <b>Jul. 21, 2024</b>: Invited as a reviewer for ACL ARR 2024.<br />
+  <b>Jul. 12, 2024</b>: Invited as a reviewer for KDD 2025.<br />
+  <b>May. 16, 2024</b>: Our paper (<a href="https://aclanthology.org/2024.acl-long.48/" target="_blank">Token-wise Influential Training Data Retrieval for Large Language Models</a>) is accepted by ACL 2024! In this paper, we propose RapidIn, a scalable framework for estimating the influence of each training data sample on LLMs.<br />
+  <b>Apr. 16, 2024</b>: I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on large language models and multimodal systems. 🎉🎉🎉<br />
+  <b>Feb. 26, 2024</b>: We released an easy-to-run implementation for finetuning large language models (LLMs) such as llama and gemma, supporting full parameter finetuning, LoRA, and QLoRA. Please feel free to star, fork, and make your own contributions. <a href="https://github.com/huawei-lin/LLMsEasyFinetune" target="_blank">[Github Repo]</a><br />
+  <b>Feb. 12, 2024</b>: Invited as a reviewer for KDD 2024.<br />
+  <b>Oct. 02, 2023</b>: Invited as a reviewer for NeurIPS 2023 GLFrontiers Workshop.<br />
+  <b>Aug. 05, 2023</b>: Received the KDD’23 Student Travel Award. Thanks to KDD!<br />
+  <b>May. 16, 2023</b>: Our paper (<a href="https://dl.acm.org/doi/10.1145/3580305.3599420" target="_blank">Machine Unlearning in Gradient Boosting Decision Trees</a>) is accepted by KDD 2023! 
+  <a href="https://www.youtube.com/watch?v=4dQlNfnULVw" target="_blank">[Promotion Video]</a>, 
+  <a href="https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing" target="_blank">[Poster]</a><br />
+  <b>Sep. 12, 2022</b>: Our paper (<a href="https://arxiv.org/abs/2207.02179" target="_blank">Activation Template Matching Loss for Explainable Face Recognition</a>) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition (<a href="https://fg2023.ieee-biometrics.org/" target="_blank">FG 2023</a>)!
+</div>
+
+<!--
 <font color="red"><b>[News]</b></font>
 **Apr. 11, 2025**: Invited as a reviewer for NeurIPS 2025.<br />
 **Apr. 5, 2025**: **I will be joining NEC Labs America as a Research Intern this summer, focusing on Trustworthy LLMs.**<br />
@@ -49,8 +72,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 **May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420)) is accepted by KDD 2023! [[Promotion Video](https://www.youtube.com/watch?v=4dQlNfnULVw), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]<br />
 **Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG 2023](https://fg2023.ieee-biometrics.org/))!
 
-</div>
-
+-->
 
 
 <!--comment
