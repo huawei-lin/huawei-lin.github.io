@@ -34,16 +34,6 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 **Apr. 4, 2025**: One paper is accepted by SIGIR 2025! 🎉🎉🎉<br />
 **Mar. 22, 2025**: Invited as a reviewer for ACL ARR 2025.<br />
 **Mar. 17, 2025**: Invited as a reviewer for ICML 2025.<br />
-**Feb. 3, 2025**: We released **two papers** on ArXiv:
-<ul>
-    <li>
-        <b><a href="https://arxiv.org/abs/2412.08637">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a></b>: The first <b>highly scalable influence estimation method</b> for stable diffusion models with billions of parameters, capable of identifying the most influential training samples for a given test generation within seconds.
-    </li>
-    <li>
-        <b><a href="https://arxiv.org/abs/2502.01634">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a></b>: The first work to introduce an in-place unified incremental and decremental learning approach for GBDT, enabling <b>real-time addition and deletion</b> of data within the model.
-    </li>
-</ul>
-
 **Jan. 26, 2025**: Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.<br />
 **Jan. 22, 2025**: One paper is accepted by NAACL 2025! 🎉🎉🎉<br />
 **Aug. 23, 2024**: Invited as a reviewer for ICLR 2025.<br />
