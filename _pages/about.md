@@ -27,7 +27,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
-
+<div style="max-height: 400px; overflow-y: scroll; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px;">
 <font color="red"><b>[News]</b></font>
 **Apr. 11, 2025**: Invited as a reviewer for NeurIPS 2025.<br />
 **Apr. 5, 2025**: **I will be joining NEC Labs America as a Research Intern this summer, focusing on Trustworthy LLMs.**<br />
@@ -47,6 +47,8 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 **Aug. 05, 2023**: Received the KDD’23 Student Travel Award. Thanks to KDD!<br />
 **May. 16, 2023**: Our paper ([Machine Unlearning in Gradient Boosting Decision Trees](https://dl.acm.org/doi/10.1145/3580305.3599420)) is accepted by KDD 2023! [[Promotion Video](https://www.youtube.com/watch?v=4dQlNfnULVw), [Poster](https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing)]<br />
 **Sep. 12, 2022**: Our paper ([Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179)) is accepted by the 2023 IEEE Conference on Automatic Face and Gesture Recognition ([FG 2023](https://fg2023.ieee-biometrics.org/))!
+</div>
+
 
 
 <!--comment
