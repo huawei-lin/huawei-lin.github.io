@@ -29,6 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 <div style="max-height: 400px; overflow-y: auto; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px; line-height: 1.8;">
   <span style="color:red;"><b>[News]</b></span><br />
+  <b>May 6, 2025</b>: I will be joining Amazon as an Applied Scientist Intern in Bellevue, WA this summer, focusing on LLM agents. 🎉🎉🎉<br />
   <b>Apr. 20, 2025</b>: Invited to speak in a tutorial of "LLMs and Copyright Risks" at NAACL 2025. [<a href="https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing" target="_blank">Slides</a>, <a href="https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing" target="_blank">Video</a>]<br />
   <b>Apr. 11, 2025</b>: Invited as a reviewer for NeurIPS 2025.<br />
   <b>Apr. 4, 2025</b>: One paper is accepted by SIGIR 2025! 🎉🎉🎉<br />
