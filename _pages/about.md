@@ -29,7 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 <div style="max-height: 400px; overflow-y: auto; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px; line-height: 1.8;">
   <span style="color:red;"><b>[News]</b></span><br />
-  <b>Apr. 20, 2025</b>: Invited to speak in a tutorial of "LLMs and Copyright Risks" at NAACL 2025. [<a href="https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing" target="_blank">Slides</a>]<br />
+  <b>Apr. 20, 2025</b>: Invited to speak in a tutorial of "LLMs and Copyright Risks" at NAACL 2025. [<a href="https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing" target="_blank">Slides</a>, <a href="https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing" target="_blank">Video</a>]<br />
   <b>Apr. 11, 2025</b>: Invited as a reviewer for NeurIPS 2025.<br />
   <b>Apr. 4, 2025</b>: One paper is accepted by SIGIR 2025! 🎉🎉🎉<br />
   <b>Mar. 22, 2025</b>: Invited as a reviewer for ACL ARR 2025.<br />
@@ -103,7 +103,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 
 # Tech Talks
-- **"LLMs and Copyright Risks: An Example of Future Directions"** at NAACL, Albuquerque, NM, May. 3, 2025. [[Slides](https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing)]
+- **"LLMs and Copyright Risks: An Example of Future Directions"** at NAACL, Albuquerque, NM, May. 3, 2025. [[Slides](https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing), [Video](https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing)]
 - **"Influence Estimation for Large Language Models and Diffusion Models"** at Rochester Institute of Technology, Apr. 1, 2025. [[Slides](https://drive.google.com/file/d/1W2-wyKHWFlcER5u8pYPhOPEIs3Da6f1c/view?usp=sharing)]
 - **"Token-wise Influential Training Data Retrieval for Large Language Models"** at ACL Virtual Poster Session, Aug. 12, 2024. [[Slides](https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing), [Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
 - **"Toward Explainable Large Language Models via Influence Estimation"** at Boston, MA, May. 23, 2024. [[Poster](https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view)]
