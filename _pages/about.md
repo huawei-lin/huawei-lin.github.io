@@ -25,8 +25,6 @@ Prior to RIT, I worked as a research assistant at the Institute of Computer Visi
 My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing). 
 
 <br />
-<br />
-
 
 <font color="red">🔥 I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2025 (Spring/Summer/Fall/Winter). <b>More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a>.</b></font><br>
 
