@@ -95,7 +95,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **Huawei Lin**, Tong Geng, Zhaozhuo Xu, Weijie Zhao, [VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation](https://arxiv.org/abs/2505.13439). arXiv preprint, arXiv:2505.13439, 2025.
 - **Huawei Lin**, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, [UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models](https://arxiv.org/abs/2502.13141). arXiv preprint, arXiv:2502.13141, 2025.
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data](https://arxiv.org/abs/2502.01634). arXiv preprint, arXiv:2502.01634, 2025.
-- Jun Woo Chung, **Huawei Lin**, Weijie Zhao, [Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search](https://easychair.org/my/conference?conf=sigir2025). SIGIR 2025.
+- Jun Woo Chung, **Huawei Lin**, Weijie Zhao, [Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search](https://dl.acm.org/doi/10.1145/3726302.3730028). SIGIR 2025.
 - Yanzhou Pan, **Huawei Lin**, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, [ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation](https://arxiv.org/abs/2503.01052). NAACL 2025.
 
 2024
