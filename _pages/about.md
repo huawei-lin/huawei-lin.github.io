@@ -243,12 +243,9 @@ Software Engineer
 # Professional Services
 
 ## Conference Reviewer
-- NeurIPS 2025
-- ICML 2025
-- ICLR 2025
-- ACL ARR 2024, 2025
-- KDD: 2024, 2025
-- NeurIPS 2023 GLFrontiers Workshop
+- **2025:** NeurIPS, ICML, ICLR, KDD, ARR Rolling (*ACL, EMNLP), ACL-SRW (Student Research Workshop)
+- **2024:** KDD, ARR Rolling (*ACL, EMNLP)
+- **2023:** NeurIPS GLFrontiers Workshop
 
 ## Journal Reviewer
 - IEEE Transactions on Dependable and Secure Computing
