@@ -30,6 +30,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 <div style="max-height: 400px; overflow-y: auto; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px; line-height: 1.8;">
   <span style="color:red;"><b>[News]</b></span><br />
+  <b>Aug. 1, 2025</b>: Invited as a reviewer for AAAI 2026.<br />
   <b>May 20, 2025</b>: We released <b>VTBench</b>, a comprehensive benchmark evaluating over 20 visual tokenizers from recent state-of-the-art autoregressive image generation models. Our study reveals that current discrete tokenizers significantly lag behind continuous VAEs, particularly in high-resolution reconstruction, multilingual text preservation, and fine-grained detail fidelity. The <a href="https://arxiv.org/abs/2505.13439" target="_blank">paper</a>, <a href="https://github.com/huawei-lin/VTBench" target="_blank">codebase</a>, <a href="https://huggingface.co/datasets/huaweilin/VTBench" target="_blank">dataset</a>, and <a href="https://huggingface.co/spaces/huaweilin/VTBench" target="_blank">interactive demo</a> are all publicly available. Come try it out!<br />
   <b>May 6, 2025</b>: I will be joining Amazon as an Applied Scientist Intern in Bellevue, WA this summer, focusing on LLM agents. 🎉🎉🎉<br />
   <b>Apr. 20, 2025</b>: Invited to speak in a tutorial of "LLMs and Copyright Risks" at NAACL 2025. [<a href="https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing" target="_blank">Slides</a>, <a href="https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing" target="_blank">Video</a>]<br />
@@ -243,6 +244,7 @@ Software Engineer
 # Professional Services
 
 ## Conference Reviewer
+- **2026:** AAAI
 - **2025:** NeurIPS, ICML, ICLR, KDD, ARR Rolling (*ACL, EMNLP), ACL-SRW (Student Research Workshop)
 - **2024:** KDD, ARR Rolling (*ACL, EMNLP)
 - **2023:** NeurIPS GLFrontiers Workshop
