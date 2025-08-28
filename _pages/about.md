@@ -20,7 +20,7 @@ I am a Ph.D. Candidate (2022.08-) in Computing Information & Science here at Roc
 
 Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof.  [Linlin Shen](https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao) (**Honorary Professor** at the University of Nottingham, UK). I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the Ministry of Education of China for undergraduates in 2019. I received several <b>ACM-ICPC Medals</b> during my undergraduate.
 
-In support of open science, I <font color="blue"><b>open-source the code for all my first-author research papers</b></font>. If you have any questions or suggestions, do not hesitate to contact me.
+In support of open science, we <b><font color="blue">open-source</font> the code for all my first-author research papers</b>. If you have any questions or suggestions, do not hesitate to contact me.
 
 My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing). 
 
