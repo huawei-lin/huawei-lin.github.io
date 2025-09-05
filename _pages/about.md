@@ -195,9 +195,24 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Internship Experience
 
-**Amazon - AGI (Foundation Models)**, Boston, MA  
-May 2024 - Present  
+**Amazon**, Bellevue, WA
+Jun 2025 - Sept 2025  
+Applied Scientist Intern | Advisor: [Yunzhi Shi](https://scholar.google.com/citations?user=t9dQMgIAAAAJ)
+
+Research Topic: *Unlocking Multi-modal Reasoning through Agent-Based Coordination for Understanding Anything*
+
+- We present a novel **agent-based omni agent** that coordinates existing foundation models to **reason over text, images, video, and audio**, without any task-specific fine-tuning or retraining.
+- We design a **flexible agent system** that interprets user intent, delegates subtasks to modality-specific agents, and integrates their outputs into a coherent final answer.
+- Our framework allows **seamless addition of new modalities** (e.g., PDFs, spreadsheets, code files) by simply adding or updating agents, without changing the core system.
+- The paper draft was submitted for internal review.
+- <br />
+
+**Amazon**, Boston, MA  
+May 2024 - Aug 2024  
 Applied Scientist Intern | Advisor: [Rajath Kumar](https://scholar.google.com/citations?user=sI0wlX8AAAAJ), [Raphael Petegrosso](https://scholar.google.com/citations?user=fqDBr9gAAAAJ)
+
+Research Topic: *Auto Prompt: Unsupervised Self-improving Inference for Large Language Models*
+
 - Responsible for an Auto Prompting project on LLMs inference.
 - Proposed an unsupervised self-improving framework for LLMs inference that enhances generation quality
 across various downstream tasks. The proposed framework can generate multiple diverse outputs and detect
