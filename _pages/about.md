@@ -205,7 +205,7 @@ Research Topic: *Unlocking Multi-modal Reasoning through Agent-Based Coordinatio
 - We design a **flexible agent system** that interprets user intent, delegates subtasks to modality-specific agents, and integrates their outputs into a coherent final answer.
 - Our framework allows **seamless addition of new modalities** (e.g., PDFs, spreadsheets, code files) by simply adding or updating agents, without changing the core system.
 - The paper draft was submitted for internal review.
-- <br />
+<br />
 
 **Amazon**, Boston, MA  
 May 2024 - Aug 2024  
