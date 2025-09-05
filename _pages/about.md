@@ -195,7 +195,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Internship Experience
 
-**Amazon**, Bellevue, WA
+**Amazon**, Bellevue, WA  
 Jun 2025 - Sept 2025  
 Applied Scientist Intern | Advisor: [Yunzhi Shi](https://scholar.google.com/citations?user=t9dQMgIAAAAJ)
 
