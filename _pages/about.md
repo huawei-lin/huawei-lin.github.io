@@ -94,6 +94,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 
 # Publications & Pre-prints
 2025
+- **Huawei Lin**, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh, [Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything](https://arxiv.org/abs/2511.02834). arXiv preprint, arXiv:2511.02834, 2025.
 - **Huawei Lin**, Tong Geng, Zhaozhuo Xu, Weijie Zhao, [VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation](https://arxiv.org/abs/2505.13439). arXiv preprint, arXiv:2505.13439, 2025.
 - **Huawei Lin**, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, [UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models](https://arxiv.org/abs/2502.13141). arXiv preprint, arXiv:2502.13141, 2025.
 - **Huawei Lin**, Jun Woo Chung, Yingjie Lao, Weijie Zhao, [Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data](https://arxiv.org/abs/2502.01634). arXiv preprint, arXiv:2502.01634, 2025.
