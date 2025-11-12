@@ -29,6 +29,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 
 <div style="max-height: 400px; overflow-y: auto; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px; line-height: 1.8;">
   <span style="color:red;"><b>[News]</b></span><br />
+  <b>Nov. 10, 2025</b>: Invited as a reviewer for CVPR 2026.<br />
   <b>Oct. 24, 2025</b>: I will be attending ICDM 2025 to deliver a tutorial titled "Behavior-Aware Data Valuation for LLMs at Scale" on Nov. 13 in Washington, D.C. I look forward to meeting you there! 🤗🤗🤗 [<a href="https://www3.cs.stonybrook.edu/~icdm2025/files/IEEE-ICDM2025-Program-Schedule.pdf" target="_blank">Program</a>]<br />
   <b>Sep. 15, 2025</b>: Invited as a reviewer for ICLR 2026.<br />
   <b>Aug. 1, 2025</b>: Invited as a reviewer for AAAI 2026.<br />
@@ -261,7 +262,7 @@ Software Engineer
 # Professional Services
 
 ## Conference Reviewer
-- **2026:** AAAI, ICLR
+- **2026:** AAAI, ICLR, CVPR
 - **2025:** NeurIPS, ICML, ICLR, KDD, ARR Rolling (*ACL, EMNLP), ACL-SRW (Student Research Workshop)
 - **2024:** KDD, ARR Rolling (*ACL, EMNLP)
 - **2023:** NeurIPS GLFrontiers Workshop
