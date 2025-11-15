@@ -30,7 +30,7 @@ My curriculum vitae can be found at [here](https://drive.google.com/file/d/18xKz
 <div style="max-height: 400px; overflow-y: auto; border: 0.5px solid #ccc; padding: 10px; border-radius: 5px; line-height: 1.8;">
   <span style="color:red;"><b>[News]</b></span><br />
   <b>Nov. 10, 2025</b>: Invited as a reviewer for CVPR 2026.<br />
-  <b>Oct. 24, 2025</b>: I will be attending ICDM 2025 to deliver a tutorial titled "Behavior-Aware Data Valuation for LLMs at Scale" on Nov. 13 in Washington, D.C. I look forward to meeting you there! 🤗🤗🤗 [<a href="https://www3.cs.stonybrook.edu/~icdm2025/files/IEEE-ICDM2025-Program-Schedule.pdf" target="_blank">Program</a>]<br />
+  <b>Oct. 24, 2025</b>: I will be attending ICDM 2025 to deliver a tutorial titled "Behavior-Aware Data Valuation for LLMs at Scale" on Nov. 13 in Washington, D.C. I look forward to meeting you there! 🤗🤗🤗 [<a href="https://drive.google.com/file/d/1qPofKw_5GsDXs8N0hnsTpzF7cXUdkWII/view?usp=sharing" target="_blank">Slides</a>]<br />
   <b>Sep. 15, 2025</b>: Invited as a reviewer for ICLR 2026.<br />
   <b>Aug. 1, 2025</b>: Invited as a reviewer for AAAI 2026.<br />
   <b>May 20, 2025</b>: We released <b>VTBench</b>, a comprehensive benchmark evaluating over 20 visual tokenizers from recent state-of-the-art autoregressive image generation models. Our study reveals that current discrete tokenizers significantly lag behind continuous VAEs, particularly in high-resolution reconstruction, multilingual text preservation, and fine-grained detail fidelity. The <a href="https://arxiv.org/abs/2505.13439" target="_blank">paper</a>, <a href="https://github.com/huawei-lin/VTBench" target="_blank">codebase</a>, <a href="https://huggingface.co/datasets/huaweilin/VTBench" target="_blank">dataset</a>, and <a href="https://huggingface.co/spaces/huaweilin/VTBench" target="_blank">interactive demo</a> are all publicly available. Come try it out!<br />
@@ -111,6 +111,7 @@ Thesis: Design and Implementation of Topological Function Classification Softwar
 - **Huawei Lin**, Haozhe Liu, Qiufu Li, Linlin Shen, [Activation Template Matching Loss for Explainable Face Recognition](https://arxiv.org/abs/2207.02179). 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG), 2023
 
 # Tech Talks
+- **"Foundation of Data Valuation & Influence Estimation"** at ICDM, Washington, DC, Nov. 13, 2025. [[Slides](https://drive.google.com/file/d/1qPofKw_5GsDXs8N0hnsTpzF7cXUdkWII/view?usp=sharing)]
 - **"LLMs and Copyright Risks: An Example of Future Directions"** at NAACL, Albuquerque, NM, May. 3, 2025. [[Slides](https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing), [Video](https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing)]
 - **"Influence Estimation for Large Language Models and Diffusion Models"** at Rochester Institute of Technology, Apr. 1, 2025. [[Slides](https://drive.google.com/file/d/1W2-wyKHWFlcER5u8pYPhOPEIs3Da6f1c/view?usp=sharing)]
 - **"Token-wise Influential Training Data Retrieval for Large Language Models"** at ACL Virtual Poster Session, Aug. 12, 2024. [[Slides](https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing), [Video](https://www.youtube.com/watch?v=B5XO7b5jHWU)]
