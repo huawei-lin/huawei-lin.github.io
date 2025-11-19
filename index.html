@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huawei Lin | 林华伟</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="./assets/avatar.jpg" type="image/jpeg">
+
+    <style>
+        /* --- Global Variables --- */
+        :root {
+            --bg-color: #ffffff;
+            --card-bg: #ffffff;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --link-color: #2563eb;
+            --link-hover: #1e40af;
+            --border-color: #e5e7eb;
+            --sidebar-width: 220px;
+            --gap-size: 80px;
+
+            /* Color Definitions */
+            --color-arxiv: #dc2626;
+            --color-nlp: #2563eb;
+            --color-data: #059669;
+            --color-cv: #7c3aed;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+        }
+
+        /* Link Styles */
+        a {
+            text-decoration: none;
+            color: var(--link-color);
+            transition: all 0.2s;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: var(--link-hover);
+        }
+
+        .container {
+            display: flex;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 50px 30px;
+            gap: var(--gap-size);
+        }
+
+        /* --- Sidebar --- */
+        .sidebar {
+            width: var(--sidebar-width);
+            flex-shrink: 0;
+            position: sticky;
+            top: 40px;
+            height: fit-content;
+            text-align: center;
+        }
+
+        .avatar-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 3px solid #fff;
+            transition: transform 0.3s ease;
+        }
+        .avatar:hover { transform: scale(1.05) rotate(2deg); }
+
+        .sidebar h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+            color: #000;
+        }
+
+        .sidebar-role {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            font-size: 0.85rem;
+            text-align: left;
+            margin-left: 5px;
+        }
+
+        .contact-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        .contact-list i {
+            width: 20px;
+            text-align: center;
+            margin-right: 8px;
+            font-size: 1rem;
+        }
+
+        /* --- Main Content --- */
+        .main-content { flex-grow: 1; min-width: 0; }
+
+        .intro-text {
+            font-size: 0.95rem;
+            color: #374151;
+            margin-bottom: 25px;
+            text-align: justify;
+            line-height: 1.7;
+        }
+        .intro-text p { margin-bottom: 0.8em; }
+
+        .status-banner {
+            background: #fff1f2;
+            border: 1px solid #fda4af;
+            border-left: 4px solid #e11d48;
+            padding: 12px 18px;
+            border-radius: 6px;
+            margin-bottom: 40px;
+            font-size: 0.9rem;
+            color: #9f1239;
+            display: flex;
+            gap: 12px;
+            align-items: start;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+
+        /* --- Section Header --- */
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 15px;
+            margin-top: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 6px;
+        }
+        .section-header:first-of-type { margin-top: 0; }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #111;
+            margin: 0;
+        }
+
+        /* View Toggle Button */
+        .view-toggle-btn {
+            background: transparent;
+            border: 1px solid #e5e7eb;
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.2s;
+        }
+        .view-toggle-btn:hover {
+            border-color: var(--link-color);
+            color: var(--link-color);
+            background: #f0f9ff;
+        }
+
+        /* --- Animation --- */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Shared animation for News, TechTalk, Experience */
+        .news-item,
+        .exp-item {
+            opacity: 0;
+            transform: translateY(4px);
+            animation: fadeInUp 0.35s ease forwards;
+        }
+
+        .news-item:nth-child(1), .exp-item:nth-child(1) { animation-delay: 0.05s; }
+        .news-item:nth-child(2), .exp-item:nth-child(2) { animation-delay: 0.10s; }
+        .news-item:nth-child(3), .exp-item:nth-child(3) { animation-delay: 0.15s; }
+        .news-item:nth-child(4), .exp-item:nth-child(4) { animation-delay: 0.20s; }
+        .news-item:nth-child(5), .exp-item:nth-child(5) { animation-delay: 0.25s; }
+
+        /* --- News & TechTalk Lists --- */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        /* News Item (Also used for Tech Talks) */
+        .news-item {
+            display: grid;
+            grid-template-columns: 90px 1fr;
+            gap: 15px;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            padding: 3px 6px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .news-item:hover {
+            background: #f3f4f6;
+        }
+
+        .news-date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            color: var(--text-primary);
+            font-weight: 600;
+            /* Default left alignment */
+        }
+
+        .news-content { color: var(--text-secondary); }
+
+        .news-hidden { display: none; }
+
+        .show-more-btn {
+            background: white;
+            border: 1px solid #e5e7eb;
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .show-more-btn:hover { background: #f9fafb; border-color: #d1d5db; color: #111; }
+
+        /* --- Publications Card View --- */
+        #pub-card-view { display: block; }
+
+        .pub-card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+            transition: all 0.3s ease;
+            border-left-width: 4px;
+            border-left-style: solid;
+        }
+        .pub-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+            border-color: #d1d5db;
+        }
+
+        /* Color Categories */
+        .pub-card.type-arxiv { border-left-color: var(--color-arxiv); }
+        .pub-card.type-nlp   { border-left-color: var(--color-nlp); }
+        .pub-card.type-data  { border-left-color: var(--color-data); }
+        .pub-card.type-cv    { border-left-color: var(--color-cv); }
+
+        .pub-badge {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+
+        .type-arxiv .pub-badge { background: #fef2f2; color: var(--color-arxiv); }
+        .type-nlp .pub-badge   { background: #eff6ff; color: var(--color-nlp); }
+        .type-data .pub-badge  { background: #ecfdf5; color: var(--color-data); }
+        .type-cv .pub-badge    { background: #f5f3ff; color: var(--color-cv); }
+
+        .pub-title { font-size: 1.05rem; font-weight: 700; color: #111; margin: 0 0 6px 0; line-height: 1.4; }
+        .pub-authors { font-size: 0.85rem; color: #4b5563; margin-bottom: 10px; }
+        .pub-authors b { color: #111; font-weight: 600; }
+        .pub-links { display: flex; gap: 8px; font-size: 0.8rem; flex-wrap: wrap; }
+
+        .res-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: #374151;
+            background: #f3f4f6;
+            padding: 2px 8px;
+            border-radius: 12px;
+            transition: 0.2s;
+            font-weight: 500;
+        }
+        .res-btn:hover { background: #e5e7eb; color: #000; }
+        .res-btn .fa-file-pdf { color: #dc2626; }
+        .res-btn .fa-github { color: #111827; }
+        .res-btn .fa-database { color: #d97706; }
+        .res-btn .fa-youtube { color: #dc2626; }
+        .res-btn .fa-chalkboard-teacher, .res-btn .fa-file-powerpoint { color: #2563eb; }
+        .res-btn .fa-image { color: #7c3aed; }
+        .res-btn .fa-desktop { color: #059669; }
+
+        /* --- Publications List View --- */
+        #pub-list-view {
+            display: none;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .pub-list-ul {
+            padding-left: 20px;
+            margin: 0;
+            list-style-type: disc;
+            color: var(--text-secondary);
+        }
+        .pub-list-ul li {
+            margin-bottom: 12px;
+        }
+        .pub-list-ul b {
+            color: #111;
+            font-weight: 600;
+        }
+        .pub-list-link {
+            color: var(--link-color);
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        /* --- Experience (Two-Row Balanced Layout) --- */
+        .exp-list {
+            display: flex;
+            flex-direction: column;
+            gap: 35px; /* Spacing between items */
+        }
+
+        .exp-item {
+            border-left: 3px solid #e5e7eb; 
+            padding-left: 20px;
+            transition: border-color 0.3s;
+        }
+
+        .exp-item:hover {
+            border-left-color: var(--link-color);
+        }
+
+        /* Row 1: Company + Date */
+        .exp-header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; /* Center vertically */
+            margin-bottom: 4px; 
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .exp-company-name { 
+            font-size: 1.15rem; 
+            font-weight: 700;
+            color: #111;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .exp-date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: #6b7280;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        /* Row 2: Role + Location */
+        .exp-sub-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px; /* Space before description */
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .exp-role { 
+            font-size: 0.95rem;
+            font-weight: 600; /* Slightly bolder */
+            color: #374151;
+        }
+
+        .exp-location {
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+
+        /* Description */
+        .exp-desc {
+            font-size: 0.9rem;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        .exp-desc ul {
+            margin: 5px 0 0 0;
+            padding-left: 18px;
+        }
+        .exp-desc li {
+            margin-bottom: 4px;
+        }
+
+        /* Specific icon styles */
+        .exp-company-name .fa-amazon { color: #FF9900; }
+        .exp-company-name .fa-tiktok { color: #000; }
+        .exp-company-name .fa-university { color: #6b7280; }
+
+        /* Mobile Optimization */
+        @media (max-width: 600px) {
+            .exp-header, .exp-sub-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 2px;
+            }
+            /* Mobile: Date and Location align left under their titles */
+            .exp-date, .exp-location {
+                font-size: 0.8rem;
+                color: #9ca3af;
+            }
+            .exp-sub-header { margin-bottom: 6px; }
+        }
+
+        /* --- Bottom Grid --- */
+        .grid-2-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .compact-list { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 0.85rem; }
+        .compact-list .year {
+            font-family: 'JetBrains Mono', monospace;
+            color: #111;
+            font-weight: 600;
+        }
+        .compact-list .desc { color: #4b5563; }
+
+        /* --- Footer --- */
+        .footer {
+            max-width: 1100px;
+            margin: 0 auto 20px;
+            padding: 0 30px 30px;
+            font-size: 0.8rem;
+            color: #9ca3af;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .footer-text {
+            margin-top: 12px;
+            margin-bottom: 10px;
+        }
+
+        .footer-map {
+            margin-top: 8px;
+        }
+
+        @media (max-width: 850px) {
+            .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
+            .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
+            .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
+            /* Mobile stack for news items */
+            .news-item { display: flex; flex-direction: column; gap: 2px; }
+            .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <div class="avatar-container">
+            <img src="./assets/avatar.jpg" alt="Huawei Lin" class="avatar">
+            <div style="position: absolute; bottom: 10px; right: 5px; font-size: 1.4rem; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));">👋</div>
+        </div>
+
+        <h1>Huawei Lin</h1>
+        <div class="sidebar-role">
+            Ph.D. Candidate<br>
+            Rochester Institute of Technology
+        </div>
+
+        <ul class="contact-list">
+            <li><i class="fas fa-map-marker-alt" style="color: #ea4335;"></i> Rochester, NY</li>
+            <li><i class="fas fa-envelope" style="color: #333;"></i> huaweilin.cs AT gmail.com</li>
+            <li><i class="fab fa-linkedin" style="color: #0a66c2;"></i> <a href="https://www.linkedin.com/in/huaweilin/">LinkedIn</a></li>
+            <li><i class="fab fa-github" style="color: #181717;"></i> <a href="https://github.com/huawei-lin">Github</a></li>
+            <li><i class="fas fa-graduation-cap" style="color: #4285f4;"></i> <a href="https://scholar.google.com/citations?user=I7IRPbcAAAAJ&hl=en">Google Scholar</a></li>
+            <li><i class="fas fa-file-pdf" style="color: #cc0000;"></i> <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">Curriculum Vitae</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="intro-text">
+            <p>
+                I am a Ph.D. Candidate (2022.08-) in Computing Information & Science here at Rochester Institute of Technology (RIT) supervised by Prof. <a href="https://www.cs.rit.edu/~wjz/">Weijie Zhao</a>. I previously interned at Amazon (AGI, Foundation Models) and ByteDance (Audio & Speech Processing). My research interests span <b>GenAI, LLMs, AI Privacy & Security, and Scalable & Trustworthy Machine Learning</b>.
+            </p>
+            <p>
+                Prior to RIT, I worked as a research assistant at the Institute of Computer Vision (ICV), Shenzhen University, China, and was supervised by Prof. <a href="https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en&oi=ao">Linlin Shen</a> (<b>Honorary Professor</b> at the University of Nottingham, UK). I got the bachelor's degree in Computer Science and Technology in July 2021. I was the leader of a project funded by the Ministry of Education of China for undergraduates in 2019. I received several <b>ACM-ICPC Medals</b> during my undergraduate.
+            </p>
+        </div>
+
+        <div class="status-banner">
+            <div style="font-size: 1.4rem;">🔥</div>
+            <div>
+                I am actively looking for research internship opportunities in Large Language Models, Computer Vision and Machine Learning for 2026 (Spring/Summer/Fall/Winter). More research experience and papers (under review) can be found at my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing"><b>CV</b></a>.
+            </div>
+        </div>
+
+        <div class="section-header">
+            <div class="section-title">News</div>
+        </div>
+
+        <div class="news-list">
+            <div class="news-item">
+                <div class="news-date">Nov 2025</div>
+                <div class="news-content">Invited as a reviewer for CVPR 2026.</div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Oct 2025</div>
+                <div class="news-content">I will be attending ICDM 2025 to deliver a tutorial titled "Behavior-Aware Data Valuation for LLMs at Scale" on Nov. 13 in Washington, D.C. I look forward to meeting you there! 🤗🤗🤗 <a href="https://drive.google.com/file/d/1qPofKw_5GsDXs8N0hnsTpzF7cXUdkWII/view?usp=sharing">[Slides]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Sep 2025</div>
+                <div class="news-content">Invited as a reviewer for ICLR 2026.</div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Aug 2025</div>
+                <div class="news-content">Invited as a reviewer for AAAI 2026.</div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">May 2025</div>
+                <div class="news-content">We released <b>VTBench</b>, a comprehensive benchmark evaluating over 20 visual tokenizers. <a href="https://arxiv.org/abs/2505.13439">[Paper]</a>, <a href="https://github.com/huawei-lin/VTBench">[Codebase]</a>, <a href="https://huggingface.co/datasets/huaweilin/VTBench">[Dataset]</a>, <a href="https://huggingface.co/spaces/huaweilin/VTBench">[Demo]</a> are available.</div>
+            </div>
+
+            <div class="news-hidden" id="more-news">
+                <div class="news-list" style="margin-top: 6px;">
+                    <div class="news-item"><div class="news-date">May 2025</div><div class="news-content">I will be joining Amazon as an Applied Scientist Intern in Bellevue, WA this summer, focusing on LLM agents. 🎉🎉🎉</div></div>
+                    <div class="news-item"><div class="news-date">Apr 2025</div><div class="news-content">Invited to speak in a tutorial of "LLMs and Copyright Risks" at NAACL 2025. <a href="https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing">[Slides]</a> <a href="https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing">[Video]</a></div></div>
+                    <div class="news-item"><div class="news-date">Apr 2025</div><div class="news-content">Invited as a reviewer for NeurIPS 2025.</div></div>
+                    <div class="news-item"><div class="news-date">Apr 2025</div><div class="news-content">One paper is accepted by SIGIR 2025! 🎉🎉🎉</div></div>
+                    <div class="news-item"><div class="news-date">Mar 2025</div><div class="news-content">Invited as a reviewer for ACL ARR 2025.</div></div>
+                    <div class="news-item"><div class="news-date">Mar 2025</div><div class="news-content">Invited as a reviewer for ICML 2025.</div></div>
+                    <div class="news-item"><div class="news-date">Jan 2025</div><div class="news-content">Invited as a reviewer for IEEE Transactions on Dependable and Secure Computing.</div></div>
+                    <div class="news-item"><div class="news-date">Jan 2025</div><div class="news-content">One paper is accepted by NAACL 2025! 🎉🎉🎉</div></div>
+                    <div class="news-item"><div class="news-date">Aug 2024</div><div class="news-content">Invited as a reviewer for ICLR 2025.</div></div>
+                    <div class="news-item"><div class="news-date">Jul 2024</div><div class="news-content">Invited as a reviewer for ACL ARR 2024.</div></div>
+                    <div class="news-item"><div class="news-date">Jul 2024</div><div class="news-content">Invited as a reviewer for KDD 2025.</div></div>
+                    <div class="news-item"><div class="news-date">May 2024</div><div class="news-content">Our paper (<a href="https://aclanthology.org/2024.acl-long.48/">Token-wise Influential Training Data Retrieval</a>) is accepted by ACL 2024!</div></div>
+                    <div class="news-item"><div class="news-date">Apr 2024</div><div class="news-content">I will be joining Amazon as an Applied Scientist Intern in Boston this summer, focusing on LLM and multimodal systems. 🎉🎉🎉</div></div>
+                    <div class="news-item"><div class="news-date">Feb 2024</div><div class="news-content">We released an easy-to-run implementation for finetuning LLMs. <a href="https://github.com/huawei-lin/LLMsEasyFinetune">[Github Repo]</a></div></div>
+                    <div class="news-item"><div class="news-date">Feb 2024</div><div class="news-content">Invited as a reviewer for KDD 2024.</div></div>
+                    <div class="news-item"><div class="news-date">Oct 2023</div><div class="news-content">Invited as a reviewer for NeurIPS 2023 GLFrontiers Workshop.</div></div>
+                    <div class="news-item"><div class="news-date">Aug 2023</div><div class="news-content">Received the KDD’23 Student Travel Award. Thanks to KDD!</div></div>
+                    <div class="news-item"><div class="news-date">May 2023</div><div class="news-content">Our paper (<a href="https://dl.acm.org/doi/10.1145/3580305.3599420">Machine Unlearning in GBDT</a>) is accepted by KDD 2023! <a href="https://www.youtube.com/watch?v=4dQlNfnULVw">[Video]</a> <a href="https://drive.google.com/file/d/1US2ISzh62dzb4vCdkICU99_a1iZOPL-B/view?usp=sharing">[Poster]</a></div></div>
+                    <div class="news-item"><div class="news-date">Sep 2022</div><div class="news-content">Our paper (<a href="https://arxiv.org/abs/2207.02179">Activation Template Matching Loss</a>) is accepted by FG 2023!</div></div>
+                </div>
+            </div>
+        </div>
+        <button class="show-more-btn" onclick="toggleNews()">Show More <i class="fas fa-chevron-down"></i></button>
+
+        <div class="section-header">
+            <div class="section-title">Publications</div>
+            <button class="view-toggle-btn" onclick="togglePubView()" id="pub-view-btn">
+                <i class="fas fa-list"></i> Show List View
+            </button>
+        </div>
+
+        <div id="pub-card-view">
+
+            <div class="pub-card type-arxiv">
+                <span class="pub-badge">ArXiv 2025</span>
+                <h3 class="pub-title">Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2511.02834" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/Agent-Omni" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-arxiv">
+                <span class="pub-badge">ArXiv 2025</span>
+                <h3 class="pub-title">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2505.13439" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/VTBench" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://huggingface.co/datasets/huaweilin/VTBench" class="res-btn"><i class="fas fa-database"></i> Dataset</a>
+                    <a href="https://huggingface.co/spaces/huaweilin/VTBench" class="res-btn"><i class="fas fa-desktop"></i> Demo</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-arxiv">
+                <span class="pub-badge">ArXiv 2025</span>
+                <h3 class="pub-title">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2502.13141" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/UniGuardian" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-arxiv">
+                <span class="pub-badge">ArXiv 2025</span>
+                <h3 class="pub-title">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2502.01634" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/InplaceOnlineGBDT" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-data">
+                <span class="pub-badge">SIGIR 2025</span>
+                <h3 class="pub-title">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</h3>
+                <div class="pub-authors">Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao</div>
+                <div class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a></div>
+            </div>
+
+            <div class="pub-card type-nlp">
+                <span class="pub-badge">NAACL 2025</span>
+                <h3 class="pub-title">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation</h3>
+                <div class="pub-authors">Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu</div>
+                <div class="pub-links"><a href="https://arxiv.org/abs/2503.01052" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a></div>
+            </div>
+
+            <div class="pub-card type-arxiv">
+                <span class="pub-badge">ArXiv 2024</span>
+                <h3 class="pub-title">DMin: Scalable Training Data Influence Estimation for Diffusion Models</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2412.08637" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/DMin" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-nlp">
+                <span class="pub-badge">ACL 2024</span>
+                <h3 class="pub-title">Token-wise Influential Training Data Retrieval for Large Language Models</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao</div>
+                <div class="pub-links">
+                    <a href="https://aclanthology.org/2024.acl-long.48/" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/RapidIn" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing" class="res-btn"><i class="fas fa-image"></i> Poster</a>
+                    <a href="https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing" class="res-btn"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+                    <a href="https://www.youtube.com/watch?v=B5XO7b5jHWU" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-data">
+                <span class="pub-badge">KDD 2023</span>
+                <h3 class="pub-title">Machine Unlearning in Gradient Boosting Decision Trees</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao</div>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://github.com/huawei-lin/OnlineBoosting" class="res-btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
+                    <a href="https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing" class="res-btn"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+                </div>
+            </div>
+
+            <div class="pub-card type-cv">
+                <span class="pub-badge">FG 2023</span>
+                <h3 class="pub-title">Activation Template Matching Loss for Explainable Face Recognition</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2207.02179" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                    <a href="https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing" class="res-btn"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
+                    <a href="https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="pub-list-view">
+            <ul class="pub-list-ul">
+                <li>
+                    <b>Huawei Lin</b>, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh,
+                    <a href="https://arxiv.org/abs/2511.02834" class="pub-list-link">Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything</a>.
+                    arXiv preprint, arXiv:2511.02834, 2025.
+                </li>
+
+                <li><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao, <a href="https://arxiv.org/abs/2505.13439" class="pub-list-link">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</a>. arXiv preprint, arXiv:2505.13439, 2025.</li>
+
+                <li><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, <a href="https://arxiv.org/abs/2502.13141" class="pub-list-link">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models</a>. arXiv preprint, arXiv:2502.13141, 2025.</li>
+
+                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2502.01634" class="pub-list-link">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a>. arXiv preprint, arXiv:2502.01634, 2025.</li>
+
+                <li>Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="pub-list-link">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</a>. SIGIR 2025.</li>
+
+                <li>Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, <a href="https://arxiv.org/abs/2503.01052" class="pub-list-link">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation</a>. NAACL 2025.</li>
+
+                <li><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2412.08637" class="pub-list-link">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a>. arXiv preprint, arXiv:2412.08637, 2024.</li>
+
+                <li><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao, <a href="https://aclanthology.org/2024.acl-long.48/" class="pub-list-link">Token-wise Influential Training Data Retrieval for Large Language Models</a>. ACL 2024.</li>
+
+                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="pub-list-link">Machine Unlearning in Gradient Boosting Decision Trees</a>. KDD 2023.</li>
+
+                <li><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen, <a href="https://arxiv.org/abs/2207.02179" class="pub-list-link">Activation Template Matching Loss for Explainable Face Recognition</a>. FG 2023.</li>
+            </ul>
+        </div>
+
+        <div class="section-header">
+            <div class="section-title">Tech Talks</div>
+        </div>
+
+        <div class="news-list">
+            <div class="news-item">
+                <div class="news-date">Nov 2025</div>
+                <div class="news-content">"<b>Foundation of Data Valuation & Influence Estimation</b>", ICDM, Washington, DC. <a href="https://drive.google.com/file/d/1qPofKw_5GsDXs8N0hnsTpzF7cXUdkWII/view?usp=sharing">[Slides]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">May 2025</div>
+                <div class="news-content">"<b>LLMs and Copyright Risks: An Example of Future Directions</b>", NAACL, Albuquerque, NM. <a href="https://drive.google.com/file/d/1kgIy-WO9kAj6fyF4YqFh-hgtLJKNLJ_I/view?usp=sharing">[Slides]</a> <a href="https://drive.google.com/file/d/1KJ4g92mRZBS2UBkPWOiOSj8zA8jF7lz3/view?usp=sharing">[Video]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Apr 2025</div>
+                <div class="news-content">"<b>Influence Estimation for Large Language Models and Diffusion Models</b>", RIT, Rochester, NY. <a href="https://drive.google.com/file/d/1W2-wyKHWFlcER5u8pYPhOPEIs3Da6f1c/view?usp=sharing">[Slides]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Aug 2024</div>
+                <div class="news-content">"<b>Token-wise Influential Training Data Retrieval for LLMs</b>", ACL Virtual. <a href="https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing">[Slides]</a> <a href="https://www.youtube.com/watch?v=B5XO7b5jHWU">[Video]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">May 2024</div>
+                <div class="news-content">"<b>Toward Explainable Large Language Models via Influence Estimation</b>", Boston, MA. <a href="https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view">[Poster]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Aug 2023</div>
+                <div class="news-content">"<b>Machine Unlearning in Gradient Boosting Decision Trees</b>", KDD, Long Beach, CA. <a href="https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing">[Slides]</a> <a href="https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing">[Video]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Nov 2022</div>
+                <div class="news-content">"<b>Activation Template Matching Loss for Explainable Face Recognition</b>", RIT, Rochester, NY. <a href="https://drive.google.com/file/d/1UHgZc83fyBefR02C4Njez3vZF73AlcbL/view?usp=share_link">[Slides]</a> <a href="https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link">[Video]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Oct 2021</div>
+                <div class="news-content">"<b>Toward Explainable Face Recognition</b>", Shenzhen University, Shenzhen, China. <a href="https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing">[Slides]</a></div>
+            </div>
+            <div class="news-item">
+                <div class="news-date">Aug 2021</div>
+                <div class="news-content">"<b>Trust in Black-Box Models: Interpretability & Explainability for Deep Learning</b>", Shenzhen University, Shenzhen, China. <a href="https://drive.google.com/file/d/1ONd7Hd28wyHqLOCck6z2pq_Z3wreSbwm/view?usp=sharing">[Slides]</a></div>
+            </div>
+        </div>
+
+        <div class="section-header">
+            <div class="section-title">Experience</div>
+        </div>
+
+        <div class="exp-list">
+            
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company-name">
+                        <i class="fab fa-amazon"></i> Amazon
+                    </div>
+                    <span class="exp-date">Jun 2025 - Sept 2025</span>
+                </div>
+                <div class="exp-sub-header">
+                    <span class="exp-role">Applied Scientist Intern</span>
+                    <span class="exp-location">Bellevue, WA</span>
+                </div>
+                <div class="exp-desc">
+                    Research Topic: <b>Unlocking Multi-modal Reasoning through Agent-Based Coordination</b>
+                    <ul>
+                        <li>Present a novel agent-based omni agent that coordinates existing foundation models to reason over text, images, video, and audio.</li>
+                        <li>Design a flexible agent system that interprets user intent and delegates subtasks.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company-name">
+                        <i class="fab fa-amazon"></i> Amazon
+                    </div>
+                    <span class="exp-date">May 2024 - Aug 2024</span>
+                </div>
+                <div class="exp-sub-header">
+                    <span class="exp-role">Applied Scientist Intern</span>
+                    <span class="exp-location">Boston, MA</span>
+                </div>
+                <div class="exp-desc">
+                    Research Topic: <b>Auto Prompt: Unsupervised Self-improving Inference for LLMs</b>
+                    <ul>
+                        <li>Proposed an unsupervised self-improving framework for LLMs inference that enhances generation quality.</li>
+                        <li>Implemented methods to detect potential hallucinations by certainty score.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company-name">
+                        <i class="fas fa-university"></i> Shenzhen University (Institute of Computer Vision)
+                    </div>
+                    <span class="exp-date">Jul 2021 - Jul 2022</span>
+                </div>
+                <div class="exp-sub-header">
+                    <span class="exp-role">Research Assistant Intern</span>
+                    <span class="exp-location">Shenzhen, China</span>
+                </div>
+                <div class="exp-desc">
+                    <ul>
+                        <li>Responsible for interpretability and explainability on deep learning (Biometrics).</li>
+                        <li>Proposed Explainable Channel Loss (ECLoss) for explainable face recognition.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company-name">
+                        <i class="fab fa-tiktok"></i> ByteDance (AI Lab)
+                    </div>
+                    <span class="exp-date">Oct 2020 - Jul 2021</span>
+                </div>
+                <div class="exp-sub-header">
+                    <span class="exp-role">Software Engineer Intern</span>
+                    <span class="exp-location">Beijing, China</span>
+                </div>
+                <div class="exp-desc">
+                    <ul>
+                        <li>Proposed Stream Audio Understanding Chain method for real-time processing.</li>
+                        <li>Optimized pipeline throughput by 65% using multiprocessing.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid-2-col" style="margin-top: 50px;">
+            <div>
+                <div class="section-title" style="font-size: 1.3rem; margin-top: 0;">Honors</div>
+                <div class="compact-list">
+                    <div class="year">2023</div><div class="desc">KDD Student Travel Award</div>
+                    <div class="year">2020</div><div class="desc">Zhou Lian Scholarship (Top 0.005%)</div>
+                    <div class="year">2020</div><div class="desc">IAPR/IEEE WSB, Student Travel Grant</div>
+                    <div class="year">19-20</div><div class="desc">Technology Innovation Scholarship (x2)</div>
+                    <div class="year">18-21</div><div class="desc">ACM-ICPC Medals (Silver x1, Bronze x5)</div>
+                </div>
+            </div>
+            <div>
+                <div class="section-title" style="font-size: 1.3rem; margin-top: 0;">Reviewer</div>
+                <div class="compact-list">
+                    <div class="year">2026</div><div class="desc">AAAI, ICLR, CVPR</div>
+                    <div class="year">2025</div><div class="desc">NeurIPS, ICML, ICLR, KDD, ACL (ARR)</div>
+                    <div class="year">2024</div><div class="desc">KDD, ACL (ARR)</div>
+                    <div class="year">Journals</div><div class="desc">IEEE TDSC, IEEE Access</div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footer-text">
+        &copy; 2025 Huawei Lin. Generated by Gemini and ChatGPT.
+    </div>
+    <div class="footer-map">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=bwNfa6whNVk72dhUDuSXp-khWF8RfXT6R9iParduWmM&cl=ffffff&w=a"></script>
+    </div>
+</footer>
+
+<script>
+    function toggleNews() {
+        var moreNews = document.getElementById("more-news");
+        var btn = document.querySelector(".show-more-btn");
+
+        if (moreNews.style.display === "block") {
+            moreNews.style.display = "none";
+            btn.innerHTML = 'Show More <i class="fas fa-chevron-down"></i>';
+        } else {
+            moreNews.style.display = "block";
+            btn.innerHTML = 'Show Less <i class="fas fa-chevron-up"></i>';
+        }
+    }
+
+    function togglePubView() {
+        var cardView = document.getElementById('pub-card-view');
+        var listView = document.getElementById('pub-list-view');
+        var btn = document.getElementById('pub-view-btn');
+
+        if (cardView.style.display !== 'none') {
+            cardView.style.display = 'none';
+            listView.style.display = 'block';
+            btn.innerHTML = '<i class="fas fa-th-large"></i> Show Card View';
+        } else {
+            cardView.style.display = 'block';
+            listView.style.display = 'none';
+            btn.innerHTML = '<i class="fas fa-list"></i> Show List View';
+        }
+    }
+</script>
+
+</body>
+</html>
