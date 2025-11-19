@@ -565,6 +565,21 @@
             .news-item { display: flex; flex-direction: column; gap: 2px; }
             .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
         }
+
+        .bytedance-logo-svg svg {
+            width: 25px;
+            height: 36px;
+            vertical-align: middle;
+            margin-right: -4px;
+        }
+
+        .szu-logo {
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
+            margin-right: -4px;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -897,7 +912,8 @@
             <div class="exp-item">
                 <div class="exp-header">
                     <div class="exp-company-name">
-                        <i class="fas fa-university"></i> Shenzhen University (Institute of Computer Vision)
+                        <img src="assets/szu_logo.svg" alt="Shenzhen University logo" class="szu-logo">
+                        Shenzhen University (Institute of Computer Vision)
                     </div>
                     <span class="exp-date">Jul 2021 - Jul 2022</span>
                 </div>
@@ -916,7 +932,15 @@
             <div class="exp-item">
                 <div class="exp-header">
                     <div class="exp-company-name">
-                        <i class="fab fa-tiktok"></i> ByteDance (AI Lab)
+                        <span class="bytedance-logo-svg">
+                            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 7L10 9V37L5 39V7Z" fill="#2E93F6"/>
+                                <path d="M16 23L21 25V37L16 39V23Z" fill="#2E93F6"/>
+                                <path d="M27 21L32 19V35L27 33V21Z" fill="#2E93F6"/>
+                                <path d="M38 9L43 11V37L38 39V9Z" fill="#2E93F6"/>
+                            </svg>
+                        </span>
+                        ByteDance (AI Lab)
                     </div>
                     <span class="exp-date">Oct 2020 - Jul 2021</span>
                 </div>
@@ -931,6 +955,7 @@
                     </ul>
                 </div>
             </div>
+            
 
         </div>
 
