@@ -463,6 +463,19 @@
             gap: 8px;
         }
 
+        .company-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            margin-right: 6px;
+        }
+        
+        .company-icon i {
+            font-size: 20px;
+        }
+
         .exp-date {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.85rem;
@@ -571,6 +584,15 @@
             height: 34px;
             vertical-align: middle;
             margin-right: -4px;
+            display: inline-block;
+        }
+
+        .amazon-logo {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: -2px;
+            display: inline-block;
         }
 
         .szu-logo {
@@ -872,16 +894,18 @@
             <div class="exp-item">
                 <div class="exp-header">
                     <div class="exp-company-name">
-                        <i class="fab fa-amazon"></i> Amazon
+                        <img src="assets/amazon_logo.svg" alt="Amazon logo" class="amazon-logo">
+                        Amazon
                     </div>
                     <span class="exp-date">Jun 2025 - Sept 2025</span>
                 </div>
                 <div class="exp-sub-header">
-                    <span class="exp-role">Applied Scientist Intern</span>
+                    <span class="exp-role">Applied Scientist Intern </span>
                     <span class="exp-location">Bellevue, WA</span>
                 </div>
                 <div class="exp-desc">
-                    Research Topic: <b>Unlocking Multi-modal Reasoning through Agent-Based Coordination</b>
+                    Research Topic: <b>Unlocking Multi-modal Reasoning through Agent-Based Coordination</b><br/>
+                    Advisor: <a href="https://scholar.google.com/citations?user=t9dQMgIAAAAJ&hl=en&oi=ao" class="pub-list-link">Yunzhi Shi</a>
                     <ul>
                         <li>Present a novel agent-based omni agent that coordinates existing foundation models to reason over text, images, video, and audio.</li>
                         <li>Design a flexible agent system that interprets user intent and delegates subtasks.</li>
@@ -892,7 +916,8 @@
             <div class="exp-item">
                 <div class="exp-header">
                     <div class="exp-company-name">
-                        <i class="fab fa-amazon"></i> Amazon
+                        <img src="assets/amazon_logo.svg" alt="Amazon logo" class="amazon-logo">
+                        Amazon
                     </div>
                     <span class="exp-date">May 2024 - Aug 2024</span>
                 </div>
@@ -901,7 +926,8 @@
                     <span class="exp-location">Boston, MA</span>
                 </div>
                 <div class="exp-desc">
-                    Research Topic: <b>Auto Prompt: Unsupervised Self-improving Inference for LLMs</b>
+                    Research Topic: <b>Auto Prompt: Unsupervised Self-improving Inference for LLMs</b><br/>
+                    Advisor: <a href="https://scholar.google.com/citations?user=sI0wlX8AAAAJ" class="pub-list-link">Rajath Kumar</a>, <a href="https://scholar.google.com/citations?user=fqDBr9gAAAAJ" class="pub-list-link">Raphael Petegrosso</a>
                     <ul>
                         <li>Proposed an unsupervised self-improving framework for LLMs inference that enhances generation quality.</li>
                         <li>Implemented methods to detect potential hallucinations by certainty score.</li>
@@ -922,6 +948,7 @@
                     <span class="exp-location">Shenzhen, China</span>
                 </div>
                 <div class="exp-desc">
+                    Advisor: <a href="https://scholar.google.com/citations?user=AZ_y9HgAAAAJ&hl=en" class="pub-list-link">Linlin Shen</a>
                     <ul>
                         <li>Responsible for interpretability and explainability on deep learning (Biometrics).</li>
                         <li>Proposed Explainable Channel Loss (ECLoss) for explainable face recognition.</li>
