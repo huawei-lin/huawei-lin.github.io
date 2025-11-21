@@ -314,7 +314,8 @@
         }
         .show-more-btn:hover { background: #f9fafb; border-color: #d1d5db; color: #111; }
 
-        /* --- Publications --- */
+        /* --- Publications Styles --- */
+        /* Card View (Default) */
         #pub-card-view { display: block; }
 
         .pub-card {
@@ -379,11 +380,30 @@
         .res-btn .fa-image { color: #7c3aed; }
         .res-btn .fa-desktop { color: #059669; }
 
-        #pub-list-view { display: none; font-size: 0.9rem; line-height: 1.6; }
-        .pub-list-ul { padding-left: 20px; margin: 0; list-style-type: disc; color: var(--text-secondary); }
-        .pub-list-ul li { margin-bottom: 12px; }
-        .pub-list-ul b { color: #111; font-weight: 600; }
-        .pub-list-link { color: var(--link-color); font-weight: 500; text-decoration: underline; }
+        /* List View (Hidden by Default) */
+        #pub-list-view {
+            display: none; /* Controlled by JS */
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .pub-list-ul {
+            padding-left: 20px;
+            margin: 0;
+            list-style-type: disc;
+            color: var(--text-secondary);
+        }
+        .pub-list-ul li {
+            margin-bottom: 12px;
+        }
+        .pub-list-ul b {
+            color: #111;
+            font-weight: 600;
+        }
+        .pub-list-link {
+            color: var(--link-color);
+            font-weight: 500;
+            text-decoration: underline;
+        }
 
         /* ========================================= */
         /* === Experience Styles === */
@@ -402,7 +422,7 @@
         .exp-item {
             position: relative;
             padding-left: 0;
-            transition: transform 0.1s ease-out;
+            transition: transform 0.15s ease-out;
         }
 
         .exp-item::before {
@@ -463,7 +483,7 @@
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 8px; 
+            margin-bottom: 8px;
             flex-wrap: wrap;
             gap: 10px;
         }
@@ -484,7 +504,7 @@
             font-size: 0.9rem;
             color: #4b5563;
             line-height: 1.6;
-            margin-top: 6px; 
+            margin-top: 6px;
         }
         .exp-desc b { color: #111; }
         .exp-desc ul { margin: 6px 0 0 0; padding-left: 18px; }
@@ -514,7 +534,10 @@
             /* Layout Resets */
             .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
             .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
+
+            /* Ensure grid-2-col stacks on mobile */
             .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
+
             .news-item { display: flex; flex-direction: column; gap: 2px; }
             .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
 
@@ -524,10 +547,10 @@
                 align-items: flex-start; /* FORCE Left Align */
                 gap: 4px;
             }
-            
+
             .exp-date {
                 margin-left: 0;
-                font-size: 0.85rem; 
+                font-size: 0.85rem;
             }
             .exp-desc { padding: 0; }
 
@@ -750,6 +773,34 @@
                     <a href="https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
                 </div>
             </div>
+        </div>
+
+        <div id="pub-list-view">
+            <ul class="pub-list-ul">
+                <li>
+                    <b>Huawei Lin</b>, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh,
+                    <a href="https://arxiv.org/abs/2511.02834" class="pub-list-link">Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything</a>.
+                    arXiv preprint, arXiv:2511.02834, 2025.
+                </li>
+
+                <li><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao, <a href="https://arxiv.org/abs/2505.13439" class="pub-list-link">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</a>. arXiv preprint, arXiv:2505.13439, 2025.</li>
+
+                <li><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, <a href="https://arxiv.org/abs/2502.13141" class="pub-list-link">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models</a>. arXiv preprint, arXiv:2502.13141, 2025.</li>
+
+                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2502.01634" class="pub-list-link">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a>. arXiv preprint, arXiv:2502.01634, 2025.</li>
+
+                <li>Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="pub-list-link">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</a>. SIGIR 2025.</li>
+
+                <li>Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, <a href="https://arxiv.org/abs/2503.01052" class="pub-list-link">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation</a>. NAACL 2025.</li>
+
+                <li><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2412.08637" class="pub-list-link">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a>. arXiv preprint, arXiv:2412.08637, 2024.</li>
+
+                <li><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao, <a href="https://aclanthology.org/2024.acl-long.48/" class="pub-list-link">Token-wise Influential Training Data Retrieval for Large Language Models</a>. ACL 2024.</li>
+
+                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="pub-list-link">Machine Unlearning in Gradient Boosting Decision Trees</a>. KDD 2023.</li>
+
+                <li><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen, <a href="https://arxiv.org/abs/2207.02179" class="pub-list-link">Activation Template Matching Loss for Explainable Face Recognition</a>. FG 2023.</li>
+            </ul>
         </div>
 
         <div class="section-header">
@@ -990,13 +1041,12 @@
         // --- Scroll-Triggered Animation for Experience Timeline ---
         // This enables the highlighting effect on mobile scroll without needing clicks
         const expItems = document.querySelectorAll('.exp-item');
-        
+
         const observerOptions = {
             root: null,
             // Tighten the active area to a narrow strip in the middle of the screen
-            // negative margin from top (45%) and bottom (45%) leaves a 10% active strip
-            rootMargin: '-48% 0px -48% 0px', 
-            threshold: 0 
+            rootMargin: '-48% 0px -48% 0px',
+            threshold: 0
         };
 
         const observer = new IntersectionObserver((entries) => {
