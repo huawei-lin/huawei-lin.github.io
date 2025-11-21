@@ -14,6 +14,8 @@
     <meta property="og:url" content="https://huawei-lin.github.io/">
     <meta property="og:type" content="website">
 
+    <meta name="baidu-site-verification" content="codeva-BMYgQjavhX" />
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -63,6 +65,19 @@
             text-decoration: underline;
             color: var(--link-hover);
         }
+
+        /* ========================================= */
+        /* === Restored Honors/Reviewer Styles === */
+        /* ========================================= */
+        /* Placing these high up to ensure they are prioritized */
+        .grid-2-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .compact-list { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 0.85rem; }
+        .compact-list .year {
+            font-family: 'JetBrains Mono', monospace;
+            color: #111;
+            font-weight: 600;
+        }
+        .compact-list .desc { color: #4b5563; }
 
         .container {
             display: flex;
@@ -440,15 +455,11 @@
         .exp-item {
             position: relative;
             padding-left: 0;
-            transition: transform 0.3s ease;
+            /* CSS CHANGE: Faster transition for desktop snappy feel (0.15s) */
+            transition: transform 0.1s ease-out;
         }
 
-        /* Hover effect: Lift up slightly */
-        .exp-item:hover {
-            transform: translateY(-3px);
-        }
-
-        /* Refined Dot */
+        /* Refined Dot (Base State) */
         .exp-item::before {
             content: '';
             position: absolute;
@@ -461,14 +472,60 @@
             border: 1px solid var(--link-color);
             box-shadow: none;
             z-index: 1;
-            transition: all 0.3s ease;
+            /* CSS CHANGE: Faster transition for dot */
+            transition: all 0.15s ease-out;
         }
 
-        /* Hover effect for Dot */
-        .exp-item:hover::before {
-            background-color: var(--link-color);
-            box-shadow: 0 0 0 3px rgba(87, 148, 227, 0.25); /* Subtle light blue glow */
-            transform: scale(1.1);
+        /* --------------------------------------------------------- */
+        /* === LOGIC SPLIT: Desktop (Hover) vs Mobile (Scroll) === */
+        /* --------------------------------------------------------- */
+
+        /* 1. DESKTOP ONLY (> 850px): Hover triggers animation */
+        @media (min-width: 851px) {
+            .exp-item:hover {
+                transform: translateY(-3px);
+            }
+            .exp-item:hover::before {
+                background-color: var(--link-color);
+                box-shadow: 0 0 0 3px rgba(87, 148, 227, 0.25);
+                transform: scale(1.1);
+            }
+        }
+
+        /* 2. MOBILE ONLY (<= 850px): Scroll class triggers animation */
+        /* Note: We DO NOT define :hover styles here to prevent "sticky hover" on tap */
+        @media (max-width: 850px) {
+            .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
+            .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
+            
+            /* Ensure grid-2-col stacks on mobile */
+            .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
+            
+            .news-item { display: flex; flex-direction: column; gap: 2px; }
+            .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
+
+            .exp-item.active-mobile {
+                transform: translateY(-3px);
+            }
+            .exp-item.active-mobile::before {
+                background-color: var(--link-color);
+                box-shadow: 0 0 0 3px rgba(87, 148, 227, 0.25);
+                transform: scale(1.1);
+            }
+            
+            /* Mobile Optimization for layout */
+            .exp-header, .exp-sub-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+            .exp-date {
+                margin-left: 0;
+                font-size: 0.8rem;
+            }
+            .exp-desc {
+                padding: 0; 
+            }
         }
 
         /* Row 1: Company + Date */
@@ -496,7 +553,6 @@
             color: #6b7280;
             font-weight: 500;
             white-space: nowrap;
-            /* No box styles */
         }
 
         /* Row 2: Role + Location */
@@ -504,7 +560,7 @@
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 8px; /* Slightly reduced margin to pull text closer */
+            margin-bottom: 8px; 
             flex-wrap: wrap;
             gap: 10px;
         }
@@ -526,8 +582,7 @@
             font-size: 0.9rem;
             color: #4b5563;
             line-height: 1.6;
-            /* Completely removed background, border, padding, radius */
-            margin-top: 6px; /* Add just a little breathing room */
+            margin-top: 6px; 
         }
 
         .exp-desc b {
@@ -557,32 +612,6 @@
             display: block;
         }
 
-        /* Mobile Optimization */
-        @media (max-width: 600px) {
-            .exp-header, .exp-sub-header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 4px;
-            }
-            .exp-date {
-                margin-left: 0;
-                font-size: 0.8rem;
-            }
-            .exp-desc {
-                padding: 0; /* Ensure no padding on mobile either */
-            }
-        }
-
-        /* --- Bottom Grid --- */
-        .grid-2-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-        .compact-list { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 0.85rem; }
-        .compact-list .year {
-            font-family: 'JetBrains Mono', monospace;
-            color: #111;
-            font-weight: 600;
-        }
-        .compact-list .desc { color: #4b5563; }
-
         /* --- Footer --- */
         .footer {
             max-width: 1100px;
@@ -601,14 +630,6 @@
 
         .footer-map {
             margin-top: 8px;
-        }
-
-        @media (max-width: 850px) {
-            .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
-            .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
-            .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
-            .news-item { display: flex; flex-direction: column; gap: 2px; }
-            .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
         }
     </style>
 </head>
@@ -819,34 +840,6 @@
                     <a href="https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
                 </div>
             </div>
-        </div>
-
-        <div id="pub-list-view">
-            <ul class="pub-list-ul">
-                <li>
-                    <b>Huawei Lin</b>, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh,
-                    <a href="https://arxiv.org/abs/2511.02834" class="pub-list-link">Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything</a>.
-                    arXiv preprint, arXiv:2511.02834, 2025.
-                </li>
-
-                <li><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao, <a href="https://arxiv.org/abs/2505.13439" class="pub-list-link">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</a>. arXiv preprint, arXiv:2505.13439, 2025.</li>
-
-                <li><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, <a href="https://arxiv.org/abs/2502.13141" class="pub-list-link">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models</a>. arXiv preprint, arXiv:2502.13141, 2025.</li>
-
-                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2502.01634" class="pub-list-link">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a>. arXiv preprint, arXiv:2502.01634, 2025.</li>
-
-                <li>Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="pub-list-link">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</a>. SIGIR 2025.</li>
-
-                <li>Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, <a href="https://arxiv.org/abs/2503.01052" class="pub-list-link">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation</a>. NAACL 2025.</li>
-
-                <li><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2412.08637" class="pub-list-link">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a>. arXiv preprint, arXiv:2412.08637, 2024.</li>
-
-                <li><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao, <a href="https://aclanthology.org/2024.acl-long.48/" class="pub-list-link">Token-wise Influential Training Data Retrieval for Large Language Models</a>. ACL 2024.</li>
-
-                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="pub-list-link">Machine Unlearning in Gradient Boosting Decision Trees</a>. KDD 2023.</li>
-
-                <li><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen, <a href="https://arxiv.org/abs/2207.02179" class="pub-list-link">Activation Template Matching Loss for Explainable Face Recognition</a>. FG 2023.</li>
-            </ul>
         </div>
 
         <div class="section-header">
@@ -1082,6 +1075,32 @@
 
             link.setAttribute('target', '_blank');
             link.setAttribute('rel', 'noopener noreferrer');
+        });
+
+        // --- Scroll-Triggered Animation for Experience Timeline ---
+        // This enables the highlighting effect on mobile scroll without needing clicks
+        const expItems = document.querySelectorAll('.exp-item');
+        
+        const observerOptions = {
+            root: null,
+            // Tighten the active area to a narrow strip in the middle of the screen
+            // negative margin from top (45%) and bottom (45%) leaves a 10% active strip
+            rootMargin: '-48% 0px -48% 0px', 
+            threshold: 0 
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active-mobile');
+                } else {
+                    entry.target.classList.remove('active-mobile');
+                }
+            });
+        }, observerOptions);
+
+        expItems.forEach(item => {
+            observer.observe(item);
         });
     });
 
