@@ -67,9 +67,8 @@
         }
 
         /* ========================================= */
-        /* === Restored Honors/Reviewer Styles === */
+        /* === Honors/Reviewer Styles (Priority) === */
         /* ========================================= */
-        /* Placing these high up to ensure they are prioritized */
         .grid-2-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
         .compact-list { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 0.85rem; }
         .compact-list .year {
@@ -87,22 +86,22 @@
             gap: var(--gap-size);
         }
 
-        /* --- Top Navigation Bar (Visible on all devices) --- */
+        /* --- Top Navigation Bar --- */
         .top-nav {
-            position: fixed;      /* Fix to the top of the viewport */
+            position: fixed;
             top: 0;
             left: 0;
             right: 0;
-            height: 60px;         /* Height of the bar */
-            background: rgba(255, 255, 255, 0.98); /* Slightly transparent background */
-            backdrop-filter: blur(10px); /* Blur effect (frosted glass) */
+            height: 60px;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
             border-bottom: 1px solid #e5e7eb;
-            z-index: 1000;        /* Ensure it stays on top of other content */
+            z-index: 1000;
             box-shadow: 0 1px 2px rgba(0,0,0,0.03);
         }
 
         .nav-content {
-            max-width: 1100px;    /* Align with the main container width */
+            max-width: 1100px;
             margin: 0 auto;
             height: 100%;
             padding: 0 30px;
@@ -118,31 +117,13 @@
         }
 
         /* --- Layout Adjustments for Top Bar --- */
-
-        /* 1. Push main container down to prevent overlap with fixed header */
         .container {
-            margin-top: 45px;  /* Matches the height of .top-nav */
-            padding-top: 40px; /* Original padding */
+            margin-top: 45px;
+            padding-top: 40px;
         }
 
-        /* 2. Adjust Sidebar Sticky Position */
-        /* Previously top: 40px. Needs to be lower to clear the header. */
         .sidebar {
-            top: 85px !important; /* 60px (header) + 20px (gap) */
-        }
-
-        /* 3. Mobile Optimization */
-        @media (max-width: 850px) {
-            .nav-content { padding: 0 20px; }
-
-            /* Sidebar does not need to be sticky on mobile */
-            .sidebar { top: 0 !important; }
-
-            /* Adjust spacing for mobile view */
-            .container {
-                padding-top: 30px;
-                gap: 40px;
-            }
+            top: 85px !important;
         }
 
         /* --- Sidebar --- */
@@ -277,18 +258,11 @@
 
         /* --- Animation --- */
         @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(25px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(25px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        .news-item,
-        .exp-item {
+        .news-item, .exp-item {
             opacity: 0;
             animation: fadeInUp 0.5s ease-out forwards;
         }
@@ -300,11 +274,7 @@
         .news-item:nth-child(5), .exp-item:nth-child(5) { animation-delay: 0.5s; }
 
         /* --- News & TechTalk Lists --- */
-        .news-list {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
+        .news-list { display: flex; flex-direction: column; gap: 6px; }
 
         .news-item {
             display: grid;
@@ -316,10 +286,7 @@
             border-radius: 4px;
             transition: background 0.2s;
         }
-
-        .news-item:hover {
-            background: #f3f4f6;
-        }
+        .news-item:hover { background: #f3f4f6; }
 
         .news-date {
             font-family: 'JetBrains Mono', monospace;
@@ -328,9 +295,7 @@
             color: var(--text-primary);
             font-weight: 600;
         }
-
         .news-content { color: var(--text-secondary); }
-
         .news-hidden { display: none; }
         .hidden-item { display: none !important; }
 
@@ -349,7 +314,7 @@
         }
         .show-more-btn:hover { background: #f9fafb; border-color: #d1d5db; color: #111; }
 
-        /* --- Publications Card View --- */
+        /* --- Publications --- */
         #pub-card-view { display: block; }
 
         .pub-card {
@@ -414,38 +379,20 @@
         .res-btn .fa-image { color: #7c3aed; }
         .res-btn .fa-desktop { color: #059669; }
 
-        #pub-list-view {
-            display: none;
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
-        .pub-list-ul {
-            padding-left: 20px;
-            margin: 0;
-            list-style-type: disc;
-            color: var(--text-secondary);
-        }
-        .pub-list-ul li {
-            margin-bottom: 12px;
-        }
-        .pub-list-ul b {
-            color: #111;
-            font-weight: 600;
-        }
-        .pub-list-link {
-            color: var(--link-color);
-            font-weight: 500;
-            text-decoration: underline;
-        }
+        #pub-list-view { display: none; font-size: 0.9rem; line-height: 1.6; }
+        .pub-list-ul { padding-left: 20px; margin: 0; list-style-type: disc; color: var(--text-secondary); }
+        .pub-list-ul li { margin-bottom: 12px; }
+        .pub-list-ul b { color: #111; font-weight: 600; }
+        .pub-list-link { color: var(--link-color); font-weight: 500; text-decoration: underline; }
 
         /* ========================================= */
-        /* === Vertical Timeline Experience Styles === */
+        /* === Experience Styles === */
         /* ========================================= */
 
         .exp-list {
             position: relative;
             padding-left: 24px;
-            border-left: 1px solid #e5e7eb; /* Thinner line */
+            border-left: 1px solid #e5e7eb;
             margin-left: 8px;
             display: flex;
             flex-direction: column;
@@ -455,15 +402,13 @@
         .exp-item {
             position: relative;
             padding-left: 0;
-            /* CSS CHANGE: Faster transition for desktop snappy feel (0.15s) */
             transition: transform 0.1s ease-out;
         }
 
-        /* Refined Dot (Base State) */
         .exp-item::before {
             content: '';
             position: absolute;
-            left: -29px; /* Centered on the line */
+            left: -29px;
             top: 7px;
             width: 8px;
             height: 8px;
@@ -472,15 +417,10 @@
             border: 1px solid var(--link-color);
             box-shadow: none;
             z-index: 1;
-            /* CSS CHANGE: Faster transition for dot */
             transition: all 0.15s ease-out;
         }
 
-        /* --------------------------------------------------------- */
-        /* === LOGIC SPLIT: Desktop (Hover) vs Mobile (Scroll) === */
-        /* --------------------------------------------------------- */
-
-        /* 1. DESKTOP ONLY (> 850px): Hover triggers animation */
+        /* Desktop Hover Rules */
         @media (min-width: 851px) {
             .exp-item:hover {
                 transform: translateY(-3px);
@@ -492,43 +432,7 @@
             }
         }
 
-        /* 2. MOBILE ONLY (<= 850px): Scroll class triggers animation */
-        /* Note: We DO NOT define :hover styles here to prevent "sticky hover" on tap */
-        @media (max-width: 850px) {
-            .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
-            .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
-            
-            /* Ensure grid-2-col stacks on mobile */
-            .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
-            
-            .news-item { display: flex; flex-direction: column; gap: 2px; }
-            .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
-
-            .exp-item.active-mobile {
-                transform: translateY(-3px);
-            }
-            .exp-item.active-mobile::before {
-                background-color: var(--link-color);
-                box-shadow: 0 0 0 3px rgba(87, 148, 227, 0.25);
-                transform: scale(1.1);
-            }
-            
-            /* Mobile Optimization for layout */
-            .exp-header, .exp-sub-header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 4px;
-            }
-            .exp-date {
-                margin-left: 0;
-                font-size: 0.8rem;
-            }
-            .exp-desc {
-                padding: 0; 
-            }
-        }
-
-        /* Row 1: Company + Date */
+        /* Desktop Layout for Headers */
         .exp-header {
             display: flex;
             justify-content: space-between;
@@ -555,7 +459,6 @@
             white-space: nowrap;
         }
 
-        /* Row 2: Role + Location */
         .exp-sub-header {
             display: flex;
             justify-content: space-between;
@@ -577,39 +480,18 @@
             font-style: italic;
         }
 
-        /* Description: No Box Style */
         .exp-desc {
             font-size: 0.9rem;
             color: #4b5563;
             line-height: 1.6;
             margin-top: 6px; 
         }
+        .exp-desc b { color: #111; }
+        .exp-desc ul { margin: 6px 0 0 0; padding-left: 18px; }
+        .exp-desc li { margin-bottom: 4px; }
 
-        .exp-desc b {
-            color: #111;
-        }
-
-        .exp-desc ul {
-            margin: 6px 0 0 0;
-            padding-left: 18px;
-        }
-        .exp-desc li {
-            margin-bottom: 4px;
-        }
-
-        /* Logos */
-        .bytedance-logo-svg svg {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-            display: block;
-        }
-
-        .amazon-logo, .szu-logo {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-            display: block;
+        .bytedance-logo-svg svg, .amazon-logo, .szu-logo {
+            width: 24px; height: 24px; vertical-align: middle; display: block;
         }
 
         /* --- Footer --- */
@@ -622,14 +504,42 @@
             text-align: center;
             border-top: 1px solid #e5e7eb;
         }
+        .footer-text { margin-top: 12px; margin-bottom: 10px; }
+        .footer-map { margin-top: 8px; }
 
-        .footer-text {
-            margin-top: 12px;
-            margin-bottom: 10px;
-        }
+        /* ========================================= */
+        /* === MOBILE OPTIMIZATION (Overrides) === */
+        /* ========================================= */
+        @media (max-width: 850px) {
+            /* Layout Resets */
+            .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
+            .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
+            .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
+            .news-item { display: flex; flex-direction: column; gap: 2px; }
+            .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
 
-        .footer-map {
-            margin-top: 8px;
+            /* Fix Horizontal Alignment for Experience Header */
+            .exp-header, .exp-sub-header {
+                flex-direction: column;
+                align-items: flex-start; /* FORCE Left Align */
+                gap: 4px;
+            }
+            
+            .exp-date {
+                margin-left: 0;
+                font-size: 0.85rem; 
+            }
+            .exp-desc { padding: 0; }
+
+            /* Scroll Animation Logic (Mobile Only) */
+            .exp-item.active-mobile {
+                transform: translateY(-3px);
+            }
+            .exp-item.active-mobile::before {
+                background-color: var(--link-color);
+                box-shadow: 0 0 0 3px rgba(87, 148, 227, 0.25);
+                transform: scale(1.1);
+            }
         }
     </style>
 </head>
