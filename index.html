@@ -14,8 +14,6 @@
     <meta property="og:url" content="https://huawei-lin.github.io/">
     <meta property="og:type" content="website">
 
-    <meta name="baidu-site-verification" content="codeva-BMYgQjavhX" />
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -40,6 +38,8 @@
             --color-nlp: #2563eb;
             --color-data: #059669;
             --color-cv: #7c3aed;
+            /* Lighter blue for titles */
+            --link-light-blue: #5794e3;
         }
 
         body {
@@ -119,10 +119,10 @@
         /* 3. Mobile Optimization */
         @media (max-width: 850px) {
             .nav-content { padding: 0 20px; }
-        
+
             /* Sidebar does not need to be sticky on mobile */
             .sidebar { top: 0 !important; }
-        
+
             /* Adjust spacing for mobile view */
             .container {
                 padding-top: 30px;
@@ -264,7 +264,7 @@
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(8px);
+                transform: translateY(25px);
             }
             to {
                 opacity: 1;
@@ -272,19 +272,17 @@
             }
         }
 
-        /* Shared animation for News, TechTalk, Experience */
         .news-item,
         .exp-item {
             opacity: 0;
-            transform: translateY(4px);
-            animation: fadeInUp 0.35s ease forwards;
+            animation: fadeInUp 0.5s ease-out forwards;
         }
 
-        .news-item:nth-child(1), .exp-item:nth-child(1) { animation-delay: 0.05s; }
-        .news-item:nth-child(2), .exp-item:nth-child(2) { animation-delay: 0.10s; }
-        .news-item:nth-child(3), .exp-item:nth-child(3) { animation-delay: 0.15s; }
-        .news-item:nth-child(4), .exp-item:nth-child(4) { animation-delay: 0.20s; }
-        .news-item:nth-child(5), .exp-item:nth-child(5) { animation-delay: 0.25s; }
+        .news-item:nth-child(1), .exp-item:nth-child(1) { animation-delay: 0.1s; }
+        .news-item:nth-child(2), .exp-item:nth-child(2) { animation-delay: 0.2s; }
+        .news-item:nth-child(3), .exp-item:nth-child(3) { animation-delay: 0.3s; }
+        .news-item:nth-child(4), .exp-item:nth-child(4) { animation-delay: 0.4s; }
+        .news-item:nth-child(5), .exp-item:nth-child(5) { animation-delay: 0.5s; }
 
         /* --- News & TechTalk Lists --- */
         .news-list {
@@ -293,7 +291,6 @@
             gap: 6px;
         }
 
-        /* News Item (Also used for Tech Talks) */
         .news-item {
             display: grid;
             grid-template-columns: 90px 1fr;
@@ -315,7 +312,6 @@
             white-space: nowrap;
             color: var(--text-primary);
             font-weight: 600;
-            /* Default left alignment */
         }
 
         .news-content { color: var(--text-secondary); }
@@ -357,7 +353,6 @@
             border-color: #d1d5db;
         }
 
-        /* Color Categories */
         .pub-card.type-arxiv { border-left-color: var(--color-arxiv); }
         .pub-card.type-nlp   { border-left-color: var(--color-nlp); }
         .pub-card.type-data  { border-left-color: var(--color-data); }
@@ -404,7 +399,6 @@
         .res-btn .fa-image { color: #7c3aed; }
         .res-btn .fa-desktop { color: #059669; }
 
-        /* --- Publications List View --- */
         #pub-list-view {
             display: none;
             font-size: 0.9rem;
@@ -429,53 +423,71 @@
             text-decoration: underline;
         }
 
-        /* --- Experience (Two-Row Balanced Layout) --- */
+        /* ========================================= */
+        /* === Vertical Timeline Experience Styles === */
+        /* ========================================= */
+
         .exp-list {
+            position: relative;
+            padding-left: 24px;
+            border-left: 1px solid #e5e7eb; /* Thinner line */
+            margin-left: 8px;
             display: flex;
             flex-direction: column;
-            gap: 35px; /* Spacing between items */
+            gap: 45px;
         }
 
         .exp-item {
-            border-left: 3px solid #e5e7eb; 
-            padding-left: 20px;
-            transition: border-color 0.3s;
+            position: relative;
+            padding-left: 0;
+            transition: transform 0.3s ease;
         }
 
+        /* Hover effect: Lift up slightly */
         .exp-item:hover {
-            border-left-color: var(--link-color);
+            transform: translateY(-3px);
+        }
+
+        /* Refined Dot */
+        .exp-item::before {
+            content: '';
+            position: absolute;
+            left: -29px; /* Centered on the line */
+            top: 7px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 1px solid var(--link-color);
+            box-shadow: none;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect for Dot */
+        .exp-item:hover::before {
+            background-color: var(--link-color);
+            box-shadow: 0 0 0 3px rgba(87, 148, 227, 0.25); /* Subtle light blue glow */
+            transform: scale(1.1);
         }
 
         /* Row 1: Company + Date */
         .exp-header {
             display: flex;
-            justify-content: space-between; 
-            align-items: center; /* Center vertically */
-            margin-bottom: 4px; 
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
             flex-wrap: wrap;
             gap: 10px;
         }
 
-        .exp-company-name { 
-            font-size: 1.15rem; 
+        .exp-company-name {
+            font-size: 1.15rem;
             font-weight: 700;
             color: #111;
             display: flex;
             align-items: center;
-            gap: 8px;
-        }
-
-        .company-icon {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 20px;
-            height: 20px;
-            margin-right: 6px;
-        }
-        
-        .company-icon i {
-            font-size: 20px;
+            gap: 10px;
         }
 
         .exp-date {
@@ -484,6 +496,7 @@
             color: #6b7280;
             font-weight: 500;
             white-space: nowrap;
+            /* No box styles */
         }
 
         /* Row 2: Role + Location */
@@ -491,55 +504,73 @@
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 8px; /* Space before description */
+            margin-bottom: 8px; /* Slightly reduced margin to pull text closer */
             flex-wrap: wrap;
             gap: 10px;
         }
 
-        .exp-role { 
-            font-size: 0.95rem;
-            font-weight: 600; /* Slightly bolder */
-            color: #374151;
+        .exp-role {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--link-light-blue);
         }
 
         .exp-location {
             font-size: 0.85rem;
             color: #6b7280;
+            font-style: italic;
         }
 
-        /* Description */
+        /* Description: No Box Style */
         .exp-desc {
             font-size: 0.9rem;
             color: #4b5563;
             line-height: 1.6;
+            /* Completely removed background, border, padding, radius */
+            margin-top: 6px; /* Add just a little breathing room */
+        }
+
+        .exp-desc b {
+            color: #111;
         }
 
         .exp-desc ul {
-            margin: 5px 0 0 0;
+            margin: 6px 0 0 0;
             padding-left: 18px;
         }
         .exp-desc li {
             margin-bottom: 4px;
         }
 
-        /* Specific icon styles */
-        .exp-company-name .fa-amazon { color: #FF9900; }
-        .exp-company-name .fa-tiktok { color: #000; }
-        .exp-company-name .fa-university { color: #6b7280; }
+        /* Logos */
+        .bytedance-logo-svg svg {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            display: block;
+        }
+
+        .amazon-logo, .szu-logo {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            display: block;
+        }
 
         /* Mobile Optimization */
         @media (max-width: 600px) {
             .exp-header, .exp-sub-header {
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 2px;
+                gap: 4px;
             }
-            /* Mobile: Date and Location align left under their titles */
-            .exp-date, .exp-location {
+            .exp-date {
+                margin-left: 0;
                 font-size: 0.8rem;
-                color: #9ca3af;
             }
-            .exp-sub-header { margin-bottom: 6px; }
+            .exp-desc {
+                padding: 0; /* Ensure no padding on mobile either */
+            }
         }
 
         /* --- Bottom Grid --- */
@@ -576,33 +607,8 @@
             .container { flex-direction: column; gap: 30px; padding: 30px 20px; }
             .sidebar { width: 100%; position: static; border-bottom: 1px solid #eee; padding-bottom: 30px;}
             .grid-2-col { grid-template-columns: 1fr; gap: 30px; }
-            /* Mobile stack for news items */
             .news-item { display: flex; flex-direction: column; gap: 2px; }
             .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
-        }
-
-        .bytedance-logo-svg svg {
-            width: 25px;
-            height: 34px;
-            vertical-align: middle;
-            margin-right: -4px;
-            display: inline-block;
-        }
-
-        .amazon-logo {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-            margin-right: -2px;
-            display: inline-block;
-        }
-
-        .szu-logo {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-            margin-right: -3px;
-            display: inline-block;
         }
     </style>
 </head>
@@ -619,7 +625,6 @@
     <aside class="sidebar">
         <div class="avatar-container">
             <img src="./assets/avatar.jpg" alt="Huawei Lin" class="avatar">
-            <!--<div style="position: absolute; bottom: 10px; right: 5px; font-size: 1.4rem; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));">👋</div>-->
         </div>
 
         <h1>Huawei Lin</h1>
@@ -892,7 +897,7 @@
         </div>
 
         <div class="exp-list">
-            
+
             <div class="exp-item">
                 <div class="exp-header">
                     <div class="exp-company-name">
@@ -984,7 +989,6 @@
                     </ul>
                 </div>
             </div>
-            
 
         </div>
 
@@ -1026,11 +1030,11 @@
     // --- Smart News Toggle Logic ---
     document.addEventListener("DOMContentLoaded", function() {
         // SETTING: Number of news items to show by default
-        const visibleCount = 5; 
+        const visibleCount = 5;
 
         const newsContainer = document.getElementById('news-container');
         // Select direct children that are .news-item
-        const newsItems = newsContainer.querySelectorAll('.news-item'); 
+        const newsItems = newsContainer.querySelectorAll('.news-item');
         const btn = document.getElementById('news-toggle-btn');
         let isExpanded = false;
 
@@ -1065,7 +1069,7 @@
                 isExpanded = !isExpanded;
                 updateVisibility();
             });
-            
+
             // Initialize state
             updateVisibility();
         }
