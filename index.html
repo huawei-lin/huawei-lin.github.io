@@ -316,7 +316,7 @@
 
         /* --- Publications Styles --- */
         /* Card View (Default) */
-        #pub-card-view { display: block; }
+        #pub-card-view { display: none; }
 
         .pub-card {
             background: #fff;
@@ -382,7 +382,7 @@
 
         /* List View (Hidden by Default) */
         #pub-list-view {
-            display: none; /* Controlled by JS */
+            display: block; /* Controlled by JS */
             font-size: 0.9rem;
             line-height: 1.6;
         }
@@ -666,7 +666,7 @@
         <div class="section-header">
             <div class="section-title">Publications</div>
             <button class="view-toggle-btn" onclick="togglePubView()" id="pub-view-btn">
-                <i class="fas fa-list"></i> Show List View
+                <i class="fas fa-th-large"></i> Show Card View
             </button>
         </div>
 
@@ -1069,14 +1069,14 @@
         var listView = document.getElementById('pub-list-view');
         var btn = document.getElementById('pub-view-btn');
 
-        if (cardView.style.display !== 'none') {
-            cardView.style.display = 'none';
-            listView.style.display = 'block';
-            btn.innerHTML = '<i class="fas fa-th-large"></i> Show Card View';
-        } else {
+        if (listView.style.display !== 'none') {
             cardView.style.display = 'block';
             listView.style.display = 'none';
             btn.innerHTML = '<i class="fas fa-list"></i> Show List View';
+        } else {
+            cardView.style.display = 'none';
+            listView.style.display = 'block';
+            btn.innerHTML = '<i class="fas fa-th-large"></i> Show Card View';
         }
     }
 </script>
