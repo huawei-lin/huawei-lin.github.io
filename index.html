@@ -620,7 +620,8 @@
         </div>
 
         <div class="news-list" id="news-container">
-            <div class="news-item"><div class="news-date">May 2026</div><div class="news-content">I will attend CVPR 2026 from June 2 to June 8 to present our paper <a href="https://arxiv.org/abs/2412.08637"><b>DMin</b></a>. Looking forward to meeting you!</div></div>
+            <div class="news-item"><div class="news-date">May 2026</div><div class="news-content">We released <a href="https://arxiv.org/abs/2605.27366">MUSE-Autoskill</a>, a self-evolving agent framework that enables agents to create, remember, manage, and evaluate reusable skills for more capable long-horizon problem solving.</div></div>
+            <div class="news-item"><div class="news-date">May 2026</div><div class="news-content">I will be attending CVPR 2026 from June 2 to June 8 to present our paper <a href="https://arxiv.org/abs/2412.08637">DMin</a>. Looking forward to meeting you!</div></div>
             <div class="news-item"><div class="news-date">Mar 2026</div><div class="news-content">Invited as a reviewer for NeurIPS 2026. (<span style="color:red; font-weight:bold; text-decoration:underline;">Declined</span>, in protest of the <a href="https://neurips.cc/Conferences/2026/MainTrackHandbook#:~:text=Sanctioned%20Institutions,.ofac.treas.gov/" target="_blank">sanctioned institutions policy</a>; <b>science should have no borders; as a reviewer, my role is to serve science, not politics</b>).</div></div>
             <div class="news-item"><div class="news-date">Feb 2026</div><div class="news-content">One paper is accepted by CVPR 2026 (Findings)! 🎉🎉🎉</div></div>
             <div class="news-item"><div class="news-date">Feb 2026</div><div class="news-content">Invited as a reviewer for KDD 2026.</div></div>
@@ -661,6 +662,15 @@
         </div>
 
         <div id="pub-card-view">
+
+            <div class="pub-card type-arxiv">
+                <span class="pub-badge">ArXiv 2026</span>
+                <h3 class="pub-title">MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation</h3>
+                <div class="pub-authors"><b>Huawei Lin</b>, Peng Li, Jie Song, Fuxin Jiang, Tieying Zhang</div>
+                <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2605.27366" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
+                </div>
+            </div>
 
             <div class="pub-card type-cv">
                 <span class="pub-badge">CVPR 2026 (Findings)</span>
@@ -783,6 +793,12 @@
 
         <div id="pub-list-view">
             <ul class="pub-list-ul">
+                <li>
+                    <b>Huawei Lin</b>, Peng Li, Jie Song, Fuxin Jiang, Tieying Zhang,
+                    <a href="https://arxiv.org/abs/2605.27366" class="pub-list-link">MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation</a>.
+                    arXiv preprint, arXiv:2605.27366, 2026.
+                </li>
+
                 <li><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2412.08637" class="pub-list-link">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a>. CVPR (Findings) 2026.</li>
 
                 <li>
@@ -880,20 +896,21 @@
                                 <path d="M38 9L43 11V37L38 39V9Z" fill="#2E93F6"/>
                             </svg>
                         </span>
-                        ByteDance (AI Infra)
+                        ByteDance - AI Infra
                     </div>
-                    <span class="exp-date">Jan 2026 - Present</span>
+                    <span class="exp-date">Jan 2026 - Jun 2026</span>
                 </div>
                 <div class="exp-sub-header">
                     <span class="exp-role">Research Intern</span>
                     <span class="exp-location">San Jose, CA</span>
                 </div>
                 <div class="exp-desc">
-                    Research Topic: <b>Beyond AutoSkill: Toward Unlimited Agent Capabilities with Memory and Self-Evolution</b><br/>
+                    Research Topic: <b><i>MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation</i></b><br/>
                     Advisor: <a href="https://lipengcs.github.io/" class="pub-list-link">Peng Li</a>, <a href="https://www.linkedin.com/in/jiesongk/" class="pub-list-link">Jie Song</a>, <a href="https://scholar.google.com/citations?user=8lYOU7MAAAAJ" class="pub-list-link">Fuxin Jiang</a>
                     <ul>
-                        <li>Introduce Capability, a new abstraction defined as Skill + Memory + Self-Evolution + Self-Correction, which enables agents to accumulate, reuse, and continuously improve their abilities beyond isolated skills.</li>
-                        <li>Proposed a capability-centric agent framework that unifies capability generation and execution within a task-driven loop; designed a persistent capability memory mechanism that allows agents to store, retrieve, and reuse previously generated capabilities across tasks.</li>
+                        <li>Designed and implemented MUSE-AutoSkill Agent, an end-to-end framework for creating, retrieving, executing, and refining reusable skills.</li>
+                        <li>Built persistent skill infrastructure and skill-level memory to support skill management, reuse, and continual improvement across tasks.</li>
+                        <li>Integrated unit tests, execution feedback, and iterative correction into the skill lifecycle to improve agent reliability and adaptability.</li>
                     </ul>
                 </div>
             </div>
