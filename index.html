@@ -209,11 +209,17 @@
             border-radius: 6px;
             margin-bottom: 40px;
             font-size: 0.9rem;
+            line-height: 1.6;
             color: #9f1239;
             display: flex;
             gap: 12px;
-            align-items: start;
+            align-items: flex-start;
             box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+        .status-icon {
+            flex: 0 0 auto;
+            font-size: 1rem;
+            line-height: 1.6;
         }
 
         /* --- Section Header --- */
@@ -536,6 +542,85 @@
             max-width: 150px;
         }
 
+        /* --- Beyond the Lab: travel map --- */
+        .travel-map-card {
+            overflow: hidden;
+            margin-top: 8px;
+            border: 1px solid #e5e7eb;
+            border-radius: 18px;
+            background: linear-gradient(145deg, #f8fbff 0%, #f7faf9 100%);
+            box-shadow: 0 14px 35px rgba(15, 23, 42, 0.07);
+        }
+        .travel-map-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 22px 24px 4px;
+        }
+        .travel-eyebrow {
+            margin-bottom: 3px;
+            font: 600 0.67rem/1.4 'JetBrains Mono', monospace;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            color: #0f766e;
+        }
+        .travel-map-title { margin: 0; font-size: 1.2rem; line-height: 1.35; color: #0f172a; }
+        .travel-map-subtitle { max-width: 540px; margin: 5px 0 0; font-size: 0.78rem; line-height: 1.65; color: #64748b; }
+        .travel-stats { display: flex; gap: 18px; flex-shrink: 0; }
+        .travel-stat { text-align: right; }
+        .travel-stat strong { display: block; font-size: 1.03rem; color: #0f172a; }
+        .travel-stat span { display: block; font-size: 0.65rem; color: #94a3b8; text-transform: uppercase; letter-spacing: .05em; }
+        .travel-map-wrap { position: relative; padding: 0 14px; }
+        .travel-map { display: block; width: 100%; height: auto; overflow: visible; }
+        .map-land { fill: #eef2f3; stroke: #d6dfe2; stroke-width: 2; }
+        .map-water-label { fill: #bfced7; font: italic 15px 'Plus Jakarta Sans', sans-serif; letter-spacing: .08em; }
+        .route { fill: none; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; opacity: .8; transition: opacity .25s, stroke-width .25s; }
+        .route-1 { stroke: #f97316; }
+        .route-2 { stroke: #2563eb; }
+        .route-3 { stroke: #8b5cf6; }
+        .route-4 { stroke: #0d9488; }
+        .route-shadow { fill: none; stroke: #fff; stroke-width: 9; stroke-linecap: round; opacity: .8; }
+        .travel-map-card[data-route='1'] .route:not(.route-1),
+        .travel-map-card[data-route='2'] .route:not(.route-2),
+        .travel-map-card[data-route='3'] .route:not(.route-3) { opacity: .12; }
+        .travel-map-card[data-route='4'] .route:not(.route-4) { opacity: .12; }
+        .travel-map-card[data-route='1'] .route-1,
+        .travel-map-card[data-route='2'] .route-2,
+        .travel-map-card[data-route='3'] .route-3 { opacity: 1; stroke-width: 7; }
+        .travel-map-card[data-route='4'] .route-4 { opacity: 1; stroke-width: 7; }
+        .route-city { fill: #fff; stroke: #0f172a; stroke-width: 3; }
+        .city-label { fill: #334155; font: 600 13px 'Plus Jakarta Sans', sans-serif; }
+        .ski-pin { cursor: pointer; outline: none; }
+        .ski-pin circle { fill: #0891b2; stroke: #fff; stroke-width: 2.5; transition: r .2s, fill .2s; }
+        .ski-pin:hover circle, .ski-pin:focus circle { fill: #38bdf8; r: 7; }
+        .ski-label { opacity: 0; pointer-events: none; transition: opacity .2s; }
+        .ski-label rect { fill: #0f172a; stroke: rgba(255,255,255,.22); stroke-width: 1; }
+        .ski-label text { fill: #fff; font: 600 11px 'Plus Jakarta Sans', sans-serif; }
+        .ski-pin:hover .ski-label, .ski-pin:focus .ski-label { opacity: 1; }
+        .map-legend { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 3px 24px 18px; font-size: .7rem; color: #64748b; }
+        .legend-item { display: inline-flex; align-items: center; gap: 6px; }
+        .legend-line { width: 24px; height: 3px; border-radius: 3px; }
+        .legend-dot { width: 8px; height: 8px; border-radius: 50%; background: #0891b2; }
+        .trip-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 12px; }
+        .trip-card {
+            padding: 13px 14px; border: 1px solid #e5e7eb; border-radius: 12px; background: #fff;
+            color: inherit; text-align: left; cursor: pointer; font: inherit; transition: transform .2s, box-shadow .2s, border-color .2s;
+        }
+        .trip-card:hover, .trip-card:focus-visible { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(15,23,42,.07); outline: none; }
+        .trip-card.active { border-color: var(--trip-color); box-shadow: 0 0 0 2px color-mix(in srgb, var(--trip-color) 16%, transparent); }
+        .trip-card-top { display: flex; align-items: center; gap: 7px; margin-bottom: 7px; }
+        .trip-swatch { width: 9px; height: 9px; border-radius: 50%; background: var(--trip-color); }
+        .trip-date { font: 600 .66rem 'JetBrains Mono', monospace; color: #64748b; }
+        .trip-route-name { display: block; font-size: .82rem; font-weight: 700; color: #1e293b; }
+        .trip-meta { margin-top: 5px; font-size: .68rem; line-height: 1.5; color: #64748b; }
+        .ski-roll { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; }
+        .ski-chip { padding: 5px 9px; border: 1px solid #dbe7e5; border-radius: 999px; background: #f4faf9; font-size: .68rem; color: #35605b; }
+        .travel-list-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: 18px; }
+        .travel-list-title { font-size: .79rem; font-weight: 700; color: #1e293b; }
+        .travel-list-note { font-size: .67rem; color: #94a3b8; }
+        .travel-list-head + .trip-grid, .travel-list-head + .ski-roll { margin-top: 8px; }
+
         /* ========================================= */
         /* === MOBILE OPTIMIZATION (Overrides) === */
         /* ========================================= */
@@ -549,6 +634,12 @@
 
             .news-item { display: flex; flex-direction: column; gap: 2px; }
             .news-date { text-align: left; width: 100%; color: #6b7280; margin-bottom: 2px; }
+            .travel-map-head { padding: 18px 18px 0; }
+            .travel-stats { gap: 10px; }
+            .trip-grid { grid-template-columns: 1fr; }
+            .travel-map-wrap { padding: 2px 5px 0; overflow-x: auto; }
+            .travel-map { min-width: 580px; }
+            .map-legend { padding: 2px 18px 15px; }
 
             /* Fix Horizontal Alignment for Experience Header */
             .exp-header, .exp-sub-header {
@@ -618,9 +709,9 @@
         </div>
 
         <div class="status-banner">
-            <div style="font-size: 1.4rem;">🔥</div>
+            <div class="status-icon" aria-hidden="true">🔥</div>
             <div>
-                I am expected to graduate by December 2026 and am actively looking for <b>full-time Researcher</b> roles in Agents, LLMs, CV, and Machine Learning. <b>More research experience and papers (under review) can be found in my <a href="https://drive.google.com/file/d/18xKzvnbkC4ZS7h3TAZIDJ3zHus1fwi6l/view?usp=sharing">CV</a></b>.
+                I will join <b>ByteDance this fall as a Research Scientist</b>, focusing on <b>Self-evolving Agents and Agent Memory</b>.
             </div>
         </div>
 
@@ -1049,28 +1140,66 @@
             <div class="section-title">Beyond the Lab</div>
         </div>
 
-        <div class="section-title" style="font-size: 1.05rem; font-weight: 600; color: #374151; margin: 4px 0 10px;">🚗 Road Trips Across America</div>
-        <div class="news-list">
-            <div class="news-item">
-                <div class="news-date">Jun 2025</div>
-                <div class="news-content">Rochester, NY → Seattle, WA &nbsp;·&nbsp; <b>I-94</b> &nbsp;·&nbsp; ~2,400 mi (~3,860 km) &nbsp;·&nbsp; 42 hrs driving &nbsp;·&nbsp; 7 days</div>
+        <section class="travel-map-card" id="travel-map-card" data-route="all" aria-labelledby="travel-map-title">
+            <div class="travel-map-head">
+                <div>
+                    <div class="travel-eyebrow">My Road Trips &amp; Ski Map</div>
+                    <h3 class="travel-map-title" id="travel-map-title">Miles driven. Mountains skied.</h3>
+                    <p class="travel-map-subtitle">The colored lines trace my cross-country drives across America; the green dots mark ski resorts I have visited along the way.</p>
+                </div>
+                <div class="travel-stats" aria-label="Travel totals">
+                    <div class="travel-stat"><strong>12,600</strong><span>miles driven</span></div>
+                    <div class="travel-stat"><strong>10</strong><span>ski resorts</span></div>
+                </div>
             </div>
-            <div class="news-item">
-                <div class="news-date">Sep 2025</div>
-                <div class="news-content">Seattle, WA → Rochester, NY &nbsp;·&nbsp; <b>I-90</b> &nbsp;·&nbsp; ~2,850 mi (~4,590 km) &nbsp;·&nbsp; 40 hrs driving &nbsp;·&nbsp; 6 days</div>
+            <div class="travel-map-wrap">
+                <svg class="travel-map" viewBox="0 0 959 593" role="img" aria-label="Map of four road trips across the contiguous United States and ten ski resorts">
+                    <image href="assets/us-map.svg" x="0" y="0" width="959" height="593" aria-hidden="true"/>
+                    <text class="map-water-label" x="10" y="300" transform="rotate(-72 10 300)">PACIFIC</text>
+                    <text class="map-water-label" x="895" y="405" transform="rotate(65 895 405)">ATLANTIC</text>
+                    <path class="route-shadow" d="M765.152 171.752 C720 187, 680 205, 625 201 C565 196, 530 139, 470 122 C395 101, 330 130, 270 119 C215 109, 178 66, 121.3 54.618"/>
+                    <path class="route route-1" d="M765.152 171.752 C720 187, 680 205, 625 201 C565 196, 530 139, 470 122 C395 101, 330 130, 270 119 C215 109, 178 66, 121.3 54.618"/>
+                    <path class="route-shadow" d="M121.3 54.618 C175 74, 220 121, 285 148 C360 180, 425 197, 500 201 C575 205, 645 229, 700 216 C730 209, 746 187, 765.152 171.752"/>
+                    <path class="route route-2" d="M121.3 54.618 C175 74, 220 121, 285 148 C360 180, 425 197, 500 201 C575 205, 645 229, 700 216 C730 209, 746 187, 765.152 171.752"/>
+                    <path class="route-shadow" d="M765.152 171.752 C720 206, 670 220, 610 221 C530 223, 455 242, 375 237 C285 232, 205 220, 125 228 C95 231, 78 242, 69.552 263.33"/>
+                    <path class="route route-3" d="M765.152 171.752 C720 206, 670 220, 610 221 C530 223, 455 242, 375 237 C285 232, 205 220, 125 228 C95 231, 78 242, 69.552 263.33"/>
+                    <path class="route-shadow" d="M69.552 263.33 C77 300, 92 330, 115 344 C150 365, 300 352, 390 362 C430 366, 450 358, 463 370 C478 388, 480 410, 472 430 C462 452, 454 465, 468 474 C490 490, 520 478, 550 473 C610 463, 680 450, 720 465 C738 471, 750 480, 756.021 484.516 C770 459, 760 408, 744 350 C731 299, 740 220, 765.152 171.752"/>
+                    <path class="route route-4" d="M69.552 263.33 C77 300, 92 330, 115 344 C150 365, 300 352, 390 362 C430 366, 450 358, 463 370 C478 388, 480 410, 472 430 C462 452, 454 465, 468 474 C490 490, 520 478, 550 473 C610 463, 680 450, 720 465 C738 471, 750 480, 756.021 484.516 C770 459, 760 408, 744 350 C731 299, 740 220, 765.152 171.752"/>
+                    <circle class="route-city" cx="765.2" cy="171.8" r="6"/><text class="city-label" x="688" y="158">Rochester</text>
+                    <circle class="route-city" cx="121.3" cy="54.6" r="6"/><text class="city-label" x="133" y="43">Seattle</text>
+                    <circle class="route-city" cx="69.6" cy="263.3" r="6"/><text class="city-label" x="81" y="280">San Jose</text>
+                    <circle class="route-city" cx="756" cy="484.5" r="6"/><text class="city-label" x="674" y="506">Orlando</text>
+                    <g class="ski-pin" tabindex="0"><circle cx="769.9" cy="179.6" r="5"/><g class="ski-label" transform="translate(647 191)"><rect width="111" height="22" rx="6"/><text x="8" y="15">Bristol Mountain</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="752.9" cy="193.1" r="5"/><g class="ski-label" transform="translate(642 207)"><rect width="102" height="22" rx="6"/><text x="8" y="15">Holiday Valley</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="834.8" cy="157.2" r="5"/><g class="ski-label" transform="translate(704 169)"><rect width="123" height="22" rx="6"/><text x="8" y="15">Stratton Mountain</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="247.1" cy="231.5" r="5"/><g class="ski-label" transform="translate(258 220)"><rect width="67" height="22" rx="6"/><text x="8" y="15">Park City</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="107.7" cy="231.4" r="5"/><g class="ski-label" transform="translate(118 209)"><rect width="66" height="22" rx="6"/><text x="8" y="15">Northstar</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="108.8" cy="239.1" r="5"/><g class="ski-label" transform="translate(119 228)"><rect width="65" height="22" rx="6"/><text x="8" y="15">Heavenly</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="105.5" cy="243.7" r="5"/><g class="ski-label" transform="translate(116 246)"><rect width="65" height="22" rx="6"/><text x="8" y="15">Kirkwood</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="105.6" cy="232.6" r="5"/><g class="ski-label" transform="translate(0 208)"><rect width="103" height="22" rx="6"/><text x="8" y="15">Palisades Tahoe</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="105.2" cy="241.1" r="5"/><g class="ski-label" transform="translate(0 247)"><rect width="105" height="22" rx="6"/><text x="8" y="15">Sierra-at-Tahoe</text></g></g>
+                    <g class="ski-pin" tabindex="0"><circle cx="116.3" cy="269.3" r="5"/><g class="ski-label" transform="translate(127 258)"><rect width="120" height="22" rx="6"/><text x="8" y="15">Mammoth Mountain</text></g></g>
+                </svg>
             </div>
-            <div class="news-item">
-                <div class="news-date">Dec 2025</div>
-                <div class="news-content">Rochester, NY → San Jose, CA &nbsp;·&nbsp; <b>I-80</b> &nbsp;·&nbsp; ~2,900 mi (~4,670 km) &nbsp;·&nbsp; 43 hrs driving &nbsp;·&nbsp; 5 days &nbsp;·&nbsp; longest single day: 16 hrs</div>
+            <div class="map-legend" aria-label="Map legend">
+                <span class="legend-item"><span class="legend-line" style="background:#f97316"></span>I-94 · Jun</span>
+                <span class="legend-item"><span class="legend-line" style="background:#2563eb"></span>I-90 · Sep</span>
+                <span class="legend-item"><span class="legend-line" style="background:#8b5cf6"></span>I-80 · Dec</span>
+                <span class="legend-item"><span class="legend-line" style="background:#0d9488"></span>Route 66 + Gulf Coast · Jul</span>
+                <span class="legend-item"><span class="legend-dot"></span>Ski resort</span>
             </div>
-        </div>
+        </section>
 
-        <div class="section-title" style="font-size: 1.05rem; font-weight: 600; color: #374151; margin: 28px 0 10px;">⛷️ Skiing & Snowboarding</div>
-        <div class="compact-list">
-            <div class="year">NY</div><div class="desc">Bristol Mountain, Holiday Valley</div>
-            <div class="year">VT</div><div class="desc">Stratton Mountain</div>
-            <div class="year">UT</div><div class="desc">Park City</div>
-            <div class="year">CA</div><div class="desc">Northstar, Heavenly, Kirkwood, Palisades Tahoe, Sierra-at-Tahoe, Mammoth Mountain</div>
+        <div class="travel-list-head"><span class="travel-list-title">My cross-country drives</span><span class="travel-list-note">Select a trip to trace its route</span></div>
+        <div class="trip-grid" aria-label="Road trip details">
+            <button class="trip-card" data-route="1" style="--trip-color:#f97316" type="button"><span class="trip-card-top"><span class="trip-swatch"></span><span class="trip-date">JUN 2025 · I-94</span></span><span class="trip-route-name">Rochester → Seattle</span><span class="trip-meta">2,400 mi · 42 hrs · 7 days</span></button>
+            <button class="trip-card" data-route="2" style="--trip-color:#2563eb" type="button"><span class="trip-card-top"><span class="trip-swatch"></span><span class="trip-date">SEP 2025 · I-90</span></span><span class="trip-route-name">Seattle → Rochester</span><span class="trip-meta">2,800 mi · 40 hrs · 6 days</span></button>
+            <button class="trip-card" data-route="3" style="--trip-color:#8b5cf6" type="button"><span class="trip-card-top"><span class="trip-swatch"></span><span class="trip-date">DEC 2025 · I-80</span></span><span class="trip-route-name">Rochester → San Jose</span><span class="trip-meta">2,900 mi · 43 hrs · 5 days</span></button>
+            <button class="trip-card" data-route="4" style="--trip-color:#0d9488" type="button"><span class="trip-card-top"><span class="trip-swatch"></span><span class="trip-date">JUL 2026 · ROUTE 66</span></span><span class="trip-route-name">San Jose → Orlando → Rochester</span><span class="trip-meta">4,500 mi · 82 hrs driving · 20 days</span></button>
+        </div>
+        <div class="travel-list-head"><span class="travel-list-title">Ski resorts I've visited</span><span class="travel-list-note">Hover over a green dot on the map</span></div>
+        <div class="ski-roll" aria-label="Ski resorts visited">
+            <span class="ski-chip">NY · Bristol Mountain</span><span class="ski-chip">NY · Holiday Valley</span><span class="ski-chip">VT · Stratton</span><span class="ski-chip">UT · Park City</span><span class="ski-chip">CA · Northstar</span><span class="ski-chip">CA · Heavenly</span><span class="ski-chip">CA · Kirkwood</span><span class="ski-chip">CA · Palisades Tahoe</span><span class="ski-chip">CA · Sierra-at-Tahoe</span><span class="ski-chip">CA · Mammoth</span>
         </div>
 
     </main>
@@ -1166,6 +1295,23 @@
 
         expItems.forEach(item => {
             observer.observe(item);
+        });
+
+        // --- Interactive travel route highlighting ---
+        const travelMapCard = document.getElementById('travel-map-card');
+        const tripCards = document.querySelectorAll('.trip-card');
+        tripCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const route = card.dataset.route;
+                const alreadyActive = card.classList.contains('active');
+                tripCards.forEach(item => item.classList.remove('active'));
+                if (alreadyActive) {
+                    travelMapCard.dataset.route = 'all';
+                } else {
+                    card.classList.add('active');
+                    travelMapCard.dataset.route = route;
+                }
+            });
         });
     });
 
