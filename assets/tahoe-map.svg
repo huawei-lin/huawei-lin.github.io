@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" role="img" aria-labelledby="tahoe-title tahoe-description">
+  <title id="tahoe-title">Lake Tahoe regional geographic overview</title>
+  <desc id="tahoe-description">North is up. Lake shoreline and California–Nevada boundary from Natural Earth geographic data, projected together at latitude 39 degrees. This is a regional overview, not a ski trail or navigation map.</desc>
+  <metadata>
+    Lake: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/
+    State boundary: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/
+    Lake feature: 1159106907. Boundary feature: 1746745121.
+  </metadata>
+  <rect width="420" height="560" rx="12" fill="#f3f7f5"/>
+  <path d="M286.27,83.59 L283.85,95.19 L288.11,100.13 L288.11,137.95 L286.35,147.41 L278.34,162.02 L276.17,170.83 L276.42,180.5 L279.59,194.04 L280.76,231.0 L278.34,262.58 L274.08,279.78 L265.31,292.24 L249.36,300.4 L234.25,304.92 L226.15,305.56 L220.31,302.98 L214.88,297.4 L207.45,292.88 L199.18,290.09 L190.91,290.52 L193.25,280.42 L192.5,270.54 L187.41,250.55 L184.82,218.75 L183.15,210.58 L175.88,203.92 L167.12,201.99 L159.52,198.12 L156.1,185.23 L158.18,174.7 L163.61,163.09 L200.1,108.51 L214.71,93.68 L233.83,85.09 L237.42,86.59 L241.68,89.82 L246.36,91.54 L251.12,87.88 L258.97,72.63 L260.64,70.26 L271.57,68.97 L281.18,74.13 L286.27,83.59 Z" fill="#b8dced" stroke="#72acc5" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M509.79,500.84 L376.91,381.51 L244.03,262.17 L243.97,251.94 L243.97,211.5 L243.96,77.78 L243.93,-55.96" fill="none" stroke="#98a9b4" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <text x="236" y="174" fill="#2f6b89" font-size="16" font-style="italic">Lake</text>
+    <text x="236" y="194" fill="#2f6b89" font-size="16" font-style="italic">Tahoe</text>
+    <text x="76" y="276" fill="#859b93" font-size="11" letter-spacing="1">CALIFORNIA</text>
+    <text x="355" y="157" fill="#859b93" font-size="11" letter-spacing="1">NEVADA</text>
+    <text x="373" y="26" fill="#475569" font-size="12" font-weight="600">N</text>
+    <text x="67" y="546" fill="#64748b" font-size="11">10 km</text>
+  </g>
+  <path d="M373 58 V35 M368 42 L373 35 L378 42" fill="none" stroke="#475569" stroke-width="1.4"/>
+  <path d="M34 524 V530 H100 V524" fill="none" stroke="#64748b" stroke-width="1.2"/>
+</svg>
