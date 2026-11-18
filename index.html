@@ -241,27 +241,6 @@
             margin: 0;
         }
 
-        /* View Toggle Button */
-        .view-toggle-btn {
-            background: transparent;
-            border: 1px solid #e5e7eb;
-            color: var(--text-secondary);
-            padding: 4px 10px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.75rem;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            transition: all 0.2s;
-        }
-        .view-toggle-btn:hover {
-            border-color: var(--link-color);
-            color: var(--link-color);
-            background: #f0f9ff;
-        }
-
         /* --- Animation --- */
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(25px); }
@@ -321,77 +300,12 @@
         .show-more-btn:hover { background: #f9fafb; border-color: #d1d5db; color: #111; }
 
         /* --- Publications Styles --- */
-        /* Card View (Default) */
-        #pub-card-view { display: none; }
-
-        .pub-card {
-            background: #fff;
-            border: 1px solid #e5e7eb;
-            border-radius: 6px;
-            padding: 16px;
-            margin-bottom: 16px;
-            transition: all 0.3s ease;
-            border-left-width: 4px;
-            border-left-style: solid;
-        }
-        .pub-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.05);
-            border-color: #d1d5db;
-        }
-
-        .pub-card.type-arxiv { border-left-color: var(--color-arxiv); }
-        .pub-card.type-nlp   { border-left-color: var(--color-nlp); }
-        .pub-card.type-data  { border-left-color: var(--color-data); }
-        .pub-card.type-cv    { border-left-color: var(--color-cv); }
-
-        .pub-badge {
-            display: inline-block;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.65rem;
-            font-weight: 700;
-            padding: 2px 6px;
-            border-radius: 4px;
-            margin-bottom: 8px;
-        }
-
-        .type-arxiv .pub-badge { background: #fef2f2; color: var(--color-arxiv); }
-        .type-nlp .pub-badge   { background: #eff6ff; color: var(--color-nlp); }
-        .type-data .pub-badge  { background: #ecfdf5; color: var(--color-data); }
-        .type-cv .pub-badge    { background: #f5f3ff; color: var(--color-cv); }
-
-        .pub-title { font-size: 1.05rem; font-weight: 700; color: #111; margin: 0 0 6px 0; line-height: 1.4; }
-        .pub-authors { font-size: 0.85rem; color: #4b5563; margin-bottom: 10px; }
-        .pub-authors b { color: #111; font-weight: 600; }
-        .pub-links { display: flex; gap: 8px; font-size: 0.8rem; flex-wrap: wrap; }
-
-        .res-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            text-decoration: none;
-            color: #374151;
-            background: #f3f4f6;
-            padding: 2px 8px;
-            border-radius: 12px;
-            transition: 0.2s;
-            font-weight: 500;
-        }
-        .res-btn:hover { background: #e5e7eb; color: #000; }
-        .res-btn .fa-file-pdf { color: #dc2626; }
-        .res-btn .fa-github { color: #111827; }
-        .res-btn .fa-database { color: #d97706; }
-        .res-btn .fa-youtube { color: #dc2626; }
-        .res-btn .fa-chalkboard-teacher, .res-btn .fa-file-powerpoint { color: #2563eb; }
-        .res-btn .fa-image { color: #7c3aed; }
-        .res-btn .fa-desktop { color: #059669; }
-
-        /* List View (Hidden by Default) */
         #pub-list-view {
-            display: block; /* Controlled by JS */
             font-size: 0.9rem;
             line-height: 1.6;
         }
+        .pub-more { display: none; margin-top: 12px; }
+        .pub-more.is-open { display: block; }
         .pub-list-ul {
             padding-left: 20px;
             margin: 0;
@@ -666,174 +580,7 @@
         <button class="show-more-btn" id="news-toggle-btn">Show More <i class="fas fa-chevron-down"></i></button>
 
         <div class="section-header">
-            <div class="section-title">Publications</div>
-            <button class="view-toggle-btn" onclick="togglePubView()" id="pub-view-btn">
-                <i class="fas fa-th-large"></i> Show Card View
-            </button>
-        </div>
-
-        <div id="pub-card-view">
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2026</span>
-                <h3 class="pub-title">ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Jinting Liu, Tongyan Wang, Xuyang Chen, Ruihua Shi, Zhichao Xu, Jiaxin Qin, Guoshenghui Zhao, Baijian Yang, Yingjie Victor Chen, Tan Yu, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2611.21605" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/ViRA" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://huggingface.co/huaweilin/ViRA-9B" class="res-btn"><i class="fas fa-cube"></i> ViRA-9B</a>
-                    <a href="https://huggingface.co/huaweilin/ViRA-27B" class="res-btn"><i class="fas fa-cube"></i> ViRA-27B</a>
-                    <a href="https://huggingface.co/datasets/huaweilin/ViRA-Train" class="res-btn"><i class="fas fa-database"></i> Dataset</a>
-                    <a href="https://huggingface.co/datasets/huaweilin/ViRA-Bench" class="res-btn"><i class="fas fa-chart-bar"></i> Benchmark</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2026</span>
-                <h3 class="pub-title">MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Peng Li, Jie Song, Fuxin Jiang, Tieying Zhang</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2605.27366" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2026</span>
-                <h3 class="pub-title">LatComm: Reusable Context Compression for Latent Communication between Large Language Models</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Jinting Liu, Tan Yu, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2610.26840" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/LatComm" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://huggingface.co/datasets/huaweilin/LatComm" class="res-btn"><i class="fas fa-database"></i> Dataset</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2026</span>
-                <h3 class="pub-title">FrameSeg3D: Learned Local Frames for Segmenting Small Parts on High-Resolution 3D Scans</h3>
-                <div class="pub-authors">Xinwen Zhang, Tongyan Wang, <b>Huawei Lin</b></div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2611.22124" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-nlp">
-                <span class="pub-badge">AACL-IJCNLP 2026</span>
-                <h3 class="pub-title">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2505.13439" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/VTBench" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://huggingface.co/datasets/huaweilin/VTBench" class="res-btn"><i class="fas fa-database"></i> Dataset</a>
-                    <a href="https://huggingface.co/spaces/huaweilin/VTBench" class="res-btn"><i class="fas fa-desktop"></i> Demo</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-nlp">
-                <span class="pub-badge">AACL-IJCNLP 2026 (Findings)</span>
-                <h3 class="pub-title">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2502.13141" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/UniGuardian" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-cv">
-                <span class="pub-badge">CVPR 2026 (Findings)</span>
-                <h3 class="pub-title">DMin: Scalable Training Data Influence Estimation for Diffusion Models</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2412.08637" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/DMin" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-nlp">
-                <span class="pub-badge">ICLR 2026</span>
-                <h3 class="pub-title">Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning</h3>
-                <div class="pub-authors">Ziwen Liu, <b>Huawei Lin</b>, Yide Ran, Denghui Zhang, Jianwen Xie, Chuan Li, Weijie Zhao, Zhaozhuo Xu</div>
-                <div class="pub-links"><a href="https://openreview.net/forum?id=Xn6EnJZghu" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a></div>
-            </div>
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2025</span>
-                <h3 class="pub-title">Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2511.02834" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/Agent-Omni" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2025</span>
-                <h3 class="pub-title">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2502.01634" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/InplaceOnlineGBDT" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-arxiv">
-                <span class="pub-badge">ArXiv 2025</span>
-                <h3 class="pub-title">RapidUn: Influence-Driven Parameter Reweighting for Efficient Large Language Model Unlearning</h3>
-                <div class="pub-authors">Guoshenghui Zhao, <b>Huawei Lin</b>, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2512.04457" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-data">
-                <span class="pub-badge">SIGIR 2025</span>
-                <h3 class="pub-title">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</h3>
-                <div class="pub-authors">Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao</div>
-                <div class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a></div>
-            </div>
-
-            <div class="pub-card type-nlp">
-                <span class="pub-badge">NAACL 2025</span>
-                <h3 class="pub-title">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation</h3>
-                <div class="pub-authors">Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu</div>
-                <div class="pub-links"><a href="https://arxiv.org/abs/2503.01052" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a></div>
-            </div>
-
-            <div class="pub-card type-nlp">
-                <span class="pub-badge">ACL 2024</span>
-                <h3 class="pub-title">Token-wise Influential Training Data Retrieval for Large Language Models</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://aclanthology.org/2024.acl-long.48/" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/RapidIn" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://drive.google.com/file/d/1xX5z5L74_WACKMjo3c2T7AXmfuEQGMLZ/view?usp=sharing" class="res-btn"><i class="fas fa-image"></i> Poster</a>
-                    <a href="https://drive.google.com/file/d/1dS3GrD9z2INOZZ84zBpXlgM0Fbs0-XVt/view?usp=sharing" class="res-btn"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=B5XO7b5jHWU" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-data">
-                <span class="pub-badge">KDD 2023</span>
-                <h3 class="pub-title">Machine Unlearning in Gradient Boosting Decision Trees</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao</div>
-                <div class="pub-links">
-                    <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://github.com/huawei-lin/OnlineBoosting" class="res-btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://drive.google.com/file/d/1Z6Yt__cE1WUsutKMr0agOvihKKM0iezc/view?usp=sharing" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
-                    <a href="https://drive.google.com/file/d/10tW2yhb4KN8lzF7kLuiv3TuiGcZVY_Ye/view?usp=sharing" class="res-btn"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
-                </div>
-            </div>
-
-            <div class="pub-card type-cv">
-                <span class="pub-badge">FG 2023</span>
-                <h3 class="pub-title">Activation Template Matching Loss for Explainable Face Recognition</h3>
-                <div class="pub-authors"><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/abs/2207.02179" class="res-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-                    <a href="https://drive.google.com/file/d/1Ax8IrluTPnQXBLMgfP4DLSyxwwbMEbN7/view?usp=sharing" class="res-btn"><i class="fas fa-chalkboard-teacher"></i> Slides</a>
-                    <a href="https://drive.google.com/file/d/1z6NpJFiIeZarlte1Uae7k-9ylisulDho/view?usp=share_link" class="res-btn"><i class="fab fa-youtube"></i> Video</a>
-                </div>
-            </div>
+            <div class="section-title">Selected Publications</div>
         </div>
 
         <div id="pub-list-view">
@@ -856,44 +603,54 @@
                     arXiv preprint, arXiv:2610.26840, 2026.
                 </li>
 
-                <li>
-                    Xinwen Zhang, Tongyan Wang, <b>Huawei Lin</b>,
-                    <a href="https://arxiv.org/abs/2611.22124" class="pub-list-link">FrameSeg3D: Learned Local Frames for Segmenting Small Parts on High-Resolution 3D Scans</a>.
-                    arXiv preprint, arXiv:2611.22124, 2026.
+                <li><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao, <a href="https://arxiv.org/abs/2505.13439" class="pub-list-link">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</a>. AACL-IJCNLP 2026.
                 </li>
 
-                <li><b>Huawei Lin</b>, Tong Geng, Zhaozhuo Xu, Weijie Zhao, <a href="https://arxiv.org/abs/2505.13439" class="pub-list-link">VTBench: Evaluating Visual Tokenizers for Autoregressive Image Generation</a>. AACL-IJCNLP 2026.</li>
-
-                <li><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, <a href="https://arxiv.org/abs/2502.13141" class="pub-list-link">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models</a>. AACL-IJCNLP (Findings) 2026.</li>
-
-                <li><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2412.08637" class="pub-list-link">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a>. CVPR (Findings) 2026.</li>
-
-                <li>
-                    Ziwen Liu, <b>Huawei Lin</b>, Yide Ran, Denghui Zhang, Jianwen Xie, Chuan Li, Weijie Zhao, Zhaozhuo Xu,
-                    <a href="https://openreview.net/forum?id=Xn6EnJZghu" class="pub-list-link">Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning</a>.
-                    ICLR 2026.
+                <li><b>Huawei Lin</b>, Yingjie Lao, Tong Geng, Tan Yu, Weijie Zhao, <a href="https://arxiv.org/abs/2502.13141" class="pub-list-link">UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models</a>. AACL-IJCNLP (Findings) 2026.
                 </li>
+
+                <li><b>Huawei Lin</b>, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2412.08637" class="pub-list-link">DMin: Scalable Training Data Influence Estimation for Diffusion Models</a>. CVPR (Findings) 2026.
+                </li>
+
                 <li>
                     <b>Huawei Lin</b>, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh,
                     <a href="https://arxiv.org/abs/2511.02834" class="pub-list-link">Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything</a>.
                     arXiv preprint, arXiv:2511.02834, 2025.
                 </li>
 
-                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2502.01634" class="pub-list-link">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a>. arXiv preprint, arXiv:2502.01634, 2025.</li>
+                <li><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao, <a href="https://aclanthology.org/2024.acl-long.48/" class="pub-list-link">Token-wise Influential Training Data Retrieval for Large Language Models</a>. ACL 2024.
+                </li>
+
+                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="pub-list-link">Machine Unlearning in Gradient Boosting Decision Trees</a>. KDD 2023.
+                </li>
+            </ul>
+            <ul class="pub-list-ul pub-more" id="pub-more">
+                <li>
+                    Xinwen Zhang, Tongyan Wang, <b>Huawei Lin</b>,
+                    <a href="https://arxiv.org/abs/2611.22124" class="pub-list-link">FrameSeg3D: Learned Local Frames for Segmenting Small Parts on High-Resolution 3D Scans</a>.
+                    arXiv preprint, arXiv:2611.22124, 2026.
+                </li>
+
+                <li>
+                    Ziwen Liu, <b>Huawei Lin</b>, Yide Ran, Denghui Zhang, Jianwen Xie, Chuan Li, Weijie Zhao, Zhaozhuo Xu,
+                    <a href="https://openreview.net/forum?id=Xn6EnJZghu" class="pub-list-link">Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning</a>.
+                    ICLR 2026.
+                </li>
+
+                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2502.01634" class="pub-list-link">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a>. arXiv preprint, arXiv:2502.01634, 2025.
+                </li>
 
                 <li>Guoshenghui Zhao, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://arxiv.org/abs/2512.04457" class="pub-list-link">RapidUn: Influence-Driven Parameter Reweighting for Efficient Large Language Model Unlearning</a>. arXiv preprint, arXiv:2512.04457, 2025.</li>
 
                 <li>Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="pub-list-link">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</a>. SIGIR 2025.</li>
 
-                <li>Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, <a href="https://arxiv.org/abs/2503.01052" class="pub-list-link">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Parity LLM Data Valuation</a>. NAACL 2025.</li>
+                <li>Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, <a href="https://arxiv.org/abs/2503.01052" class="pub-list-link">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Party LLM Data Valuation</a>. NAACL 2025.</li>
 
-                <li><b>Huawei Lin</b>, Jikai Long, Zhaozhuo Xu, Weijie Zhao, <a href="https://aclanthology.org/2024.acl-long.48/" class="pub-list-link">Token-wise Influential Training Data Retrieval for Large Language Models</a>. ACL 2024.</li>
-
-                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="pub-list-link">Machine Unlearning in Gradient Boosting Decision Trees</a>. KDD 2023.</li>
-
-                <li><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen, <a href="https://arxiv.org/abs/2207.02179" class="pub-list-link">Activation Template Matching Loss for Explainable Face Recognition</a>. FG 2023.</li>
+                <li><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen, <a href="https://arxiv.org/abs/2207.02179" class="pub-list-link">Activation Template Matching Loss for Explainable Face Recognition</a>. FG 2023.
+                </li>
             </ul>
         </div>
+        <button class="show-more-btn" id="pub-toggle-btn">Show All Publications <i class="fas fa-chevron-down"></i></button>
 
         <div class="section-header">
             <div class="section-title">Tech Talks</div>
@@ -1155,6 +912,18 @@
             updateVisibility();
         }
 
+        // --- Publications: selected by default, full list on demand ---
+        const pubMore = document.getElementById('pub-more');
+        const pubBtn = document.getElementById('pub-toggle-btn');
+        if (pubMore && pubBtn) {
+            pubBtn.addEventListener('click', function() {
+                const open = pubMore.classList.toggle('is-open');
+                pubBtn.innerHTML = open
+                    ? 'Show Selected Only <i class="fas fa-chevron-up"></i>'
+                    : 'Show All Publications <i class="fas fa-chevron-down"></i>';
+            });
+        }
+
         // --- Force all links to open in a new tab ---
         const links = document.querySelectorAll('a[href]');
         links.forEach(link => {
@@ -1190,22 +959,6 @@
             observer.observe(item);
         });
     });
-
-    function togglePubView() {
-        var cardView = document.getElementById('pub-card-view');
-        var listView = document.getElementById('pub-list-view');
-        var btn = document.getElementById('pub-view-btn');
-
-        if (listView.style.display !== 'none') {
-            cardView.style.display = 'block';
-            listView.style.display = 'none';
-            btn.innerHTML = '<i class="fas fa-list"></i> Show List View';
-        } else {
-            cardView.style.display = 'none';
-            listView.style.display = 'block';
-            btn.innerHTML = '<i class="fas fa-th-large"></i> Show Card View';
-        }
-    }
 </script>
 
 </body>
