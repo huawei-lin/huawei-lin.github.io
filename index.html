@@ -304,8 +304,6 @@
             font-size: 0.9rem;
             line-height: 1.6;
         }
-        .pub-more { display: none; margin-top: 12px; }
-        .pub-more.is-open { display: block; }
         .pub-list-ul {
             padding-left: 20px;
             margin: 0;
@@ -624,33 +622,7 @@
                 <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3580305.3599420" class="pub-list-link">Machine Unlearning in Gradient Boosting Decision Trees</a>. KDD 2023.
                 </li>
             </ul>
-            <ul class="pub-list-ul pub-more" id="pub-more">
-                <li>
-                    Xinwen Zhang, Tongyan Wang, <b>Huawei Lin</b>,
-                    <a href="https://arxiv.org/abs/2611.22124" class="pub-list-link">FrameSeg3D: Learned Local Frames for Segmenting Small Parts on High-Resolution 3D Scans</a>.
-                    arXiv preprint, arXiv:2611.22124, 2026.
-                </li>
-
-                <li>
-                    Ziwen Liu, <b>Huawei Lin</b>, Yide Ran, Denghui Zhang, Jianwen Xie, Chuan Li, Weijie Zhao, Zhaozhuo Xu,
-                    <a href="https://openreview.net/forum?id=Xn6EnJZghu" class="pub-list-link">Randomized Antipodal Search Done Right for Data Pareto Improvement of LLM Unlearning</a>.
-                    ICLR 2026.
-                </li>
-
-                <li><b>Huawei Lin</b>, Jun Woo Chung, Yingjie Lao, Weijie Zhao, <a href="https://arxiv.org/abs/2502.01634" class="pub-list-link">Online Gradient Boosting Decision Tree: In-Place Updates for Efficient Adding/Deleting Data</a>. arXiv preprint, arXiv:2502.01634, 2025.
-                </li>
-
-                <li>Guoshenghui Zhao, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://arxiv.org/abs/2512.04457" class="pub-list-link">RapidUn: Influence-Driven Parameter Reweighting for Efficient Large Language Model Unlearning</a>. arXiv preprint, arXiv:2512.04457, 2025.</li>
-
-                <li>Jun Woo Chung, <b>Huawei Lin</b>, Weijie Zhao, <a href="https://dl.acm.org/doi/10.1145/3726302.3730028" class="pub-list-link">Locality-Sensitive Indexing for Graph-Based Approximate Nearest Neighbor Search</a>. SIGIR 2025.</li>
-
-                <li>Yanzhou Pan, <b>Huawei Lin</b>, Yide Ran, Jiamin Chen, Xiaodong Yu, Weijie Zhao, Denghui Zhang, Zhaozhuo Xu, <a href="https://arxiv.org/abs/2503.01052" class="pub-list-link">ALinFiK: Learning to Approximate Linearized Future Influence Kernel for Scalable Third-Party LLM Data Valuation</a>. NAACL 2025.</li>
-
-                <li><b>Huawei Lin</b>, Haozhe Liu, Qiufu Li, Linlin Shen, <a href="https://arxiv.org/abs/2207.02179" class="pub-list-link">Activation Template Matching Loss for Explainable Face Recognition</a>. FG 2023.
-                </li>
-            </ul>
         </div>
-        <button class="show-more-btn" id="pub-toggle-btn">Show All Publications <i class="fas fa-chevron-down"></i></button>
 
         <div class="section-header">
             <div class="section-title">Tech Talks</div>
@@ -910,18 +882,6 @@
 
             // Initialize state
             updateVisibility();
-        }
-
-        // --- Publications: selected by default, full list on demand ---
-        const pubMore = document.getElementById('pub-more');
-        const pubBtn = document.getElementById('pub-toggle-btn');
-        if (pubMore && pubBtn) {
-            pubBtn.addEventListener('click', function() {
-                const open = pubMore.classList.toggle('is-open');
-                pubBtn.innerHTML = open
-                    ? 'Show Selected Only <i class="fas fa-chevron-up"></i>'
-                    : 'Show All Publications <i class="fas fa-chevron-down"></i>';
-            });
         }
 
         // --- Force all links to open in a new tab ---
